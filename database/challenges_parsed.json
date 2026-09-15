@@ -1,0 +1,4682 @@
+[
+  {
+    "category": "Hidden Clue",
+    "difficulty": "easy",
+    "title": "1. Easy",
+    "question": "I have keys but open no locks. I have space but no room. You can enter, but you cannot walk inside me. What am I?",
+    "description": "A classic riddle where the words \"keys,\" \"space,\" and \"enter\" point toward a computer object",
+    "answer": "Keyboard",
+    "hints": [
+      "You use me while typing",
+      "I have many keys",
+      "\"Enter\" is one of them"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "easy",
+    "title": "2. Easy",
+    "question": "I speak without a mouth and hear without ears. I have no body, but I come alive when sound reaches me. What am I?",
+    "description": "Identify the phenomenon that repeats a sound",
+    "answer": "Echo",
+    "hints": [
+      "You often hear me in mountains",
+      "I repeat what you say",
+      "Sound creates me"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "easy",
+    "title": "3. Easy",
+    "question": "The more you take from me, the bigger I become. What am I?",
+    "description": "The answer is something that grows when material is removed from it",
+    "answer": "Hole",
+    "hints": [
+      "Removing something creates me",
+      "Digging can make me larger",
+      "I am an empty space"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "easy",
+    "title": "4. Easy",
+    "question": "I have a face and two hands, but no arms or legs. What am I?",
+    "description": "Use the clues about a face and hands to identify the object",
+    "answer": "Clock",
+    "hints": [
+      "I measure time",
+      "My hands move",
+      "I may hang on a wall"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "easy",
+    "title": "5. Easy",
+    "question": "I get wetter as I dry something else. What am I?",
+    "description": "Think of an everyday object whose purpose involves drying",
+    "answer": "Towel",
+    "hints": [
+      "You use me after a shower",
+      "I absorb water",
+      "Drying makes me wet"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "easy",
+    "title": "6. Easy",
+    "question": "I have one eye but cannot see. What am I?",
+    "description": "The word \"eye\" refers to a hole rather than an actual organ",
+    "answer": "Needle",
+    "hints": [
+      "I am used for sewing",
+      "Thread passes through my eye",
+      "I am thin and sharp"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "easy",
+    "title": "7. Easy",
+    "question": "I become shorter every time I work, yet I help you see. What am I?",
+    "description": "Identify the object that decreases in size while producing light",
+    "answer": "Candle",
+    "hints": [
+      "I contain a wick",
+      "Fire consumes me",
+      "I produce light"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "easy",
+    "title": "8. Easy",
+    "question": "I have teeth but cannot bite. What am I?",
+    "description": "\"Teeth\" are used metaphorically to describe a common object",
+    "answer": "Comb",
+    "hints": [
+      "I am used with hair",
+      "My teeth are arranged in rows",
+      "I help remove tangles"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "easy",
+    "title": "9. Easy",
+    "question": "I fly without wings and cry without eyes. Wherever I go, darkness follows me. What am I?",
+    "description": "Identify the natural object associated with darkness and rain",
+    "answer": "Cloud",
+    "hints": [
+      "I float in the sky",
+      "I can produce rain",
+      "I can block sunlight"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "easy",
+    "title": "10. Easy",
+    "question": "I have a neck but no head, and I can hold something inside me. What am I?",
+    "description": "The clue describes a container with a narrow upper section",
+    "answer": "Bottle",
+    "hints": [
+      "I can contain water",
+      "My top is called a neck",
+      "You can put a cap on me"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "easy",
+    "title": "11. Easy",
+    "question": "I am full of holes, but I can still hold water. What am I?",
+    "description": "Find the object whose holes are small enough to retain liquid through surface tension",
+    "answer": "Sponge",
+    "hints": [
+      "I absorb liquids",
+      "I am soft",
+      "You may find me in a kitchen"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "easy",
+    "title": "12. Easy",
+    "question": "I have pages but I am not a tree. I contain stories but cannot speak. What am I?",
+    "description": "The clues point to a common source of written stories",
+    "answer": "Book",
+    "hints": [
+      "You read me",
+      "I contain pages",
+      "Libraries contain many of me"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "easy",
+    "title": "13. Easy",
+    "question": "I follow you everywhere during the day but disappear when the light is gone. What am I?",
+    "description": "Identify the dark shape produced by blocking light",
+    "answer": "Shadow",
+    "hints": [
+      "Light creates me",
+      "I copy your shape",
+      "Darkness can make me disappear"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "easy",
+    "title": "14. Easy",
+    "question": "I have numbers and hands but cannot clap. What am I?",
+    "description": "Identify the object using the clues \"numbers\" and \"hands.\"",
+    "answer": "Clock",
+    "hints": [
+      "I tell time",
+      "My hands move",
+      "I have numbers around my face"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "easy",
+    "title": "15. Easy",
+    "question": "I can be cracked, made, told, and played. What am I?",
+    "description": "The same word fits several common expressions",
+    "answer": "Joke",
+    "hints": [
+      "People laugh at me",
+      "You can \"tell\" me",
+      "You can \"play\" me on someone"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "easy",
+    "title": "16. Easy",
+    "question": "I disappear as soon as you say my name. What am I?",
+    "description": "Think of something that exists only while it remains unspoken",
+    "answer": "Silence",
+    "hints": [
+      "I involve the absence of sound",
+      "Speaking destroys me",
+      "Libraries often ask for me"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "easy",
+    "title": "17. Easy",
+    "question": "I am always coming but never arrive. What am I?",
+    "description": "The answer is a concept related to time",
+    "answer": "Tomorrow",
+    "hints": [
+      "I refer to the future",
+      "When I arrive, I become today",
+      "Calendars help you find me"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "easy",
+    "title": "18. Easy",
+    "question": "I have a thumb and four fingers, but I am not alive. What am I?",
+    "description": "Identify the object shaped like a hand",
+    "answer": "Glove",
+    "hints": [
+      "You wear me",
+      "I cover your hand",
+      "I have separate finger spaces"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "easy",
+    "title": "19. Easy",
+    "question": "I can travel around the world while staying in one corner. What am I?",
+    "description": "The riddle refers to something placed in a corner of an envelope",
+    "answer": "Stamp",
+    "hints": [
+      "I belong on mail",
+      "I help letters travel",
+      "I am usually stuck to an envelope"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "easy",
+    "title": "20. Easy",
+    "question": "I am black when clean and white when dirty. What am I?",
+    "description": "Think of a surface used for writing with chalk",
+    "answer": "Blackboard",
+    "hints": [
+      "Teachers use me",
+      "Chalk makes me white",
+      "My normal surface is dark. #"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "medium",
+    "title": "21. Medium",
+    "question": "I can be written, broken, kept, and given. What am I?",
+    "description": "Find the word that forms all four common expressions",
+    "answer": "Promise",
+    "hints": [
+      "You can make me to someone",
+      "Breaking me means not keeping your word",
+      "Keeping me means honoring your word"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "medium",
+    "title": "22. Medium",
+    "question": "I have cities but no houses, forests but no trees, and water but no fish. What am I?",
+    "description": "The objects mentioned exist as representations rather than real objects",
+    "answer": "Map",
+    "hints": [
+      "I represent locations",
+      "You can use me for navigation",
+      "I can show cities and rivers"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "medium",
+    "title": "23. Medium",
+    "question": "I have an eye, but I cannot see. I can be used to measure distance. What am I?",
+    "description": "The \"eye\" is a feature of a measuring device",
+    "answer": "Telescope",
+    "hints": [
+      "I help you see distant objects",
+      "Astronomers use me",
+      "My lenses point toward the sky"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "medium",
+    "title": "24. Medium",
+    "question": "I am taken before you get me, and I can be good or bad. What am I?",
+    "description": "The clue refers to something people make before receiving its consequences",
+    "answer": "Decision",
+    "hints": [
+      "You make me",
+      "Choices lead to me",
+      "I can have consequences"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "medium",
+    "title": "25. Medium",
+    "question": "I can run but never walk. I have a bed but never sleep. I have a mouth but never eat. What am I?",
+    "description": "Several human-like terms describe a natural geographical feature",
+    "answer": "River",
+    "hints": [
+      "I contain flowing water",
+      "I have a riverbed",
+      "I can have a mouth"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "medium",
+    "title": "26. Medium",
+    "question": "I have branches, but no leaves, trunk, or fruit. What am I?",
+    "description": "The word \"branches\" refers to divisions in an organization",
+    "answer": "Bank",
+    "hints": [
+      "I handle money",
+      "Large organizations have many locations",
+      "Those locations are called branches"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "medium",
+    "title": "27. Medium",
+    "question": "I am invisible, but I can fill a room. I can be felt but not held. What am I?",
+    "description": "Identify something that occupies space and can be physically sensed",
+    "answer": "Air",
+    "hints": [
+      "You breathe me",
+      "Wind is moving me",
+      "You cannot normally see me"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "medium",
+    "title": "28. Medium",
+    "question": "I can be opened but never closed, and I can contain knowledge without speaking. What am I?",
+    "description": "Think of a source of information that people \"open\" to learn",
+    "answer": "Book",
+    "hints": [
+      "You turn my pages",
+      "I can contain knowledge",
+      "Reading me gives information"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "medium",
+    "title": "29. Medium",
+    "question": "I have a head and a tail but no body. What am I?",
+    "description": "The answer is an object with two named sides",
+    "answer": "Coin",
+    "hints": [
+      "I am used as money",
+      "One side is called heads",
+      "The other side is called tails"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "medium",
+    "title": "30. Medium",
+    "question": "The more there is of me, the less you see. What am I?",
+    "description": "The answer is something that reduces visibility",
+    "answer": "Darkness",
+    "hints": [
+      "I am the opposite of light",
+      "Night can bring me",
+      "More of me means less visibility"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "medium",
+    "title": "31. Medium",
+    "question": "I am lighter than a feather, but nobody can hold me for long. What am I?",
+    "description": "Identify something humans cannot continuously maintain physically",
+    "answer": "Breath",
+    "hints": [
+      "You do this constantly",
+      "You can hold me temporarily",
+      "Eventually you must release me"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "medium",
+    "title": "32. Medium",
+    "question": "I am a word of six letters. Remove one letter and twelve remain. What am I?",
+    "description": "The clue depends on a wordplay relationship between letters and numbers",
+    "answer": "Dozens",
+    "hints": [
+      "Think about the number twelve",
+      "The answer relates directly to twelve",
+      "Removing one character creates a related word"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "medium",
+    "title": "33. Medium",
+    "question": "I have many rings but no fingers. I can tell you how old something is. What am I?",
+    "description": "Rings in a natural object can reveal age",
+    "answer": "Tree",
+    "hints": [
+      "Look at my trunk",
+      "My rings form over time",
+      "Counting them can estimate age"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "medium",
+    "title": "34. Medium",
+    "question": "I am not alive, but I grow. I have no lungs, but I need air. I have no mouth, but water kills me. What am I?",
+    "description": "Identify something that grows and requires oxygen but can be extinguished by water",
+    "answer": "Fire",
+    "hints": [
+      "I produce heat",
+      "Air helps me burn",
+      "Water can extinguish me"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "medium",
+    "title": "35. Medium",
+    "question": "I have a screen but I am not a television. I have windows but no walls. I can open files but have no hands. What am I?",
+    "description": "The clues use computer terminology metaphorically",
+    "answer": "Computer",
+    "hints": [
+      "You interact with me digitally",
+      "I have software windows",
+      "I can open files"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "medium",
+    "title": "36. Medium",
+    "question": "I can be long or short, grown or cut, painted or natural. What am I?",
+    "description": "Identify something associated with fingers and different styles",
+    "answer": "Nail",
+    "hints": [
+      "You have several of me",
+      "I can be trimmed",
+      "People sometimes paint me"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "medium",
+    "title": "37. Medium",
+    "question": "I have a root but I am not a plant. I have branches but I am not a tree. What am I?",
+    "description": "Both \"root\" and \"branches\" describe a structure in another field",
+    "answer": "Network",
+    "hints": [
+      "Think about computers",
+      "Devices can connect through me",
+      "Networks can have hierarchical structures"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "medium",
+    "title": "38. Medium",
+    "question": "I can be copied but never truly duplicated. I can be digital, physical, or genetic. What am I?",
+    "description": "Identify something that can exist in multiple forms through reproduction or duplication",
+    "answer": "Information",
+    "hints": [
+      "Files contain me",
+      "DNA carries me",
+      "Copies can preserve me"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "medium",
+    "title": "39. Medium",
+    "question": "I have no voice, but I can answer your questions. I have no brain, but I can contain millions of facts. What am I?",
+    "description": "Identify a digital or physical source of stored knowledge",
+    "answer": "Database",
+    "hints": [
+      "I store structured information",
+      "Queries can retrieve information from me",
+      "Computers commonly use me"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "medium",
+    "title": "40. Medium",
+    "question": "I can unlock something without being a key. I can be secret but also shared. What am I?",
+    "description": "Identify a common digital secret used for authentication",
+    "answer": "Password",
+    "hints": [
+      "Websites may ask for me",
+      "Keep me secret",
+      "I can grant access. #"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "hard",
+    "title": "41. Hard",
+    "question": "I hide in plain sight. Read my beginnings, not my words. \"Silent Owls Hide Every Night.\" What secret word appears?",
+    "description": "Use the first letters of the words to uncover the hidden clue",
+    "answer": "SOHEN",
+    "hints": [
+      "Ignore the meanings",
+      "Look at the first letters",
+      "Read them in order"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "hard",
+    "title": "42. Hard",
+    "question": "\"Brave Eagles Attack Daily.\" Take what comes first from every word. What do you obtain?",
+    "description": "This is an acrostic hidden in the sentence",
+    "answer": "BEAD",
+    "hints": [
+      "Examine the beginning of each word",
+      "Take one letter from each",
+      "The result is a four-letter word"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "hard",
+    "title": "43. Hard",
+    "question": "\"Hidden clues are often buried between ordinary words.\" Take the first letter of each word. What pattern appears?",
+    "description": "Extract the initial letters to reveal the hidden sequence",
+    "answer": "HCAOBOW",
+    "hints": [
+      "Do not read normally",
+      "Focus on word beginnings",
+      "Take one letter per word"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "hard",
+    "title": "44. Hard",
+    "question": "I am found once in \"minute,\" twice in \"moment,\" but never in \"hour.\" What am I?",
+    "description": "This is a letter-frequency riddle rather than a conceptual riddle",
+    "answer": "M",
+    "hints": [
+      "Look at the spelling",
+      "Count letters",
+      "Compare the three words"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "hard",
+    "title": "45. Hard",
+    "question": "I appear once in \"year,\" twice in \"week,\" but never in \"day.\" What am I?",
+    "description": "Search the written words rather than thinking about calendars",
+    "answer": "E",
+    "hints": [
+      "Examine the letters",
+      "Count occurrences",
+      "Ignore the actual lengths of time"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "hard",
+    "title": "46. Hard",
+    "question": "I am hidden in \"cYBER Hunt.\" Find the unusual capital letters and read them",
+    "description": "Capitalization is being used as a hidden clue",
+    "answer": "YH",
+    "hints": [
+      "Capitals matter",
+      "Ignore lowercase letters",
+      "Read only the capitals"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "hard",
+    "title": "47. Hard",
+    "question": "\"sEcUrE PaSsWoRd\" contains a hidden message through alternating capitals. What is it?",
+    "description": "Extract only the uppercase letters",
+    "answer": "EUPSWRD",
+    "hints": [
+      "Capitalization is intentional",
+      "Ignore lowercase letters",
+      "Read capitals left to right"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "hard",
+    "title": "48. Hard",
+    "question": "I am hidden in this sequence: 3-1-20. Convert the numbers using A=1, B=2, C=3. What word appears?",
+    "description": "Decode numerical alphabet positions",
+    "answer": "CAT",
+    "hints": [
+      "A equals 1",
+      "Convert each number to a letter",
+      "Read the letters together"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "hard",
+    "title": "49. Hard",
+    "question": "19-5-3-18-5-20 uses A=1. What hidden word appears?",
+    "description": "Decode each number as an alphabet position",
+    "answer": "SECRET",
+    "hints": [
+      "Use A=1",
+      "Convert each number",
+      "Read from left to right"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "hard",
+    "title": "50. Hard",
+    "question": "A message says: \"The treasure is under the old tree.\" But every third word is the real clue. Which hidden word is obtained from \"The treasure is under the old tree\"?",
+    "description": "Extract every third word from the sentence",
+    "answer": "Is",
+    "hints": [
+      "Number the words",
+      "Select positions 3 and 6",
+      "Focus on the extracted words"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "hard",
+    "title": "51. Hard",
+    "question": "Read the last letters of: \"cyber hunt code\". What hidden sequence appears?",
+    "description": "The clue is hidden using word endings",
+    "answer": "RTE",
+    "hints": [
+      "Do not use the first letters",
+      "Look at the ends",
+      "Take one letter from each word"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "hard",
+    "title": "52. Hard",
+    "question": "Read the first and last letters of \"Cipher\". What two-letter clue appears?",
+    "description": "Extract the outermost letters of the given word",
+    "answer": "CR",
+    "hints": [
+      "Look at both ends",
+      "Ignore the middle letters",
+      "Combine the two letters"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "hard",
+    "title": "53. Hard",
+    "question": "\"C0D3\" replaces letters with visually similar numbers. What word is being represented?",
+    "description": "Recognize the leetspeak substitutions",
+    "answer": "CODE",
+    "hints": [
+      "0 can replace O",
+      "3 can replace E",
+      "Read the result normally"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "hard",
+    "title": "54. Hard",
+    "question": "\"53 45 43 52 45 54\" is written in hexadecimal ASCII. What hidden word does it reveal?",
+    "description": "Decode the hexadecimal character codes",
+    "answer": "SECRET",
+    "hints": [
+      "The values represent characters",
+      "Think ASCII",
+      "Convert each hexadecimal pair"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "hard",
+    "title": "55. Hard",
+    "question": "\"01000011 01001111 01000100 01000101\" hides a word in binary ASCII. What is it?",
+    "description": "Convert each eight-bit binary value into an ASCII character",
+    "answer": "CODE",
+    "hints": [
+      "Each group contains eight bits",
+      "They represent ASCII characters",
+      "Convert each group separately"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "hard",
+    "title": "56. Hard",
+    "question": "A note contains the words \"Red Orange Yellow Green Blue.\" Take their first letters. What hidden word appears?",
+    "description": "The clue is concealed through the initial letters of color names",
+    "answer": "ROYGB",
+    "hints": [
+      "Look only at the beginnings",
+      "Each color contributes one letter",
+      "Preserve the original order"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "hard",
+    "title": "57. Hard",
+    "question": "\"SILENT\" is written backward. What hidden word appears when you reverse it?",
+    "description": "Recognize that the clue must be read in reverse order",
+    "answer": "TNELIS",
+    "hints": [
+      "Start at the right",
+      "Read toward the left",
+      "Reverse every character"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "hard",
+    "title": "58. Hard",
+    "question": "The clue is \"LFMMP.\" Every letter is one position after the intended letter in the alphabet. What word is hidden?",
+    "description": "Shift each letter backward by one position",
+    "answer": "KELLO",
+    "hints": [
+      "L becomes K",
+      "F becomes E",
+      "Move every letter backward once"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "hard",
+    "title": "59. Hard",
+    "question": "\"Uifsf\" was created by shifting every alphabet letter forward by one. What was the original word?",
+    "description": "Reverse a simple Caesar-style shift",
+    "answer": "There",
+    "hints": [
+      "Move each letter backward",
+      "U becomes T",
+      "Read the resulting word normally"
+    ]
+  },
+  {
+    "category": "Hidden Clue",
+    "difficulty": "hard",
+    "title": "60. Hard",
+    "question": "A paper says: \"Look between the lines.\" The visible lines are: C A T X Y Z Read only the letters that appear between the first and last letters of each line. What hidden sequence appears?",
+    "description": "This is a positional hidden-clue puzzle. The solver must identify the characters physically between the outer characters",
+    "answer": "AYT",
+    "hints": [
+      "Focus on the middle positions",
+      "Ignore the first and last characters",
+      "Read the middle letters from top to bottom"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "easy",
+    "title": "A1Z26 Password",
+    "question": "Convert 3-25-2-5-18 to letters",
+    "description": "Convert 3-25-2-5-18 to letters",
+    "answer": null,
+    "hints": [
+      "A=1",
+      "map numbers",
+      "read sequentially"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "easy",
+    "title": "Reverse Password",
+    "question": "TERCES is given",
+    "description": "TERCES is given",
+    "answer": null,
+    "hints": [
+      "Read backward",
+      "reverse string",
+      "obtain password"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "easy",
+    "title": "Missing Vowel",
+    "question": "CYB_R",
+    "description": "CYB_R",
+    "answer": null,
+    "hints": [
+      "Cyber-related word",
+      "missing vowel",
+      "complete it"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "easy",
+    "title": "Keyboard Shift",
+    "question": "SFT requires keys immediately to the right",
+    "description": "SFT requires keys immediately to the right",
+    "answer": null,
+    "hints": [
+      "Think QWERTY",
+      "move one key",
+      "read result"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "easy",
+    "title": "Number-to-Letter",
+    "question": "20 5 19 20",
+    "description": "20 5 19 20",
+    "answer": null,
+    "hints": [
+      "A1Z26",
+      "map each number",
+      "form word"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "easy",
+    "title": "Odd Letters",
+    "question": "Extract characters in odd positions",
+    "description": "Extract characters in odd positions",
+    "answer": null,
+    "hints": [
+      "Ignore even positions",
+      "start at 1",
+      "combine"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "easy",
+    "title": "Even Letters",
+    "question": "Extract even-position characters",
+    "description": "Extract even-position characters",
+    "answer": null,
+    "hints": [
+      "Count positions",
+      "take 2,4,6",
+      "combine"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "easy",
+    "title": "Anagram",
+    "question": "RTAEHC",
+    "description": "RTAEHC",
+    "answer": null,
+    "hints": [
+      "Rearrange",
+      "cybersecurity term",
+      "\"TH...\""
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "easy",
+    "title": "Simple Caesar",
+    "question": "Shift every letter by 1",
+    "description": "Shift every letter by 1",
+    "answer": null,
+    "hints": [
+      "Caesar cipher",
+      "shift backward",
+      "decode"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "easy",
+    "title": "First Letters",
+    "question": "Cyber Hunters Need Trust",
+    "description": "Cyber Hunters Need Trust",
+    "answer": null,
+    "hints": [
+      "Take initials",
+      "CHNT",
+      "use clue context"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "easy",
+    "title": "Last Letters",
+    "question": "Four words hide their final characters",
+    "description": "Four words hide their final characters",
+    "answer": null,
+    "hints": [
+      "Ignore beginnings",
+      "take endings",
+      "combine"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "easy",
+    "title": "Binary Password",
+    "question": "01000011 01011000",
+    "description": "01000011 01011000",
+    "answer": null,
+    "hints": [
+      "8-bit",
+      "ASCII",
+      "convert"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "easy",
+    "title": "Morse Password",
+    "question": "-.-. --- -",
+    "description": "-.-. --- -",
+    "answer": null,
+    "hints": [
+      "Dashes/dots",
+      "Morse",
+      "decode"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "easy",
+    "title": "Hex Password",
+    "question": "43 54 46",
+    "description": "43 54 46",
+    "answer": null,
+    "hints": [
+      "Hexadecimal",
+      "ASCII",
+      "read"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "easy",
+    "title": "ROT13",
+    "question": "PLFURE",
+    "description": "PLFURE",
+    "answer": null,
+    "hints": [
+      "ROT13",
+      "shift 13",
+      "decode"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "easy",
+    "title": "Alphabet Position",
+    "question": "Find positions of C-Y-B-E-R",
+    "description": "Find positions of C-Y-B-E-R",
+    "answer": null,
+    "hints": [
+      "A=1",
+      "calculate",
+      "concatenate"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "easy",
+    "title": "Word Length Password",
+    "question": "Five clue words have lengths 4-3-5-2",
+    "description": "Five clue words have lengths 4-3-5-2",
+    "answer": null,
+    "hints": [
+      "Count characters",
+      "use numbers",
+      "decode"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "easy",
+    "title": "Symbol Password",
+    "question": "Symbols correspond to keyboard numbers",
+    "description": "Symbols correspond to keyboard numbers",
+    "answer": null,
+    "hints": [
+      "Look at keyboard",
+      "symbols above numbers",
+      "map them"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "easy",
+    "title": "Mirror Text",
+    "question": "A word appears reflected",
+    "description": "A word appears reflected",
+    "answer": null,
+    "hints": [
+      "Reverse",
+      "read normally",
+      "identify word"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "easy",
+    "title": "Simple Riddle Password",
+    "question": "\"I protect accounts but am not a lock.\"",
+    "description": "\"I protect accounts but am not a lock.\"",
+    "answer": null,
+    "hints": [
+      "Used during login",
+      "secret",
+      "password"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "medium",
+    "title": "Double Caesar",
+    "question": "Two Caesar shifts are applied",
+    "description": "Two Caesar shifts are applied",
+    "answer": null,
+    "hints": [
+      "Decode one layer",
+      "test result",
+      "repeat"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "medium",
+    "title": "Base64 Password",
+    "question": "Encoded password supplied",
+    "description": "Encoded password supplied",
+    "answer": null,
+    "hints": [
+      "Recognize Base64",
+      "decode",
+      "inspect result"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "medium",
+    "title": "Vigenère Intro",
+    "question": "Ciphertext + key provided",
+    "description": "Ciphertext + key provided",
+    "answer": null,
+    "hints": [
+      "Key is important",
+      "Vigenère",
+      "apply key repeatedly"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "medium",
+    "title": "Keyboard Diagonal",
+    "question": "Letters are one key diagonally displaced",
+    "description": "Letters are one key diagonally displaced",
+    "answer": null,
+    "hints": [
+      "QWERTY",
+      "inspect neighboring keys",
+      "reverse displacement"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "medium",
+    "title": "Mixed Case",
+    "question": "Uppercase letters contain one password",
+    "description": "Uppercase letters contain one password",
+    "answer": null,
+    "hints": [
+      "Ignore lowercase",
+      "extract capitals",
+      "decode"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "medium",
+    "title": "Word-to-Number",
+    "question": "ONE, THREE, FIVE, etc",
+    "description": "ONE, THREE, FIVE, etc",
+    "answer": null,
+    "hints": [
+      "Convert words",
+      "numbers",
+      "use A1Z26"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "medium",
+    "title": "Prime Positions",
+    "question": "Extract letters at prime-numbered positions",
+    "description": "Extract letters at prime-numbered positions",
+    "answer": null,
+    "hints": [
+      "Prime numbers",
+      "2,3,5,7",
+      "extract"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "medium",
+    "title": "Fibonacci Positions",
+    "question": "Extract letters at Fibonacci positions",
+    "description": "Extract letters at Fibonacci positions",
+    "answer": null,
+    "hints": [
+      "1,1,2,3,5",
+      "avoid duplicates",
+      "extract"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "medium",
+    "title": "Rail Fence",
+    "question": "Ciphertext created using 3 rails",
+    "description": "Ciphertext created using 3 rails",
+    "answer": null,
+    "hints": [
+      "Rail Fence cipher",
+      "determine rails",
+      "reconstruct"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "medium",
+    "title": "Column Transposition",
+    "question": "Key determines column order",
+    "description": "Key determines column order",
+    "answer": null,
+    "hints": [
+      "Key is supplied",
+      "reorder columns",
+      "read rows"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "medium",
+    "title": "Hex → Base64",
+    "question": "Two encoding layers",
+    "description": "Two encoding layers",
+    "answer": null,
+    "hints": [
+      "Decode hex first",
+      "output resembles Base64",
+      "decode again"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "medium",
+    "title": "ROT + Reverse",
+    "question": "Cipher requires both transformations",
+    "description": "Cipher requires both transformations",
+    "answer": null,
+    "hints": [
+      "Try ROT13",
+      "reverse",
+      "check readability"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "medium",
+    "title": "ASCII Decimal",
+    "question": "67 84 70",
+    "description": "67 84 70",
+    "answer": null,
+    "hints": [
+      "ASCII decimal",
+      "convert values",
+      "read text"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "medium",
+    "title": "XOR Puzzle",
+    "question": "Text encrypted with a one-byte key",
+    "description": "Text encrypted with a one-byte key",
+    "answer": null,
+    "hints": [
+      "XOR is reversible",
+      "key supplied indirectly",
+      "apply XOR"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "medium",
+    "title": "Password Riddle Chain",
+    "question": "Three riddles each provide one word",
+    "description": "Three riddles each provide one word",
+    "answer": null,
+    "hints": [
+      "Solve separately",
+      "order matters",
+      "concatenate"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "medium",
+    "title": "Date Password",
+    "question": "Historical clue gives a date",
+    "description": "Historical clue gives a date",
+    "answer": null,
+    "hints": [
+      "Identify event",
+      "determine date",
+      "format as instructed"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "medium",
+    "title": "Periodic Table Password",
+    "question": "Atomic numbers represent letters",
+    "description": "Atomic numbers represent letters",
+    "answer": null,
+    "hints": [
+      "Identify elements",
+      "use atomic numbers",
+      "map to letters"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "medium",
+    "title": "Phone Keypad",
+    "question": "Numbers correspond to letters",
+    "description": "Numbers correspond to letters",
+    "answer": null,
+    "hints": [
+      "Think old mobile keypad",
+      "map numbers",
+      "form word"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "medium",
+    "title": "Braille Pattern",
+    "question": "Six-dot patterns provided",
+    "description": "Six-dot patterns provided",
+    "answer": null,
+    "hints": [
+      "Braille alphabet",
+      "map cells",
+      "combine letters"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "medium",
+    "title": "Multi-Step Password",
+    "question": "Anagram → Caesar → Base64",
+    "description": "Anagram → Caesar → Base64",
+    "answer": null,
+    "hints": [
+      "Solve obvious transformation",
+      "decode next layer",
+      "repeat"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "hard",
+    "title": "Vigenère with Hidden Key",
+    "question": "Vigenère with Hidden Key",
+    "description": null,
+    "answer": null,
+    "hints": [
+      "Find key first",
+      "identify Vigenère",
+      "decrypt"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "hard",
+    "title": "Encrypted Archive Password",
+    "question": "Encrypted Archive Password",
+    "description": null,
+    "answer": null,
+    "hints": [
+      "Inspect archive metadata",
+      "find clue file",
+      "derive password"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "hard",
+    "title": "Known-Plaintext XOR",
+    "question": "Known-Plaintext XOR",
+    "description": null,
+    "answer": null,
+    "hints": [
+      "Compare known text",
+      "XOR corresponding bytes",
+      "derive key"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "hard",
+    "title": "Multi-Key Cipher",
+    "question": "Multi-Key Cipher",
+    "description": null,
+    "answer": null,
+    "hints": [
+      "There are two keys",
+      "identify which applies first",
+      "decrypt sequentially"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "hard",
+    "title": "Transposition + Substitution",
+    "question": "Transposition + Substitution",
+    "description": null,
+    "answer": null,
+    "hints": [
+      "Look for scrambled positions",
+      "reconstruct",
+      "apply substitution"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "hard",
+    "title": "Password from Metadata",
+    "question": "Password from Metadata",
+    "description": null,
+    "answer": null,
+    "hints": [
+      "Inspect document metadata",
+      "author/title/date",
+      "combine as instructed"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "hard",
+    "title": "Hash Puzzle",
+    "question": "Hash Puzzle",
+    "description": null,
+    "answer": null,
+    "hints": [
+      "Identify hash type",
+      "use provided candidate list",
+      "compare hashes"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "hard",
+    "title": "Dictionary Pattern",
+    "question": "Dictionary Pattern",
+    "description": null,
+    "answer": null,
+    "hints": [
+      "Password consists of clue-derived words",
+      "identify theme",
+      "order words"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "hard",
+    "title": "Prime + Caesar",
+    "question": "Prime + Caesar",
+    "description": null,
+    "answer": null,
+    "hints": [
+      "Extract prime positions",
+      "then Caesar decode",
+      "determine shift from clue"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "hard",
+    "title": "Recursive Encoding",
+    "question": "Recursive Encoding",
+    "description": null,
+    "answer": null,
+    "hints": [
+      "Decode output",
+      "if encoded again, repeat",
+      "stop at plaintext"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "hard",
+    "title": "QR + Cipher",
+    "question": "QR + Cipher",
+    "description": null,
+    "answer": null,
+    "hints": [
+      "Scan QR",
+      "extracted text isn't final",
+      "identify cipher"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "hard",
+    "title": "Audio Password",
+    "question": "Audio Password",
+    "description": null,
+    "answer": null,
+    "hints": [
+      "Listen carefully",
+      "inspect waveform/spectrogram",
+      "find hidden signal"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "hard",
+    "title": "Image Password",
+    "question": "Image Password",
+    "description": null,
+    "answer": null,
+    "hints": [
+      "Inspect metadata",
+      "inspect visual anomalies",
+      "decode hidden text"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "hard",
+    "title": "Puzzle Box",
+    "question": "Puzzle Box",
+    "description": null,
+    "answer": null,
+    "hints": [
+      "Several clues point to one key",
+      "solve dependencies",
+      "construct password"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "hard",
+    "title": "Dictionary Attack Simulation",
+    "question": "Dictionary Attack Simulation",
+    "description": null,
+    "answer": null,
+    "hints": [
+      "Candidate list provided",
+      "identify pattern",
+      "find matching hash"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "hard",
+    "title": "Time-Based Password",
+    "question": "Time-Based Password",
+    "description": null,
+    "answer": null,
+    "hints": [
+      "Timestamp is important",
+      "determine format",
+      "calculate required value"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "hard",
+    "title": "Layered Number Cipher",
+    "question": "Layered Number Cipher",
+    "description": null,
+    "answer": null,
+    "hints": [
+      "Numbers are not directly letters",
+      "identify first transformation",
+      "repeat"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "hard",
+    "title": "Polybius Square",
+    "question": "Polybius Square",
+    "description": null,
+    "answer": null,
+    "hints": [
+      "Numbers are pairs",
+      "use 5×5 grid",
+      "decode"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "hard",
+    "title": "Bacon Cipher",
+    "question": "Bacon Cipher",
+    "description": null,
+    "answer": null,
+    "hints": [
+      "Two types of characters are present",
+      "classify them",
+      "decode groups of five"
+    ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "hard",
+    "title": "Final Password Meta",
+    "question": "Final Password Meta",
+    "description": null,
+    "answer": null,
+    "hints": [
+      "Previous solved passwords matter",
+      "identify common relationship",
+      "construct final password"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "easy",
+    "title": "Q1. The First Search",
+    "question": "You are given the name of a public organization and asked to find its official website. What should you search for first?",
+    "description": "Identify the most reliable starting point for finding public information",
+    "answer": "Name",
+    "hints": [
+      "Start with the organization's exact name",
+      "Avoid adding random words",
+      "Look for an official domain"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "easy",
+    "title": "Q2. Username Hunt",
+    "question": "A person uses the username tech_raj on one public platform. What can you try searching to find whether the same username exists elsewhere?",
+    "description": "OSINT often begins by connecting publicly visible usernames",
+    "answer": "Username",
+    "hints": [
+      "Search the username exactly",
+      "Try different platforms",
+      "Don't change the spelling"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "easy",
+    "title": "Q3. Image Search",
+    "question": "You receive an image and want to know where it appeared online before. Which type of search is most useful?",
+    "description": "Identify the technique used to find visually similar or identical images",
+    "answer": "Reverse",
+    "hints": [
+      "You don't need to describe the image",
+      "Use the image itself",
+      "Search engines support this"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "easy",
+    "title": "Q4. Public Information",
+    "question": "Information that anyone can legally access on the internet is generally called what?",
+    "description": "This is the foundation of OSINT",
+    "answer": "Open-source",
+    "hints": [
+      "It is not private information",
+      "It can come from websites, news, maps, etc",
+      "The first word is \"Open.\""
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "easy",
+    "title": "Q5. Website Date",
+    "question": "You find two articles about the same event. One was published in 2020 and another in 2024. Which one is generally more recent?",
+    "description": "OSINT requires checking dates before trusting information",
+    "answer": "2024",
+    "hints": [
+      "Compare the years",
+      "Bigger year = later date",
+      "Don't judge by article position"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "easy",
+    "title": "Q6. Fake Account Clue",
+    "question": "An account has thousands of followers but was created yesterday. What should this make you do?",
+    "description": "Identify a suspicious digital footprint",
+    "answer": "Verify",
+    "hints": [
+      "Check the account history",
+      "Look for other evidence",
+      "Don't immediately trust the account"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "easy",
+    "title": "Q7. Location Clue",
+    "question": "A photograph shows a famous tower. You recognize the tower. What can this information help you determine?",
+    "description": "Visual clues can reveal a location",
+    "answer": "Location",
+    "hints": [
+      "Think geography",
+      "Famous landmarks are useful clues",
+      "What place contains the tower?"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "easy",
+    "title": "Q8. Map Investigation",
+    "question": "You know the name of a restaurant but not where it is. Which online tool would be useful for locating it?",
+    "description": "Use publicly available geographic information",
+    "answer": "Maps",
+    "hints": [
+      "Think maps",
+      "Search by name",
+      "It can show directions too"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "easy",
+    "title": "Q9. Username Consistency",
+    "question": "You find the same unique username on three public websites. What might this suggest?",
+    "description": "Repeated usernames can be a useful clue",
+    "answer": "Connection",
+    "hints": [
+      "Compare the names",
+      "Unique names are more useful",
+      "It is a clue, not absolute proof"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "easy",
+    "title": "Q10. Source Check",
+    "question": "Before believing an online claim, what should you check first?",
+    "description": "Reliable OSINT requires source verification",
+    "answer": "Source",
+    "hints": [
+      "Ask who published it",
+      "Check credibility",
+      "Don't rely only on the headline"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "easy",
+    "title": "Q11. Search Quotes",
+    "question": "You want Google to search for an exact phrase such as Cyber Hunt 2026. What can you put around the phrase?",
+    "description": "Search operators can make investigations easier",
+    "answer": "Quotes",
+    "hints": [
+      "They are two identical symbols",
+      "They are commonly used for exact searches",
+      "Example: \"Cyber Hunt 2026\""
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "easy",
+    "title": "Q12. Social Media Clue",
+    "question": "A public social-media post says someone attended an event on 15 August. What information does this provide?",
+    "description": "Public posts can provide timeline clues",
+    "answer": "Date",
+    "hints": [
+      "Think about when something happened",
+      "It gives a point in time",
+      "It can help build a timeline"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "easy",
+    "title": "Q13. News Verification",
+    "question": "Two websites report different information about the same event. What should you do?",
+    "description": "Good investigators compare multiple sources",
+    "answer": "Cross-check",
+    "hints": [
+      "Don't choose randomly",
+      "Find another reliable source",
+      "Compare the evidence"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "easy",
+    "title": "Q14. Domain Clue",
+    "question": "A website ends with .edu. What type of organization is it commonly associated with?",
+    "description": "Domain extensions can provide useful context",
+    "answer": "Education",
+    "hints": [
+      "Think education",
+      "Colleges often use it",
+      "It is different from .com"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "easy",
+    "title": "Q15. Photo Detail",
+    "question": "You are given a street photograph. Which visible clue could help identify the country?",
+    "description": "Small visual details can reveal location",
+    "answer": "Sign",
+    "hints": [
+      "Look at vehicles",
+      "Look at signs",
+      "Look at road markings"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "easy",
+    "title": "Q16. Metadata",
+    "question": "Information stored inside a digital file, such as creation date or camera model, is called what?",
+    "description": "This information can sometimes provide useful investigation clues",
+    "answer": "Metadata",
+    "hints": [
+      "It is information about the file",
+      "It is not necessarily visible in the picture",
+      "It starts with \"meta.\""
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "easy",
+    "title": "Q17. Public Records",
+    "question": "Government websites sometimes publish information that anyone can access. What type of information is this from an OSINT perspective?",
+    "description": "Public records are legitimate OSINT sources",
+    "answer": "Public",
+    "hints": [
+      "It is publicly available",
+      "It comes from an official source",
+      "No hacking is required"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "easy",
+    "title": "Q18. Screenshot Clue",
+    "question": "A screenshot contains a visible browser address bar. Why can this be useful?",
+    "description": "Small pieces of visible information can lead to the original source",
+    "answer": "URL",
+    "hints": [
+      "Look at the top of the browser",
+      "It may contain a website address",
+      "The address can be searched"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "easy",
+    "title": "Q19. Search Engine",
+    "question": "Which tool is commonly used to discover publicly available webpages?",
+    "description": "Identify a basic OSINT tool",
+    "answer": "Search",
+    "hints": [
+      "Google is an example",
+      "Bing is another",
+      "It helps find information"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "easy",
+    "title": "Q20. Evidence",
+    "question": "An investigator finds a claim on social media. Should the claim itself be considered proof?",
+    "description": "OSINT requires distinguishing claims from verified evidence",
+    "answer": "No # 🟡",
+    "hints": [
+      "Anyone can post online",
+      "Look for supporting sources",
+      "Claims need verification"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "medium",
+    "title": "Q21. Exact Username",
+    "question": "You are investigating the username bluefox27. Searching \"bluefox27\" gives results on several websites. What is the next logical step?",
+    "description": "Finding the same username is only the beginning",
+    "answer": "Compare",
+    "hints": [
+      "Compare profile information",
+      "Look for matching clues",
+      "Don't assume all accounts belong to one person"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "medium",
+    "title": "Q22. Profile Picture",
+    "question": "A public account uses a distinctive profile picture. What technique can help determine whether the picture appears elsewhere?",
+    "description": "Images can reveal connections to other public pages",
+    "answer": "Reverse-search",
+    "hints": [
+      "Use the image",
+      "Search visually",
+      "Look for matching results"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "medium",
+    "title": "Q23. Timeline",
+    "question": "You find these public posts: - January --- Started college - March --- Joined a club - July --- Attended a competition What are you building by arranging these events chronologically?",
+    "description": "Investigators often organize clues according to time",
+    "answer": "Timeline",
+    "hints": [
+      "Events are arranged by date",
+      "It shows sequence",
+      "It helps understand activity"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "medium",
+    "title": "Q24. Conflicting Dates",
+    "question": "A website says an event happened on Monday, but the published date was Tuesday. What should you do?",
+    "description": "Inconsistencies should be investigated rather than ignored",
+    "answer": "Verify",
+    "hints": [
+      "Check another source",
+      "Verify the actual event date",
+      "Don't immediately assume either source is correct"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "medium",
+    "title": "Q25. Same Photo",
+    "question": "You find the same photograph on two websites, but one website claims it was taken in India and the other claims it was taken in France. What should you check?",
+    "description": "Context around an image can be misleading",
+    "answer": "Source",
+    "hints": [
+      "Search the original image",
+      "Check older versions",
+      "Look for location clues"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "medium",
+    "title": "Q26. Map Clue",
+    "question": "A photo shows a road sign saying NH 44. Which type of information can this clue provide?",
+    "description": "Road numbers can narrow down locations",
+    "answer": "Location",
+    "hints": [
+      "It is related to roads",
+      "Search the road number",
+      "Think geography"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "medium",
+    "title": "Q27. Domain Investigation",
+    "question": "You find a suspicious website claiming to belong to a company. The company's official website uses a different domain. What should you compare?",
+    "description": "Domain comparison can expose misleading websites",
+    "answer": "Domain",
+    "hints": [
+      "Compare spelling",
+      "Check the official website",
+      "Look for extra words or characters"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "medium",
+    "title": "Q28. Archived Page",
+    "question": "A webpage has disappeared, but you want to see an older version. What type of service can help?",
+    "description": "Websites can sometimes be viewed through historical archives",
+    "answer": "Archive",
+    "hints": [
+      "Think \"history of the web.\"",
+      "Archived pages preserve older versions",
+      "One famous service is the Wayback Machine"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "medium",
+    "title": "Q29. Image Timestamp",
+    "question": "A photo's metadata says it was created in 2022, but someone claims it was taken in 2025. What should you do?",
+    "description": "Metadata can be useful but should not automatically be treated as absolute proof",
+    "answer": "Verify",
+    "hints": [
+      "Metadata can sometimes be changed",
+      "Search for additional evidence",
+      "Compare dates"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "medium",
+    "title": "Q30. Multiple Sources",
+    "question": "One unknown blog makes a claim. Five independent reputable news organizations report the same event. Which has stronger support?",
+    "description": "Independent sources can increase confidence",
+    "answer": "Multiple",
+    "hints": [
+      "Consider source reliability",
+      "Consider independence",
+      "One source vs several"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "medium",
+    "title": "Q31. Search Operator",
+    "question": "You want search results only from example.com. Which search technique is useful?",
+    "description": "Search operators can narrow results",
+    "answer": "site:",
+    "hints": [
+      "Think site:",
+      "Put the domain after it",
+      "Example: site:example.com"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "medium",
+    "title": "Q32. Public Username + Bio",
+    "question": "A username is found on two platforms. One profile contains the same public website link as the other. Does this provide stronger evidence of a connection?",
+    "description": "Multiple matching clues are more useful than one",
+    "answer": "Yes",
+    "hints": [
+      "Compare more than the username",
+      "Look for independent matching details",
+      "Think confidence"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "medium",
+    "title": "Q33. Location from Background",
+    "question": "A photograph has no location tag, but a shop sign in the background contains a city name. Can the sign help identify the location?",
+    "description": "Text in images can be valuable evidence",
+    "answer": "Yes",
+    "hints": [
+      "Read the sign",
+      "Search the name",
+      "Compare map results"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "medium",
+    "title": "Q34. Fake News",
+    "question": "An old photograph is reposted with a new event description. What should you investigate?",
+    "description": "Images can be reused with incorrect context",
+    "answer": "Context",
+    "hints": [
+      "Search the image",
+      "Find earlier appearances",
+      "Compare dates"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "medium",
+    "title": "Q35. Public Email Clue",
+    "question": "A company employee publicly lists their professional email on a company webpage. Is this considered publicly available information?",
+    "description": "OSINT focuses on information legitimately available to the public",
+    "answer": "Yes",
+    "hints": [
+      "It is intentionally published",
+      "It is on an official page",
+      "No private access is needed"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "medium",
+    "title": "Q36. Review Investigation",
+    "question": "A restaurant has hundreds of reviews, but almost all were posted within two days. What should you investigate?",
+    "description": "Unusual patterns can indicate unreliable information",
+    "answer": "Pattern",
+    "hints": [
+      "Look at dates",
+      "Compare review patterns",
+      "Think whether the activity looks natural"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "medium",
+    "title": "Q37. Photo + Map",
+    "question": "You identify a landmark in a photo. What can you use next to determine nearby streets?",
+    "description": "OSINT often combines multiple public sources",
+    "answer": "Maps",
+    "hints": [
+      "You already know the landmark",
+      "Use geographic information",
+      "Look around the location"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "medium",
+    "title": "Q38. Source Reliability",
+    "question": "Which is generally more reliable for an official government announcement: an anonymous social-media account or the government's official website?",
+    "description": "Source authority matters",
+    "answer": "Website",
+    "hints": [
+      "Check who published the information",
+      "Prefer the original source",
+      "Look for official domains"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "medium",
+    "title": "Q39. Search Result Comparison",
+    "question": "Search A gives 100 results while Search B gives 5 highly relevant results. Which search is potentially more useful for investigation?",
+    "description": "More results do not necessarily mean better results",
+    "answer": "Relevant",
+    "hints": [
+      "Relevance matters",
+      "Quality matters",
+      "Don't judge only by quantity"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "medium",
+    "title": "Q40. Investigator's Rule",
+    "question": "You have one strong clue and three weak clues pointing toward the same conclusion. Should you immediately declare the conclusion proven?",
+    "description": "OSINT requires careful confidence assessment",
+    "answer": "No # 🔴",
+    "hints": [
+      "A clue isn't automatically proof",
+      "Seek independent confirmation",
+      "Avoid premature conclusions"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "hard",
+    "title": "Q41. Username + Location",
+    "question": "You find the same unique username on three public platforms. Platform A mentions a city, Platform B mentions a university, and Platform C shows a public event photo. What should you do before connecting all three accounts?",
+    "description": "OSINT investigations should avoid assumptions based on a single matching identifier",
+    "answer": "Verify",
+    "hints": [
+      "Compare multiple independent clues",
+      "Check whether the dates make sense",
+      "Look for contradictions"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "hard",
+    "title": "Q42. The Old Photograph",
+    "question": "A viral post claims a photograph was taken yesterday. Reverse image searching shows the same photograph online five years ago. What is the strongest conclusion?",
+    "description": "The photograph may be genuine but its current context may be false",
+    "answer": "Misleading",
+    "hints": [
+      "Separate image authenticity from context",
+      "Look at the older result",
+      "Compare dates"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "hard",
+    "title": "Q43. Three Sources",
+    "question": "Website A copies Website B, and Website B copied an anonymous post. Can A and B be considered two independent confirmations?",
+    "description": "Source independence is important",
+    "answer": "No",
+    "hints": [
+      "Trace the original source",
+      "Two copies aren't two independent sources",
+      "Think about the word \"independent.\""
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "hard",
+    "title": "Q44. Digital Footprint",
+    "question": "A person publicly uses the same unique nickname, avatar, and personal website across several platforms. What is being created by these repeated clues?",
+    "description": "Repeated public information forms a recognizable online presence",
+    "answer": "Footprint",
+    "hints": [
+      "Think about online traces",
+      "It is connected to identity",
+      "It is called a digital ______"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "hard",
+    "title": "Q45. Metadata Conflict",
+    "question": "An image's metadata says it was taken in Delhi, but visible signs clearly indicate another country. Which should you trust automatically?",
+    "description": "Different evidence sources can conflict",
+    "answer": "Neither",
+    "hints": [
+      "Metadata can be altered or lost",
+      "Visual evidence can also be misinterpreted",
+      "Investigate both"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "hard",
+    "title": "Q46. Search Narrowing",
+    "question": "You search for Apple and receive millions of results. You then search Apple \"Bangalore\" \"2025\". Why did the second search produce more focused results?",
+    "description": "Adding specific terms reduces irrelevant results",
+    "answer": "Specificity",
+    "hints": [
+      "More specific keywords",
+      "Exact phrases can help",
+      "Search engines use all terms"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "hard",
+    "title": "Q47. Hidden Context",
+    "question": "A screenshot shows a message but hides the website name. The browser tab title is visible and contains a unique phrase. What could you do with the phrase?",
+    "description": "Small pieces of visible information can become search clues",
+    "answer": "Search",
+    "hints": [
+      "Search the exact phrase",
+      "Use quotation marks",
+      "Look for the original page"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "hard",
+    "title": "Q48. Location Puzzle",
+    "question": "A photo contains: - a red-and-white road sign, - a left-driving road, - a shop displaying prices in ₹. Which country is the strongest initial possibility?",
+    "description": "Multiple clues can be combined to narrow a location",
+    "answer": "India",
+    "hints": [
+      "₹ represents Indian rupees",
+      "India drives on the left",
+      "Combine the clues"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "hard",
+    "title": "Q49. Event Verification",
+    "question": "A poster says an event happened on 12 March. A public video from the event is uploaded on 13 March, and an official event page lists 12 March. How many independent clues support the date?",
+    "description": "Combine evidence from different sources",
+    "answer": "2",
+    "hints": [
+      "Count the official page",
+      "Count the video upload date carefully",
+      "Upload date isn't necessarily event date"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "hard",
+    "title": "Q50. Fake Profile Detection",
+    "question": "A profile claims to have worked at a company since 2018, but the company's public employee announcement shows the person joined in 2023. What should you investigate?",
+    "description": "Conflicting public timelines can reveal inaccurate claims",
+    "answer": "Timeline",
+    "hints": [
+      "Compare dates",
+      "Find additional evidence",
+      "Don't immediately label the person fraudulent"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "hard",
+    "title": "Q51. Source Chain",
+    "question": "You discover that five websites all use exactly the same unusual sentence when reporting an event. What should you investigate?",
+    "description": "Similar wording can indicate that multiple websites are relying on one original source",
+    "answer": "Origin",
+    "hints": [
+      "Search the exact sentence",
+      "Find the earliest appearance",
+      "Identify the original source"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "hard",
+    "title": "Q52. Map + Photograph",
+    "question": "A photograph shows a unique building and a street sign. You find the street on a map. What should you compare next?",
+    "description": "Combining visual and geographic clues can increase confidence",
+    "answer": "Features",
+    "hints": [
+      "Look at the building shape",
+      "Compare nearby roads",
+      "Check whether the surroundings match"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "hard",
+    "title": "Q53. Account Attribution",
+    "question": "Two accounts have the same username, but one is in India and the other is in Canada. Is the username alone enough to prove they belong to the same person?",
+    "description": "A common identifier does not automatically establish identity",
+    "answer": "No",
+    "hints": [
+      "Usernames can be reused",
+      "Look for additional clues",
+      "One clue is rarely enough"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "hard",
+    "title": "Q54. Old Website",
+    "question": "A company's current website no longer lists a product. You want to know whether the company previously offered it. What can you investigate?",
+    "description": "Historical webpages may preserve information that is no longer visible",
+    "answer": "Archive",
+    "hints": [
+      "Search older versions",
+      "Use web archives",
+      "Compare historical dates"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "hard",
+    "title": "Q55. Geolocation",
+    "question": "You have a street photograph with no obvious landmark. You notice language, road markings, architecture, vehicle plates, and shop names. What OSINT task are you performing?",
+    "description": "Multiple visual clues are used to determine where an image was taken",
+    "answer": "Geolocation",
+    "hints": [
+      "Think geography",
+      "You are identifying a place",
+      "The common OSINT term begins with \"Geo.\""
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "hard",
+    "title": "Q56. Information Reliability",
+    "question": "Source A is an anonymous post. Source B is a dated official government document. Source C is a blog quoting Source A. Which is generally the strongest primary source?",
+    "description": "Source type and proximity to the original information matter",
+    "answer": "B",
+    "hints": [
+      "Look for the original document",
+      "Anonymous claims are weaker",
+      "A blog quoting another source is secondary"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "hard",
+    "title": "Q57. Contradictory Evidence",
+    "question": "Four clues suggest Location X, but one highly reliable official source says Location Y. What should an investigator do?",
+    "description": "OSINT is not simply about counting clues",
+    "answer": "Investigate",
+    "hints": [
+      "Consider source reliability",
+      "Investigate the contradiction",
+      "Don't blindly follow the majority"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "hard",
+    "title": "Q58. Search Evolution",
+    "question": "Your first search gives irrelevant results. You add a location, date, and exact phrase and get useful results. What OSINT skill are you demonstrating?",
+    "description": "Effective investigators refine their searches based on results",
+    "answer": "Refinement",
+    "hints": [
+      "You changed the query",
+      "You made it more precise",
+      "Think \"search ______.\""
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "hard",
+    "title": "Q59. Final Verification",
+    "question": "You believe you have identified the location of a photograph. What is the best final step before reporting your conclusion?",
+    "description": "A good investigation verifies the conclusion using independent evidence",
+    "answer": "Confirm",
+    "hints": [
+      "Don't stop after the first match",
+      "Look for another reliable source",
+      "Compare the evidence"
+    ]
+  },
+  {
+    "category": "OSINT",
+    "difficulty": "hard",
+    "title": "Q60. The OSINT Principle",
+    "question": "Which is better OSINT practice? A. Believe the first result B. Assume matching usernames are the same person C. Collect, compare, and verify public information D. Trust viral posts",
+    "description": "This question tests the fundamental mindset behind OSINT",
+    "answer": "C",
+    "hints": [
+      "OSINT is about investigation",
+      "Verification is important",
+      "Avoid assumptions"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "easy",
+    "title": "1. Alphabet Shift",
+    "question": "If CAT is coded as DBU, how is DOG coded?",
+    "description": "Each letter is shifted one position forward in the alphabet",
+    "answer": "EPH",
+    "hints": [
+      "C → D",
+      "A → B",
+      "Apply the same rule to DOG"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "easy",
+    "title": "2. Reverse Code",
+    "question": "If CODE is coded as EDOC, how is LOGIC coded?",
+    "description": "The word is simply written backwards",
+    "answer": "CIGOL",
+    "hints": [
+      "Look at the first and last letters",
+      "No letter is changed",
+      "Reverse the complete word"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "easy",
+    "title": "3. Alphabet Position",
+    "question": "If A=1, B=2, C=3..., what is the code for BAD?",
+    "description": "Convert each letter into its alphabet position",
+    "answer": "214",
+    "hints": [
+      "B = 2",
+      "A = 1",
+      "D = 4"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "easy",
+    "title": "4. One Step Back",
+    "question": "If DOG is coded as CNF, how is CAT coded?",
+    "description": "Every letter is shifted one position backward",
+    "answer": "BZS",
+    "hints": [
+      "D → C",
+      "O → N",
+      "Apply the same rule"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "easy",
+    "title": "5. Opposite Alphabet",
+    "question": "If A=Z, B=Y, C=X..., how is BAD coded?",
+    "description": "Each letter is replaced by its opposite letter in the alphabet",
+    "answer": "YZW",
+    "hints": [
+      "A ↔ Z",
+      "B ↔ Y",
+      "D ↔ W"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "easy",
+    "title": "6. Number Code",
+    "question": "If SUN = 19-21-14, what is the code for MOON?",
+    "description": "Each letter is represented by its alphabet position",
+    "answer": "13-15-15-14",
+    "hints": [
+      "M = 13",
+      "O = 15",
+      "N = 14"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "easy",
+    "title": "7. Letter Replacement",
+    "question": "If APPLE is coded as BQQMF, how is MANGO coded?",
+    "description": "Every letter moves one step forward",
+    "answer": "NBOHP",
+    "hints": [
+      "A → B",
+      "P → Q",
+      "Apply it to every letter"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "easy",
+    "title": "8. Reverse Alphabet",
+    "question": "If CAT becomes XZG, what does DOG become?",
+    "description": "Each letter is replaced by its alphabet opposite",
+    "answer": "WLT",
+    "hints": [
+      "A becomes Z",
+      "D becomes W",
+      "G becomes T"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "easy",
+    "title": "9. Odd Letters",
+    "question": "If HELLO is coded as HLO, what rule is being used?",
+    "description": "Only letters in odd positions are selected",
+    "answer": "Odd",
+    "hints": [
+      "Number the letters from 1",
+      "Select positions 1, 3, 5",
+      "H, L, O remain"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "easy",
+    "title": "10. Even Letters",
+    "question": "If HELLO is coded as EL, which positions are selected?",
+    "description": "Only letters in even positions are selected",
+    "answer": "Even",
+    "hints": [
+      "H = position 1",
+      "E = position 2",
+      "Select 2 and 4"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "easy",
+    "title": "11. Swap Letters",
+    "question": "If ABCD becomes BADC, how will WXYZ be coded?",
+    "description": "Letters are swapped in pairs",
+    "answer": "XWZY",
+    "hints": [
+      "AB → BA",
+      "CD → DC",
+      "Apply the same rule"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "easy",
+    "title": "12. Number Pattern",
+    "question": "If A=2, B=4, C=6, D=8, what is the code for BAD?",
+    "description": "Each alphabet position is multiplied by 2",
+    "answer": "4-2-8",
+    "hints": [
+      "B is position 2",
+      "Multiply positions by 2",
+      "D is position 4"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "easy",
+    "title": "13. Increasing Shift",
+    "question": "If ABC becomes BDF, what is the pattern?",
+    "description": "The first letter moves +1, second +2, third +3",
+    "answer": "+1,+2,+3",
+    "hints": [
+      "A → B",
+      "B → D",
+      "C → F"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "easy",
+    "title": "14. Simple Number Code",
+    "question": "If BAT = 2-1-20, what is the code for DOG?",
+    "description": "Letters are replaced by their alphabet positions",
+    "answer": "4-15-7",
+    "hints": [
+      "D = 4",
+      "O = 15",
+      "G = 7"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "easy",
+    "title": "15. Word Reversal",
+    "question": "If TABLE is coded as ELBAT, what is the code for CHAIR?",
+    "description": "Reverse the order of letters",
+    "answer": "RIAHC",
+    "hints": [
+      "No letter changes",
+      "First becomes last",
+      "Last becomes first"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "easy",
+    "title": "16. Next Letter",
+    "question": "If A → C, B → D, C → E, what is DOG?",
+    "description": "Every letter moves two places forward",
+    "answer": "FQI",
+    "hints": [
+      "D → F",
+      "O → Q",
+      "G → I"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "easy",
+    "title": "17. Previous Letter",
+    "question": "If C → A, D → B, E → C, what is FISH?",
+    "description": "Every letter moves two places backward",
+    "answer": "DGQF",
+    "hints": [
+      "F → D",
+      "I → G",
+      "Continue the same pattern"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "easy",
+    "title": "18. First and Last",
+    "question": "If APPLE becomes EAPPL, what happened?",
+    "description": "The last letter was moved to the front",
+    "answer": "Rotation",
+    "hints": [
+      "Look at E",
+      "E was originally at the end",
+      "Move only the last letter"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "easy",
+    "title": "19. Alphabetical Value",
+    "question": "If A=1 and Z=26, what is the total value of BAD?",
+    "description": "Add the alphabet positions of all letters",
+    "answer": "7",
+    "hints": [
+      "B = 2",
+      "A = 1",
+      "D = 4"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "easy",
+    "title": "20. Simple Pattern",
+    "question": "If DOG is coded as 15, where D=4, O=15, G=7 and the code is based on the middle letter, what is the code for CAT?",
+    "description": "The middle letter determines the code",
+    "answer": "1 # 🟡",
+    "hints": [
+      "CAT has three letters",
+      "Find the middle letter",
+      "Convert it to its alphabet position"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "medium",
+    "title": "21. Increasing Shift",
+    "question": "If ABC is coded as BDF, how is DOG coded?",
+    "description": "The first letter moves +1, second +2, and third +3",
+    "answer": "EQJ",
+    "hints": [
+      "D → E",
+      "O → Q",
+      "G → J"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "medium",
+    "title": "22. Alternating Shift",
+    "question": "If ABCD is coded as BADC, what happens to each pair?",
+    "description": "Every two adjacent letters exchange positions",
+    "answer": "FEHG",
+    "hints": [
+      "AB becomes BA",
+      "CD becomes DC",
+      "Apply to EFGH"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "medium",
+    "title": "23. Mirror + Shift",
+    "question": "If A → Z, B → Y, and then one position forward is added, what is the code for BAD?",
+    "description": "First use the opposite alphabet and then shift one step forward",
+    "answer": "ZAX",
+    "hints": [
+      "B → Y",
+      "Move Y one step forward",
+      "Do the same for A and D"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "medium",
+    "title": "24. Position-Based Shift",
+    "question": "If CAT becomes DBW, what rule is used?",
+    "description": "The 1st letter moves +1, the 2nd +1, and the 3rd +3",
+    "answer": "+1,+1,+3",
+    "hints": [
+      "C → D",
+      "A → B",
+      "T → W"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "medium",
+    "title": "25. Sum Code",
+    "question": "If the code of a word is the sum of its letters' positions, what is the code for DOG?",
+    "description": "Add the alphabet positions",
+    "answer": "26",
+    "hints": [
+      "D = 4",
+      "O = 15",
+      "G = 7"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "medium",
+    "title": "26. Reverse + Position",
+    "question": "If ABC becomes CBA and then each letter moves one step forward, what is the final code?",
+    "description": "Two operations are applied",
+    "answer": "DCB",
+    "hints": [
+      "Reverse ABC",
+      "You get CBA",
+      "Shift each letter forward once"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "medium",
+    "title": "27. Vowel Replacement",
+    "question": "If every vowel is replaced by the next vowel in A-E-I-O-U, how does CAT change?",
+    "description": "Only vowels are modified",
+    "answer": "CET",
+    "hints": [
+      "C remains C",
+      "A becomes E",
+      "T remains T"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "medium",
+    "title": "28. Consonant Shift",
+    "question": "If only consonants move one step forward and vowels remain unchanged, what is the code for CAT?",
+    "description": "Apply the rule only to consonants",
+    "answer": "DAU",
+    "hints": [
+      "C → D",
+      "A remains A",
+      "T → U"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "medium",
+    "title": "29. Alternate Letters",
+    "question": "If COMPUTER is coded by taking letters from alternate positions starting with the first, what is the code?",
+    "description": "Select positions 1, 3, 5, 7",
+    "answer": "CMTR",
+    "hints": [
+      "C = 1",
+      "M = 3",
+      "T = 5 and R = 7"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "medium",
+    "title": "30. Pair Sum",
+    "question": "If A=1, B=2, ..., and letters are grouped in pairs, what is the code for ABCD using the sum of each pair?",
+    "description": "Add A+B and C+D",
+    "answer": "3-7",
+    "hints": [
+      "A+B = 1+2",
+      "C+D = 3+4",
+      "Keep the two results separate"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "medium",
+    "title": "31. Position Product",
+    "question": "If the code of AB is 2, because 1 × 2 = 2, what is the code of CD?",
+    "description": "Multiply the alphabet positions",
+    "answer": "12",
+    "hints": [
+      "C = 3",
+      "D = 4",
+      "Multiply them"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "medium",
+    "title": "32. Difference Code",
+    "question": "The code of DOG is found by subtracting the first letter's value from the last letter's value. What is the code?",
+    "description": "Use alphabet positions",
+    "answer": "3",
+    "hints": [
+      "D = 4",
+      "G = 7",
+      "Calculate last − first"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "medium",
+    "title": "33. Middle Letter",
+    "question": "If the code of a three-letter word is the alphabet position of its middle letter, what is the code for FAN?",
+    "description": "Only the middle character matters",
+    "answer": "1",
+    "hints": [
+      "F-A-N",
+      "A is in the middle",
+      "A = 1"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "medium",
+    "title": "34. First + Last",
+    "question": "If a word's code is the sum of its first and last letters, what is the code for LOGIC?",
+    "description": "Ignore the middle letters",
+    "answer": "15",
+    "hints": [
+      "L = 12",
+      "C = 3",
+      "Add them"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "medium",
+    "title": "35. Reverse Number",
+    "question": "If DOG = 4-15-7, what is the reverse code?",
+    "description": "Reverse the sequence of numbers",
+    "answer": "7-15-4",
+    "hints": [
+      "Keep the numbers unchanged",
+      "Reverse their order",
+      "Last becomes first"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "medium",
+    "title": "36. Letter-Number Conversion",
+    "question": "If A=0, B=1, C=2..., what is the code for BAD?",
+    "description": "This time alphabet counting starts from zero",
+    "answer": "1-0-3",
+    "hints": [
+      "A = 0",
+      "B = 1",
+      "D = 3"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "medium",
+    "title": "37. Shift by Word Length",
+    "question": "Every letter is shifted forward by the number of letters in the word. How is CAT coded?",
+    "description": "CAT has three letters, so every letter moves three positions forward",
+    "answer": "FDW",
+    "hints": [
+      "Word length = 3",
+      "C → F",
+      "A → D"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "medium",
+    "title": "38. Reverse and Shift",
+    "question": "Reverse DOG, then move every letter one position forward",
+    "description": "Two simple operations must be performed in order",
+    "answer": "HPE",
+    "hints": [
+      "Reverse DOG",
+      "DOG → GOD",
+      "Shift G,O,D forward"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "medium",
+    "title": "39. Odd-Even Code",
+    "question": "In COMPUTER, take odd-position letters first and then even-position letters. What is the result?",
+    "description": "Rearrange the word based on position",
+    "answer": "CMTR O P U E",
+    "hints": [
+      "Odd positions: 1,3,5,7",
+      "Even positions: 2,4,6,8",
+      "Join both groups"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "medium",
+    "title": "40. Alphabet Mirror",
+    "question": "If A=26, B=25, C=24..., what is the code for BAD?",
+    "description": "Reverse alphabet numbering is used",
+    "answer": "25-26-23 # 🔴",
+    "hints": [
+      "A = 26",
+      "B = 25",
+      "D = 23"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "hard",
+    "title": "41. Double Shift",
+    "question": "If CAT becomes ECW, each letter is shifted two positions forward. What is the code for DOG?",
+    "description": "Apply +2 to every letter",
+    "answer": "FQI",
+    "hints": [
+      "D → F",
+      "O → Q",
+      "G → I"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "hard",
+    "title": "42. Increasing Shift",
+    "question": "If ABCDE becomes BDFHJ, what is the rule?",
+    "description": "The shifts increase from +1 to +5",
+    "answer": "Increasing",
+    "hints": [
+      "A → B = +1",
+      "B → D = +2",
+      "C → F = +3"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "hard",
+    "title": "43. Decreasing Shift",
+    "question": "If ABCDE becomes FEDCB, what transformation is used?",
+    "description": "The word is reversed",
+    "answer": "Reverse",
+    "hints": [
+      "A ends up near the end",
+      "E becomes first",
+      "Read backwards"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "hard",
+    "title": "44. Two-Step Code",
+    "question": "First reverse the word, then replace every letter with its alphabet opposite. What is the code for CAT?",
+    "description": "Two transformations are applied sequentially",
+    "answer": "GZX",
+    "hints": [
+      "Reverse CAT → TAC",
+      "T → G",
+      "A → Z and C → X"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "hard",
+    "title": "45. Vowels +1, Consonants +2",
+    "question": "Vowels move one position forward and consonants move two positions forward. What is CAT?",
+    "description": "Different types of letters follow different rules",
+    "answer": "EBV",
+    "hints": [
+      "C is a consonant",
+      "A is a vowel",
+      "T is a consonant"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "hard",
+    "title": "46. Position Multiplication",
+    "question": "A word's code is obtained by multiplying the alphabet position of the first and last letters. What is the code for LOGIC?",
+    "description": "Only the first and last letters are considered",
+    "answer": "36",
+    "hints": [
+      "L = 12",
+      "C = 3",
+      "Multiply"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "hard",
+    "title": "47. Sum of All Letters",
+    "question": "What is the code for CODE if each letter's alphabet value is added?",
+    "description": "Convert every letter to its position and calculate the total",
+    "answer": "27",
+    "hints": [
+      "C = 3",
+      "O = 15",
+      "D = 4 and E = 5"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "hard",
+    "title": "48. Alternating Shift",
+    "question": "In a code, odd-position letters move +1 and even-position letters move −1. How is CODE encoded?",
+    "description": "The direction depends on the position",
+    "answer": "DNEF",
+    "hints": [
+      "C → D",
+      "O → N",
+      "D → E"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "hard",
+    "title": "49. Reverse Pairing",
+    "question": "Divide ABCDEFGH into pairs and reverse every pair. What is the result?",
+    "description": "Each pair is independently reversed",
+    "answer": "BADCFEHG",
+    "hints": [
+      "AB → BA",
+      "CD → DC",
+      "Continue"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "hard",
+    "title": "50. Alphabet Jump",
+    "question": "If every letter is replaced by the letter three places ahead, what is LOGIC?",
+    "description": "Apply a +3 shift to every letter",
+    "answer": "ORJLF",
+    "hints": [
+      "L → O",
+      "O → R",
+      "G → J"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "hard",
+    "title": "51. Mirror + Reverse",
+    "question": "Reverse DOG, then replace each letter with its opposite alphabet letter",
+    "description": "Perform both operations",
+    "answer": "TLW",
+    "hints": [
+      "DOG → GOD",
+      "G → T",
+      "O → L and D → W"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "hard",
+    "title": "52. First Half / Second Half",
+    "question": "If ABCDEFGH is rearranged as EFGHABCD, what operation is performed?",
+    "description": "The first half and second half exchange positions",
+    "answer": "Rotation",
+    "hints": [
+      "Split the word into two equal parts",
+      "ABCD \\| EFGH",
+      "Swap the halves"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "hard",
+    "title": "53. Position Sum",
+    "question": "What is the code of TEAM if the code is the sum of the positions of the first two letters minus the sum of the last two?",
+    "description": "Use alphabet positions",
+    "answer": "11",
+    "hints": [
+      "T=20, E=5",
+      "A=1, M=13",
+      "Calculate (20+5) − (1+13)"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "hard",
+    "title": "54. Vowel-Consonant Count",
+    "question": "What is the code for COMPUTER if the first digit represents the number of vowels and the second represents the number of consonants?",
+    "description": "Count the two categories",
+    "answer": "3-5",
+    "hints": [
+      "Vowels: A, E, I, O, U",
+      "Count vowels in COMPUTER",
+      "The remaining letters are consonants"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "hard",
+    "title": "55. Repeated Letter",
+    "question": "What is the code for APPLE if the code is the alphabet position of the repeated letter?",
+    "description": "Find the letter appearing more than once",
+    "answer": "16",
+    "hints": [
+      "Look for repetition",
+      "One letter occurs twice",
+      "Convert it to its alphabet position"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "hard",
+    "title": "56. Largest Letter",
+    "question": "What is the code for CLOUD if the code is the alphabet position of the letter that comes latest alphabetically?",
+    "description": "Find the alphabetically greatest letter",
+    "answer": "21",
+    "hints": [
+      "Compare C, L, O, U, D",
+      "Which comes furthest in the alphabet?",
+      "Convert it to a number"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "hard",
+    "title": "57. Smallest Letter",
+    "question": "What is the code for ZEBRA if the code is the alphabet position of the alphabetically smallest letter?",
+    "description": "Find the earliest letter alphabetically",
+    "answer": "1",
+    "hints": [
+      "Compare Z, E, B, R, A",
+      "A comes before B",
+      "A = 1"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "hard",
+    "title": "58. Letter Distance",
+    "question": "What is the code for AZ if the code represents the number of positions between the two letters?",
+    "description": "Find the alphabetic distance between A and Z",
+    "answer": "25",
+    "hints": [
+      "A = 1",
+      "Z = 26",
+      "Calculate the difference"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "hard",
+    "title": "59. Three-Step Transformation",
+    "question": "For CAT: first reverse it, then shift every letter +1, then reverse it again. What is the final code?",
+    "description": "Three transformations are applied in sequence",
+    "answer": "UBD",
+    "hints": [
+      "CAT → TAC",
+      "Shift +1",
+      "Reverse the result"
+    ]
+  },
+  {
+    "category": "Encoding/Decoding",
+    "difficulty": "hard",
+    "title": "60. The Final Logic Challenge",
+    "question": "A word is encoded using this rule: reverse the word → shift every letter +1 → replace vowels with . What is the code for CODE?",
+    "description": "Follow all three rules in the exact order given",
+    "answer": "FEP",
+    "hints": [
+      "Reverse CODE first",
+      "Shift each letter forward",
+      "Replace vowels with"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "easy",
+    "title": "1. Fake Login Page",
+    "question": "A person creates a fake Instagram login page and sends you the link to steal your password. What is this called?",
+    "description": "The attacker tricks a user into believing a fake website is genuine",
+    "answer": "Phishing",
+    "hints": [
+      "The website looks real",
+      "Your password is the target",
+      "It starts with \"P\""
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "easy",
+    "title": "2. Password Guessing",
+    "question": "Someone keeps trying different passwords until they successfully log into an account. What is this attack called?",
+    "description": "The attacker repeatedly guesses passwords",
+    "answer": "Bruteforce",
+    "hints": [
+      "Many attempts are made",
+      "It targets login systems",
+      "Think about using force instead of intelligence"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "easy",
+    "title": "3. Weak Password",
+    "question": "A user sets their password as 123456. What security problem does this represent?",
+    "description": "Simple passwords are much easier for attackers to guess",
+    "answer": "Weakness",
+    "hints": [
+      "The password is too simple",
+      "Attackers can guess it easily",
+      "Think \"strong vs weak.\""
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "easy",
+    "title": "4. Website Script",
+    "question": "An attacker puts harmful JavaScript into a website's comment box, and visitors see it when they open the page. What vulnerability is this?",
+    "description": "The website allows unwanted scripts to run in a user's browser",
+    "answer": "XSS",
+    "hints": [
+      "JavaScript is involved",
+      "It affects website visitors",
+      "Its common abbreviation has three letters"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "easy",
+    "title": "5. SQL Database",
+    "question": "A website directly places what a user types into a database query without checking it properly. What vulnerability can result?",
+    "description": "Attackers may manipulate the database query through specially crafted input",
+    "answer": "SQLi",
+    "hints": [
+      "A database is involved",
+      "SQL is involved",
+      "The answer has two parts"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "easy",
+    "title": "6. Fake Email",
+    "question": "You receive an email pretending to be from your bank asking you to click a suspicious link and enter your password. What is this?",
+    "description": "The attacker impersonates a trusted organization",
+    "answer": "Phishing",
+    "hints": [
+      "Don't trust the sender immediately",
+      "Your credentials are being requested",
+      "It is a type of social engineering"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "easy",
+    "title": "7. Public Password",
+    "question": "A developer accidentally uploads a file containing the website's database password to a public repository. What security problem has occurred?",
+    "description": "A secret has been accidentally exposed to others",
+    "answer": "Exposure",
+    "hints": [
+      "The information should be private",
+      "Anyone can see it",
+      "Think about sensitive information becoming visible"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "easy",
+    "title": "8. Unlocked Account",
+    "question": "You leave your account logged in on a public computer. Someone else opens it and uses it. What security problem allowed this?",
+    "description": "An active login session was left accessible to another person",
+    "answer": "Session",
+    "hints": [
+      "You didn't log out",
+      "The next person didn't need your password",
+      "Think about your login session"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "easy",
+    "title": "9. Unsafe Website",
+    "question": "Which protocol should you look for when entering a password or card details on a website?",
+    "description": "It encrypts communication between your browser and the website",
+    "answer": "HTTPS",
+    "hints": [
+      "Look at the beginning of the web address",
+      "It has a padlock in most browsers",
+      "It starts with \"HTTP\""
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "easy",
+    "title": "10. Website Permission",
+    "question": "A normal user somehow opens an admin-only page. What type of security problem is this?",
+    "description": "The website failed to properly check whether the user was allowed to access the page",
+    "answer": "Authorization",
+    "hints": [
+      "Think about permissions",
+      "Admin has more privileges",
+      "\"Who can access what?\""
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "easy",
+    "title": "11. Dangerous Download",
+    "question": "A website tricks you into downloading a harmful program disguised as a useful file. What is the file commonly called?",
+    "description": "Attackers may disguise malicious software as legitimate downloads",
+    "answer": "Malware",
+    "hints": [
+      "It is software",
+      "It pretends to be something useful",
+      "Think \"malicious software.\""
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "easy",
+    "title": "12. Website Disguise",
+    "question": "A website uses a name and design very similar to a popular shopping website to fool customers. What is this?",
+    "description": "The attacker creates a deceptive copy of a legitimate website",
+    "answer": "Spoofing",
+    "hints": [
+      "It looks almost real",
+      "The goal is to fool visitors",
+      "It is often connected to phishing"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "easy",
+    "title": "13. Too Many Requests",
+    "question": "A user sends thousands of requests to a website in a short time, slowing it down. What type of attack is this?",
+    "description": "Excessive traffic can make a website slow or unavailable",
+    "answer": "DoS",
+    "hints": [
+      "The website becomes difficult to access",
+      "Many requests are sent",
+      "Think \"denial of service.\""
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "easy",
+    "title": "14. Many Computers",
+    "question": "What is an attack called when many computers are used together to overwhelm a website?",
+    "description": "Multiple devices generate a large amount of traffic against a target",
+    "answer": "DDoS",
+    "hints": [
+      "More than one computer",
+      "The website can become unavailable",
+      "The first letter stands for Distributed"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "easy",
+    "title": "15. Secret Information",
+    "question": "A website displays a user's credit-card number openly on their profile. What security issue is this?",
+    "description": "Sensitive information should not be unnecessarily visible",
+    "answer": "Exposure",
+    "hints": [
+      "Think privacy",
+      "Financial information is sensitive",
+      "The information is visible when it shouldn't be"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "easy",
+    "title": "16. Old Software",
+    "question": "A website continues using an old version of software even though a security update is available. What is the main problem?",
+    "description": "Older software may contain vulnerabilities that have already been fixed",
+    "answer": "Outdated",
+    "hints": [
+      "Updates exist for a reason",
+      "Security fixes may be missing",
+      "Think \"old vs updated.\""
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "easy",
+    "title": "17. Remember Me",
+    "question": "A website uses a small piece of information stored in your browser to remember that you are logged in. What is it?",
+    "description": "Websites commonly use this mechanism for sessions and preferences",
+    "answer": "Cookie",
+    "hints": [
+      "Your browser stores it",
+      "Websites use it frequently",
+      "You can clear it from browser settings"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "easy",
+    "title": "18. Login Verification",
+    "question": "What security feature asks for a password AND a code sent to your phone?",
+    "description": "Using two different verification steps provides stronger account protection",
+    "answer": "2FA",
+    "hints": [
+      "More than one verification method",
+      "Password + code",
+      "The answer contains a number"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "easy",
+    "title": "19. Human Trick",
+    "question": "An attacker calls an employee pretending to be an IT technician and asks for their password. What type of attack is this?",
+    "description": "Instead of attacking software, the attacker manipulates a person",
+    "answer": "Social-engineering",
+    "hints": [
+      "No hacking tool is necessarily required",
+      "The victim is manipulated",
+      "It is called human-based manipulation"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "easy",
+    "title": "20. Security Lock",
+    "question": "What symbol in a browser usually indicates that the connection to a website is encrypted?",
+    "description": "Browsers commonly display a lock icon for secure HTTPS connections",
+    "answer": "Lock # 🟡",
+    "hints": [
+      "Look near the address bar",
+      "It indicates a secure connection",
+      "It looks like a small locked object"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "medium",
+    "title": "21. Changing the ID",
+    "question": "You open /profile/101, change the number to /profile/102, and suddenly see another person's profile. What vulnerability might this indicate?",
+    "description": "The website may not be checking whether you are actually allowed to access that person's data",
+    "answer": "IDOR",
+    "hints": [
+      "You changed only a number",
+      "Another user's information appeared",
+      "Think about access control"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "medium",
+    "title": "22. Unlimited Attempts",
+    "question": "A login page allows you to try 10,000 passwords without blocking or slowing you down. What security control is missing?",
+    "description": "Websites should restrict excessive login attempts",
+    "answer": "Rate-limit",
+    "hints": [
+      "Think about limiting requests",
+      "It helps against password guessing",
+      "It controls how frequently something can happen"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "medium",
+    "title": "23. The Secret URL",
+    "question": "An admin page is not linked anywhere on the website, but anyone can access it if they know its URL. Is hiding the URL enough security?",
+    "description": "Simply hiding a page does not replace proper access control",
+    "answer": "No",
+    "hints": [
+      "A secret URL isn't a permission system",
+      "Anyone with the URL can enter",
+      "Think authorization"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "medium",
+    "title": "24. Login Link",
+    "question": "A password-reset link contains a predictable number such as reset?id=12345. Why can this be dangerous?",
+    "description": "Predictable reset information can make account recovery mechanisms easier to abuse",
+    "answer": "Predictability",
+    "hints": [
+      "Reset links should be difficult to guess",
+      "Think randomness",
+      "Attackers should not be able to predict another user's link"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "medium",
+    "title": "25. Comment Box",
+    "question": "A website displays exactly what users type into a comment box without safely handling special characters. Which vulnerability could result?",
+    "description": "User input that becomes executable content can affect other visitors",
+    "answer": "XSS",
+    "hints": [
+      "Think browser",
+      "JavaScript may execute",
+      "This is a common web vulnerability"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "medium",
+    "title": "26. Fake Discount",
+    "question": "An online store allows a user to apply the same discount coupon 100 times because the server never checks the limit. What kind of vulnerability is this?",
+    "description": "The application fails to enforce its intended business rules",
+    "answer": "Logic",
+    "hints": [
+      "The code may technically work",
+      "The problem is with the business rule",
+      "Think about \"how the system is supposed to work.\""
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "medium",
+    "title": "27. Public File",
+    "question": "A website accidentally makes its database backup downloadable through a public URL. What security problem is this?",
+    "description": "Sensitive internal files should not be publicly accessible",
+    "answer": "Exposure",
+    "hints": [
+      "The file contains private information",
+      "Anyone with the link can access it",
+      "Think information exposure"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "medium",
+    "title": "28. Trusted Request",
+    "question": "You are logged into your bank. You visit another website, and that website secretly causes your browser to send a request to your bank. What attack is this?",
+    "description": "The malicious website attempts to make your authenticated browser perform an unwanted action",
+    "answer": "CSRF",
+    "hints": [
+      "You are already logged in",
+      "Your browser sends the request",
+      "It is commonly shortened to four letters"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "medium",
+    "title": "29. Password Reuse",
+    "question": "A password leaked from one website is successfully used to log into another website. What attack takes advantage of this?",
+    "description": "Attackers exploit users reusing the same credentials across different services",
+    "answer": "Stuffing",
+    "hints": [
+      "The password wasn't guessed",
+      "It was obtained elsewhere",
+      "Think about using leaked credentials again"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "medium",
+    "title": "30. File Upload",
+    "question": "A website allows users to upload profile pictures but accepts any type of file. Why can this be dangerous?",
+    "description": "Unrestricted uploads can allow users to place unexpected or harmful files on the server",
+    "answer": "Upload",
+    "hints": [
+      "The website expected an image",
+      "The user can upload something else",
+      "Think about file validation"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "medium",
+    "title": "31. Error Message",
+    "question": "A website error reveals its database name, server location, and programming language. What security problem is this?",
+    "description": "Detailed error messages can reveal information useful to attackers",
+    "answer": "Disclosure",
+    "hints": [
+      "The website is revealing too much",
+      "Developers may find the information useful",
+      "Attackers can also use it"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "medium",
+    "title": "32. Open Redirect",
+    "question": "A website has a \"Continue\" button that sends users to any URL supplied in the address bar. What vulnerability could this create?",
+    "description": "Attackers can use trusted domains to redirect victims to malicious websites",
+    "answer": "Redirect",
+    "hints": [
+      "The website isn't the final destination",
+      "The destination is controlled by the URL",
+      "Think about redirection"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "medium",
+    "title": "33. Website Trust",
+    "question": "A website trusts everything a user enters because it assumes \"users won't enter anything harmful.\" What security principle is being violated?",
+    "description": "User input should always be treated carefully rather than automatically trusted",
+    "answer": "Validation",
+    "hints": [
+      "Never blindly trust input",
+      "Attackers control their own input",
+      "Think \"validation.\""
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "medium",
+    "title": "34. Database Password",
+    "question": "A developer stores the database password directly inside publicly visible JavaScript code. What has been exposed?",
+    "description": "Secrets should not be placed where users can easily retrieve them",
+    "answer": "Secret",
+    "hints": [
+      "Think confidential information",
+      "JavaScript runs in the user's browser",
+      "Anyone can inspect client-side code"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "medium",
+    "title": "35. Admin Privileges",
+    "question": "A normal employee changes \"role=user\" to \"role=admin\" in a request and becomes an administrator. What security control failed?",
+    "description": "The server should determine and enforce the user's privileges rather than trusting client-controlled values",
+    "answer": "Authorization",
+    "hints": [
+      "The client changed its own role",
+      "The server trusted the change",
+      "Think permissions"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "medium",
+    "title": "36. Secure Password Storage",
+    "question": "A website stores everyone's passwords as plain readable text in its database. What is the biggest security problem?",
+    "description": "Anyone obtaining the database could immediately read users' passwords",
+    "answer": "Hashing",
+    "hints": [
+      "Passwords shouldn't be readable",
+      "Think password protection",
+      "Hashing is commonly used"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "medium",
+    "title": "37. Same Password",
+    "question": "Why is using the same password on every website dangerous?",
+    "description": "A breach at one service can give attackers credentials that work elsewhere",
+    "answer": "Reuse",
+    "hints": [
+      "One leak can affect many accounts",
+      "Think password reuse",
+      "Different sites should have different passwords"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "medium",
+    "title": "38. No Logout",
+    "question": "A website's session remains active even after the user clicks \"Logout.\" What security area should be investigated?",
+    "description": "Logout should invalidate the user's active session appropriately",
+    "answer": "Session",
+    "hints": [
+      "Think login state",
+      "The account remains accessible",
+      "Session management is involved"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "medium",
+    "title": "39. Unnecessary Information",
+    "question": "A website tells you \"Username exists, but password is wrong\" instead of giving the same message for both cases. What information can this reveal?",
+    "description": "Different responses can help attackers discover valid accounts",
+    "answer": "Enumeration",
+    "hints": [
+      "The attacker learns something without logging in",
+      "Think user accounts",
+      "It is a type of information leakage"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "medium",
+    "title": "40. Automatic Updates",
+    "question": "A website uses a third-party library that has a known security flaw but the developer never updates it. What is the main weakness?",
+    "description": "Vulnerable dependencies can introduce security problems into otherwise well-written applications",
+    "answer": "Dependency # 🔴",
+    "hints": [
+      "The problem comes from another package",
+      "Updates are available",
+      "Think software dependency"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "hard",
+    "title": "41. The Free Product",
+    "question": "An online store lets users change the product price in their browser from ₹5,000 to ₹5 before submitting the order. The server accepts ₹5. What failed?",
+    "description": "The server trusted a value controlled by the user instead of calculating the price itself",
+    "answer": "Validation",
+    "hints": [
+      "The browser should not decide the final price",
+      "The server should verify important values",
+      "Think about business rules"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "hard",
+    "title": "42. The Hidden Admin",
+    "question": "A normal user changes /user/dashboard to /admin/dashboard and gains access. What security problem is demonstrated?",
+    "description": "The server is not properly checking whether the logged-in user has administrative privileges",
+    "answer": "Authorization",
+    "hints": [
+      "The user is authenticated",
+      "Authentication isn't the same as permission",
+      "Think access control"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "hard",
+    "title": "43. The Unlimited Coupon",
+    "question": "A coupon should work once per customer, but refreshing the page allows it to be applied repeatedly. What type of vulnerability is this?",
+    "description": "The application failed to enforce a business restriction",
+    "answer": "Logic",
+    "hints": [
+      "The application itself is functioning",
+      "The rule is being bypassed",
+      "Think business rules"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "hard",
+    "title": "44. The Changed Account",
+    "question": "A website uses /account?id=500. Changing 500 to 501 displays another user's private account. What is the vulnerability?",
+    "description": "The application uses a user-controlled identifier without correctly checking ownership",
+    "answer": "IDOR",
+    "hints": [
+      "An ID is being changed",
+      "Private information appears",
+      "You may have seen this abbreviation before"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "hard",
+    "title": "45. The Helpful Error",
+    "question": "A login page responds differently when the username exists versus when it doesn't. What can an attacker perform using this difference?",
+    "description": "Response differences can reveal which usernames are registered",
+    "answer": "Enumeration",
+    "hints": [
+      "The attacker doesn't need the password",
+      "They are discovering accounts",
+      "Think information gathering"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "hard",
+    "title": "46. The Fake Reset",
+    "question": "A password-reset token is always username123. Why is this dangerous?",
+    "description": "A reset token should be difficult to predict. Predictable tokens can allow unauthorized password resets",
+    "answer": "Predictability",
+    "hints": [
+      "Password recovery is involved",
+      "The token can be guessed",
+      "Think randomness"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "hard",
+    "title": "47. The Open Door API",
+    "question": "An API returns private customer information whenever someone provides a customer ID, without checking who is making the request. What is missing?",
+    "description": "The API authenticates or processes requests but fails to enforce who is allowed to access the requested data",
+    "answer": "Authorization",
+    "hints": [
+      "The API knows the ID",
+      "It doesn't check the user's permission",
+      "Think access control"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "hard",
+    "title": "48. The Trusted Browser",
+    "question": "A website accepts a request simply because it comes from a logged-in user's browser, even though another website caused the request. What vulnerability could occur?",
+    "description": "The server incorrectly assumes that a request from an authenticated browser was intentionally made by the user",
+    "answer": "CSRF",
+    "hints": [
+      "The victim is logged in",
+      "Another website triggers the request",
+      "Four-letter abbreviation"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "hard",
+    "title": "49. The Comment Attack",
+    "question": "A user posts <script> in a comment and the code runs whenever someone views the comment. What vulnerability is this?",
+    "description": "User-controlled content is being interpreted as executable browser code",
+    "answer": "XSS",
+    "hints": [
+      "JavaScript",
+      "Browser",
+      "Three-letter abbreviation"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "hard",
+    "title": "50. The Database Trick",
+    "question": "A login form builds a database query directly using the username typed by the user. What vulnerability should the developer worry about?",
+    "description": "Untrusted input can alter the intended database query if it is not safely handled",
+    "answer": "SQLi",
+    "hints": [
+      "SQL is involved",
+      "The database is the target",
+      "Think \"injection.\""
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "hard",
+    "title": "51. The Server's Request",
+    "question": "A website asks users for a URL and then fetches that URL from its own server. Why could this become dangerous?",
+    "description": "If the server doesn't restrict destinations, an attacker may cause it to request resources the attacker shouldn't be able to reach",
+    "answer": "SSRF",
+    "hints": [
+      "The server makes the request",
+      "Internal resources could be involved",
+      "The abbreviation contains four letters"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "hard",
+    "title": "52. The Fake Destination",
+    "question": "A trusted website redirects users to any website specified by a URL parameter. Why could attackers abuse this?",
+    "description": "Attackers may send victims a trusted-looking link that ultimately leads to a malicious website",
+    "answer": "Redirect",
+    "hints": [
+      "The first website may be legitimate",
+      "The final website is controlled by the attacker",
+      "Think redirection"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "hard",
+    "title": "53. The Unlimited Login",
+    "question": "An attacker can make thousands of login attempts per second because the website has no restriction on request frequency. What protection is missing?",
+    "description": "Limiting repeated requests can make automated attacks much harder",
+    "answer": "Rate-limit",
+    "hints": [
+      "Think speed",
+      "Too many requests",
+      "It is called limiting the request rate"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "hard",
+    "title": "54. The Password Database",
+    "question": "A hacker steals a database containing passwords stored in a form that can be read immediately. What protection should have been used?",
+    "description": "Passwords should be stored using secure one-way password hashing rather than readable text",
+    "answer": "Hashing",
+    "hints": [
+      "Passwords should not be reversible",
+      "Think one-way transformation",
+      "Modern applications use password hashing algorithms"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "hard",
+    "title": "55. The Public Backup",
+    "question": "A developer accidentally uploads database_backup.zip to the website's public folder. What vulnerability could this create?",
+    "description": "Backup files may contain credentials, customer information, or other sensitive data",
+    "answer": "Exposure",
+    "hints": [
+      "Backups can contain lots of information",
+      "The file is publicly accessible",
+      "Think information being exposed"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "hard",
+    "title": "56. The Dangerous Upload",
+    "question": "A profile-picture page accepts .jpg, .png, .exe, and .html files without checking them. What security weakness does this demonstrate?",
+    "description": "The application does not properly restrict uploads to the intended file types",
+    "answer": "Validation",
+    "hints": [
+      "The website expected images",
+      "Other file types are accepted",
+      "Think about checking user-uploaded files"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "hard",
+    "title": "57. The Old Library",
+    "question": "A website uses an outdated library with a publicly known security flaw. What should the developer do first?",
+    "description": "Known vulnerabilities should be addressed by updating or replacing affected dependencies",
+    "answer": "Update",
+    "hints": [
+      "A newer version exists",
+      "The vulnerability is already known",
+      "Think software maintenance"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "hard",
+    "title": "58. The Password in URL",
+    "question": "A website sends a user's password as part of the URL, such as example.com/login?password=12345. Why is this unsafe?",
+    "description": "URLs can appear in browser history, logs, analytics systems, and other places",
+    "answer": "Exposure",
+    "hints": [
+      "URLs are often recorded",
+      "Passwords are sensitive",
+      "Think information exposure"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "hard",
+    "title": "59. The Admin Cookie",
+    "question": "A website stores an administrator's session information in a cookie that can be accessed by JavaScript. Why could this be dangerous if XSS exists?",
+    "description": "If malicious JavaScript executes in the browser, it may be able to access sensitive session information when cookie protections are missing",
+    "answer": "HttpOnly",
+    "hints": [
+      "XSS is involved",
+      "Cookies can contain session information",
+      "Think about protecting cookies from JavaScript"
+    ]
+  },
+  {
+    "category": "Web Vulnerabilities",
+    "difficulty": "hard",
+    "title": "60. The Biggest Clue",
+    "question": "A website accepts user input, trusts it completely, and directly uses it in HTML, database queries, commands, and file paths. What general security principle should developers follow?",
+    "description": "User-controlled data should be treated as untrusted and appropriately checked before being used",
+    "answer": "Validation",
+    "hints": [
+      "Never blindly trust users",
+      "Check data before using it",
+      "Think \"trust but verify.\""
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "easy",
+    "title": "1. Find the Output",
+    "question": "#include <stdio.h>\n\nint main() {\nint a = 10;\nint b = 5;\n\nprintf(\"%d\", a + b);\n\nreturn 0;\n}",
+    "description": "Find what the program prints",
+    "answer": "15",
+    "hints": [
+      "a contains 10",
+      "b contains 5",
+      "The + operator is used"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "easy",
+    "title": "2. Find the Error",
+    "question": "#include <stdio.h>\n\nint main() {\nint age = 20;\nprintf(\"%d\", age)\nreturn 0;\n}",
+    "description": "Which line contains the error?",
+    "answer": "printf",
+    "hints": [
+      "Look at the printf",
+      "C statements need something at the end",
+      "Check the punctuation"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "easy",
+    "title": "3. Find the Output",
+    "question": "int x = 5;\n\nprintf(\"%d\", x * 2);",
+    "description": "What will be printed?",
+    "answer": "10",
+    "hints": [
+      "x = 5",
+      "Multiplication is performed",
+      "5 × 2"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "easy",
+    "title": "4. Fix the Code",
+    "question": "#include <stdio.h>\n\nint main() {\nint a = 10\nprintf(\"%d\", a);\n\nreturn 0;\n}",
+    "description": "What is missing?",
+    "answer": ";",
+    "hints": [
+      "Look at the variable declaration",
+      "C statements need punctuation",
+      "It is the same symbol used after printf()"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "easy",
+    "title": "5. Find the Output",
+    "question": "int x = 10;\n\nif (x > 5)\nprintf(\"Yes\");\nelse\nprintf(\"No\");",
+    "description": "What will be printed?",
+    "answer": "Yes",
+    "hints": [
+      "Is 10 greater than 5?",
+      "The if condition is checked first",
+      "Only one branch executes"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "easy",
+    "title": "6. Find the Output",
+    "question": "int i;\n\nfor(i = 1; i <= 3; i++)\nprintf(\"%d \", i);",
+    "description": "What is the output?",
+    "answer": "1 2 3",
+    "hints": [
+      "The loop starts at 1",
+      "It stops after 3",
+      "Look at i++"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "easy",
+    "title": "7. Find the Error",
+    "question": "#include <stdio.h>\n\nint main() {\nint a;\nscanf(\"%d\", a);\n\nreturn 0;\n}",
+    "description": "What is wrong with the scanf() statement?",
+    "answer": "&",
+    "hints": [
+      "scanf() needs the address of the variable",
+      "Think about &",
+      "Compare scanf() with printf()"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "easy",
+    "title": "8. Find the Output",
+    "question": "int a = 5;\nint b = 2;\n\nprintf(\"%d\", a / b);",
+    "description": "What does integer division produce?",
+    "answer": "2",
+    "hints": [
+      "Both variables are integers",
+      "The decimal part is discarded",
+      "5 / 2"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "easy",
+    "title": "9. Find the Output",
+    "question": "int x = 5;\n\nx++;\n\nprintf(\"%d\", x);",
+    "description": "What is printed?",
+    "answer": "6",
+    "hints": [
+      "++ increases a value",
+      "x starts at 5",
+      "It increases once"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "easy",
+    "title": "10. Find the Output",
+    "question": "char ch = 'A';\n\nprintf(\"%c\", ch);",
+    "description": "What does %c print?",
+    "answer": "A",
+    "hints": [
+      "ch stores a character",
+      "%c is used for characters",
+      "Look at the value assigned to ch"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "easy",
+    "title": "11. Find the Error",
+    "question": "#include <stdio.h>\n\nint main() {\nint 2value = 10;\n\nprintf(\"%d\", 2value);\n\nreturn 0;\n}",
+    "description": "Why is this variable declaration invalid?",
+    "answer": "Identifier",
+    "hints": [
+      "Look at the first character",
+      "Variable names have rules",
+      "Can an identifier start with a number?"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "easy",
+    "title": "12. Find the Output",
+    "question": "int x = 10;\n\nif (x == 10)\nprintf(\"Correct\");",
+    "description": "What is printed?",
+    "answer": "Correct",
+    "hints": [
+      "== compares values",
+      "Is x equal to 10?",
+      "The condition is true"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "easy",
+    "title": "13. Find the Output",
+    "question": "int x = 10;\n\nif (x = 5)\nprintf(\"A\");\nelse\nprintf(\"B\");",
+    "description": "What will be printed?",
+    "answer": "A",
+    "hints": [
+      "= is assignment",
+      "5 is assigned to x",
+      "In C, non-zero values are true"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "easy",
+    "title": "14. Find the Output",
+    "question": "int a = 3;\nint b = 4;\n\nprintf(\"%d\", a > b);",
+    "description": "What does C print when a comparison is false?",
+    "answer": "0",
+    "hints": [
+      "Is 3 greater than 4?",
+      "Comparisons produce 0 or 1",
+      "False corresponds to 0"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "easy",
+    "title": "15. Find the Output",
+    "question": "int x = 10;\n\nprintf(\"%d\", x % 3);",
+    "description": "Find the remainder",
+    "answer": "1",
+    "hints": [
+      "\\% means remainder",
+      "Divide 10 by 3",
+      "What remains?"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "easy",
+    "title": "16. Fix the Code",
+    "question": "#include <stdio.h>\n\nint main() {\nprintf(\"Hello World\")\n\nreturn 0;\n}",
+    "description": "Identify the missing symbol",
+    "answer": ";",
+    "hints": [
+      "Check the end of the statement",
+      "printf() itself is correct",
+      "C statements need termination"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "easy",
+    "title": "17. Find the Output",
+    "question": "int a = 5;\nint b = 10;\n\nint temp = a;\na = b;\nb = temp;\n\nprintf(\"%d %d\", a, b);",
+    "description": "What are the final values?",
+    "answer": "10 5",
+    "hints": [
+      "temp temporarily stores a",
+      "a receives b",
+      "b receives the old a"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "easy",
+    "title": "18. Find the Output",
+    "question": "int i = 0;\n\nwhile(i < 3) {\nprintf(\"%d \", i);\ni++;\n}",
+    "description": "Find the output",
+    "answer": "0 1 2",
+    "hints": [
+      "Start with 0",
+      "Stop when i becomes 3",
+      "i++ increases it"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "easy",
+    "title": "19. Find the Error",
+    "question": "int main() {\nint marks = 90;\n\nprintf(\"%f\", marks);\n\nreturn 0;\n}",
+    "description": "Which format specifier should be used?",
+    "answer": "%d",
+    "hints": [
+      "marks is an integer",
+      "%f is for floating-point values",
+      "Think %d"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "easy",
+    "title": "20. Find the Output",
+    "question": "char ch = 'B';\n\nprintf(\"%d\", ch);",
+    "description": "What does %d print for a character?",
+    "answer": "66 # 🟡",
+    "hints": [
+      "Characters have numeric codes",
+      "C stores characters internally as integers",
+      "Think ASCII"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "medium",
+    "title": "21. Find the Output",
+    "question": "int a = 5;\n\nprintf(\"%d\", ++a);",
+    "description": "What is printed?",
+    "answer": "6",
+    "hints": [
+      "++a is pre-increment",
+      "Increment happens first",
+      "Then the value is printed"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "medium",
+    "title": "22. Find the Output",
+    "question": "int a = 5;\n\nprintf(\"%d\", a++);\nprintf(\"%d\", a);",
+    "description": "What is the complete output?",
+    "answer": "56",
+    "hints": [
+      "a++ uses the old value first",
+      "Then a increases",
+      "The second printf sees the new value"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "medium",
+    "title": "23. Find the Bug",
+    "question": "int x = 10;\n\nif(x = 20)\nprintf(\"True\");",
+    "description": "The programmer intended to compare x with 20. What operator should be used?",
+    "answer": "==",
+    "hints": [
+      "= assigns",
+      "== compares",
+      "The intended operation is comparison"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "medium",
+    "title": "24. Find the Output",
+    "question": "int a = 10;\nint b = 20;\n\nif(a < b && b > 15)\nprintf(\"Yes\");\nelse\nprintf(\"No\");",
+    "description": "Evaluate both conditions",
+    "answer": "Yes",
+    "hints": [
+      "10 < 20 is true",
+      "20 > 15 is true",
+      "&& requires both to be true"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "medium",
+    "title": "25. Find the Output",
+    "question": "int a = 5;\n\nif(a > 0 \\|\\| a < -10)\nprintf(\"True\");\nelse\nprintf(\"False\");",
+    "description": "What is printed?",
+    "answer": "True",
+    "hints": [
+      "\\|\\| means OR",
+      "Only one condition needs to be true",
+      "5 > 0"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "medium",
+    "title": "26. Find the Error",
+    "question": "int arr[5];\n\narr[5] = 10;",
+    "description": "Why is this problematic?",
+    "answer": "Overflow",
+    "hints": [
+      "Array indexing starts at 0",
+      "Five elements have indices 0--4",
+      "Index 5 is outside the array"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "medium",
+    "title": "27. Find the Output",
+    "question": "int arr[] = {10, 20, 30, 40};\n\nprintf(\"%d\", arr[2]);",
+    "description": "What value is printed?",
+    "answer": "30",
+    "hints": [
+      "Index starts at 0",
+      "arr[0] = 10",
+      "Find arr[2]"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "medium",
+    "title": "28. Find the Error",
+    "question": "int arr[3] = {1, 2, 3, 4};",
+    "description": "What is wrong?",
+    "answer": "Overflow",
+    "hints": [
+      "The array size is 3",
+      "How many values are provided?",
+      "There are too many initializers"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "medium",
+    "title": "29. Find the Output",
+    "question": "int x = 5;\n\nfor(int i = 0; i < x; i++)\nprintf(\"*\");",
+    "description": "How many stars are printed?",
+    "answer": "5",
+    "hints": [
+      "i starts at 0",
+      "It stops before 5",
+      "Count the iterations"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "medium",
+    "title": "30. Find the Output",
+    "question": "int sum = 0;\n\nfor(int i = 1; i <= 5; i++)\nsum += i;\n\nprintf(\"%d\", sum);",
+    "description": "Find the final sum",
+    "answer": "15",
+    "hints": [
+      "Add 1 through 5",
+      "sum += i",
+      "Think 1+2+3+4+5"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "medium",
+    "title": "31. Find the Error",
+    "question": "int main() {\nint *p;\n\n*p = 10;\n\nreturn 0;\n}",
+    "description": "Why can this program crash?",
+    "answer": "Pointer",
+    "hints": [
+      "p is a pointer",
+      "Has it been given a valid address?",
+      "You cannot safely dereference an uninitialized pointer"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "medium",
+    "title": "32. Fix the Code",
+    "question": "int x = 10;\nint *p;\n\np = x;",
+    "description": "What should replace x so that p correctly stores the address of x?",
+    "answer": "&x",
+    "hints": [
+      "A pointer stores an address",
+      "Use the address-of operator",
+      "It is &"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "medium",
+    "title": "33. Find the Output",
+    "question": "int x = 10;\nint *p = &x;\n\nprintf(\"%d\", *p);",
+    "description": "What does dereferencing p produce?",
+    "answer": "10",
+    "hints": [
+      "p stores the address",
+      "p accesses the value",
+      "x is 10"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "medium",
+    "title": "34. Find the Output",
+    "question": "void change(int x) {\nx = 20;\n}\n\nint main() {\nint a = 10;\n\nchange(a);\n\nprintf(\"%d\", a);\n}",
+    "description": "Does a change?",
+    "answer": "10",
+    "hints": [
+      "C normally passes arguments by value",
+      "The function receives a copy",
+      "The original a remains unchanged"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "medium",
+    "title": "35. Find the Output",
+    "question": "void change(int *x) {\n*x = 20;\n}\n\nint main() {\nint a = 10;\n\nchange(&a);\n\nprintf(\"%d\", a);\n}",
+    "description": "What is printed?",
+    "answer": "20",
+    "hints": [
+      "The address of a is passed",
+      "x changes the original variable",
+      "a becomes 20"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "medium",
+    "title": "36. Find the Output",
+    "question": "char str[] = \"Hello\";\n\nprintf(\"%c\", str[1]);",
+    "description": "Which character is printed?",
+    "answer": "e",
+    "hints": [
+      "Strings are character arrays",
+      "Index starts at 0",
+      "str[0] is H"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "medium",
+    "title": "37. Find the Error",
+    "question": "char str[5] = \"Hello\";",
+    "description": "Why can this declaration be problematic?",
+    "answer": "Null",
+    "hints": [
+      "\"Hello\" has five visible characters",
+      "C strings need a special ending character",
+      "Count the required space"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "medium",
+    "title": "38. Find the Output",
+    "question": "int x = 10;\n\n{\nint x = 20;\nprintf(\"%d \", x);\n}\n\nprintf(\"%d\", x);",
+    "description": "What is printed?",
+    "answer": "20 10",
+    "hints": [
+      "There are two variables named x",
+      "One is inside a block",
+      "Scope matters"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "medium",
+    "title": "39. Find the Output",
+    "question": "int x = 5;\n\nif(x)\nprintf(\"A\");\nelse\nprintf(\"B\");",
+    "description": "What is printed?",
+    "answer": "A",
+    "hints": [
+      "C treats non-zero values as true",
+      "x = 5",
+      "5 is non-zero"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "medium",
+    "title": "40. Find the Error",
+    "question": "int main() {\nint a = 10;\nint b = 0;\n\nprintf(\"%d\", a / b);\n\nreturn 0;\n}",
+    "description": "What operation causes the problem?",
+    "answer": "Division # 🔴",
+    "hints": [
+      "Look at the denominator",
+      "b is zero",
+      "Division by zero is invalid"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "hard",
+    "title": "41. Find the Output",
+    "question": "int a = 5;\n\nprintf(\"%d %d\", a++, ++a);",
+    "description": "Is there a well-defined output?",
+    "answer": "Undefined",
+    "hints": [
+      "a is modified more than once",
+      "Both operations happen in one expression",
+      "Think about undefined behavior"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "hard",
+    "title": "42. Find the Bug",
+    "question": "int arr[5];\n\nfor(int i = 0; i <= 5; i++)\narr[i] = i;",
+    "description": "Which condition is incorrect?",
+    "answer": "<",
+    "hints": [
+      "Array indices are 0--4",
+      "The loop reaches 5",
+      "Look at <="
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "hard",
+    "title": "43. Find the Output",
+    "question": "int a = 10;\nint *p = &a;\n\n*p = 25;\n\nprintf(\"%d\", a);",
+    "description": "What happens when the pointer changes p?",
+    "answer": "25",
+    "hints": [
+      "p points to a",
+      "p means the value at that address",
+      "Changing it changes a"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "hard",
+    "title": "44. Find the Error",
+    "question": "int *p;\nint x = 10;\n\n*p = x;",
+    "description": "Why is this unsafe?",
+    "answer": "Uninitialized",
+    "hints": [
+      "p has no valid address",
+      "x is being assigned to the pointed location",
+      "A pointer must point somewhere valid first"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "hard",
+    "title": "45. Fix the Code",
+    "question": "int x = 10;\nint *p;\n\n*p = 20;",
+    "description": "What statement should be added before p = 20?",
+    "answer": "p=&x",
+    "hints": [
+      "p needs an address",
+      "Make it point to x",
+      "Use &"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "hard",
+    "title": "46. Find the Output",
+    "question": "void fun(int *p) {\n*p = *p + 10;\n}\n\nint main() {\nint x = 5;\n\nfun(&x);\n\nprintf(\"%d\", x);\n}",
+    "description": "Find the final value",
+    "answer": "15",
+    "hints": [
+      "x starts at 5",
+      "The address is passed",
+      "10 is added to the original value"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "hard",
+    "title": "47. Find the Error",
+    "question": "#include <stdio.h>\n\nint main() {\nint *p = NULL;\n\nprintf(\"%d\", *p);\n\nreturn 0;\n}",
+    "description": "What operation is unsafe?",
+    "answer": "Dereference",
+    "hints": [
+      "NULL means no valid object is being pointed to",
+      "p attempts to access a value",
+      "You cannot safely dereference NULL"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "hard",
+    "title": "48. Find the Output",
+    "question": "int x = 10;\n\nif(x > 5)\nif(x > 15)\nprintf(\"A\");\nelse\nprintf(\"B\");",
+    "description": "Which output occurs?",
+    "answer": "B",
+    "hints": [
+      "First condition is true",
+      "Then x > 15 is checked",
+      "The else belongs to the nearest unmatched if"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "hard",
+    "title": "49. Find the Error",
+    "question": "int main() {\nint x = 10;\n\nprintf(\"%d\", x);\n\nreturn 0;\n}\n\nprintf(\"Hello\");",
+    "description": "What is wrong with the second printf()?",
+    "answer": "Scope",
+    "hints": [
+      "Look at where it appears",
+      "The function has already ended",
+      "Executable statements normally belong inside functions"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "hard",
+    "title": "50. Find the Output",
+    "question": "int a[] = {10, 20, 30};\n\nint *p = a;\n\nprintf(\"%d\", *(p + 1));",
+    "description": "What value is printed?",
+    "answer": "20",
+    "hints": [
+      "p points to the first element",
+      "p + 1 points to the second",
+      "Dereference it"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "hard",
+    "title": "51. Find the Error",
+    "question": "char *str = \"Hello\";\n\nstr[0] = 'Y';",
+    "description": "Why is modifying str[0] unsafe?",
+    "answer": "Literal",
+    "hints": [
+      "str points to a string literal",
+      "String literals should not be modified",
+      "Think read-only memory"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "hard",
+    "title": "52. Find the Output",
+    "question": "int x = 5;\n\nprintf(\"%d\", sizeof(x));",
+    "description": "What does sizeof return?",
+    "answer": "sizeof",
+    "hints": [
+      "x is an integer",
+      "sizeof gives size in bytes",
+      "The exact number depends on the system"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "hard",
+    "title": "53. Find the Bug",
+    "question": "int sum(int a, int b) {\nreturn a + b;\n}\n\nint main() {\nprintf(\"%d\", sum(5));\n}",
+    "description": "What is wrong with the function call?",
+    "answer": "Argument",
+    "hints": [
+      "Look at the function definition",
+      "How many arguments does it require?",
+      "Only one was provided"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "hard",
+    "title": "54. Find the Output",
+    "question": "int x = 10;\n\nint *p = &x;\nint **q = &p;\n\nprintf(\"%d\", **q);",
+    "description": "What is printed?",
+    "answer": "10",
+    "hints": [
+      "q points to p",
+      "p points to x",
+      "Two dereferences reach x"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "hard",
+    "title": "55. Find the Error",
+    "question": "int main() {\nint *p;\n\n{\nint x = 10;\np = &x;\n}\n\nprintf(\"%d\", *p);\n}",
+    "description": "Why is using p after the block unsafe?",
+    "answer": "Dangling",
+    "hints": [
+      "x exists only inside the block",
+      "What happens when the block ends?",
+      "The pointer refers to an object whose lifetime has ended"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "hard",
+    "title": "56. Find the Output",
+    "question": "int x = 10;\n\nswitch(x) {\ncase 5:\nprintf(\"A\");\nbreak;\n\ncase 10:\nprintf(\"B\");\nbreak;\n\ndefault:\nprintf(\"C\");\n}",
+    "description": "What is printed?",
+    "answer": "B",
+    "hints": [
+      "x is 10",
+      "Match the correct case",
+      "break stops execution"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "hard",
+    "title": "57. Find the Bug",
+    "question": "int x = 1;\n\nwhile(x <= 5) {\nprintf(\"%d \", x);\n}",
+    "description": "Why does this loop never end?",
+    "answer": "Infinite",
+    "hints": [
+      "Look inside the loop",
+      "What changes x?",
+      "The condition always remains true"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "hard",
+    "title": "58. Find the Output",
+    "question": "int x = 10;\n\nint *p = &x;\n\nprintf(\"%p\", (void*)p);",
+    "description": "What type of value is printed?",
+    "answer": "Address",
+    "hints": [
+      "p stores an address",
+      "%p is used for pointers",
+      "The actual address varies"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "hard",
+    "title": "59. Find the Error",
+    "question": "int main() {\nint x;\n\nprintf(\"%d\", x);\n\nreturn 0;\n}",
+    "description": "What is the problem with printing x?",
+    "answer": "Uninitialized",
+    "hints": [
+      "x was declared",
+      "Was it given a value?",
+      "Local variables aren't automatically initialized to zero"
+    ]
+  },
+  {
+    "category": "C Coding",
+    "difficulty": "hard",
+    "title": "60. Find the Bug",
+    "question": "#include <stdio.h>\n\nint factorial(int n) {\nreturn n * factorial(n - 1);\n}\n\nint main() {\nprintf(\"%d\", factorial(5));\n}",
+    "description": "Why can this program keep calling the function forever?",
+    "answer": "Recursion",
+    "hints": [
+      "The function calls itself",
+      "What stops the recursion?",
+      "There is no stopping condition"
+    ]
+  }
+]

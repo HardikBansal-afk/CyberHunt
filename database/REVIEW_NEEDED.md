@@ -1,0 +1,64 @@
+# Answers needing manual review
+
+The following challenges had no explicit answer in the source document (mainly the Password Puzzles section, which only listed titles + hints). Their `flag_hash` was seeded as the placeholder `TBD` - fill in the real answer before the event goes live.
+
+- **Password Puzzles / easy** - A1Z26 Password
+- **Password Puzzles / easy** - Reverse Password
+- **Password Puzzles / easy** - Missing Vowel
+- **Password Puzzles / easy** - Keyboard Shift
+- **Password Puzzles / easy** - Number-to-Letter
+- **Password Puzzles / easy** - Odd Letters
+- **Password Puzzles / easy** - Even Letters
+- **Password Puzzles / easy** - Anagram
+- **Password Puzzles / easy** - Simple Caesar
+- **Password Puzzles / easy** - First Letters
+- **Password Puzzles / easy** - Last Letters
+- **Password Puzzles / easy** - Binary Password
+- **Password Puzzles / easy** - Morse Password
+- **Password Puzzles / easy** - Hex Password
+- **Password Puzzles / easy** - ROT13
+- **Password Puzzles / easy** - Alphabet Position
+- **Password Puzzles / easy** - Word Length Password
+- **Password Puzzles / easy** - Symbol Password
+- **Password Puzzles / easy** - Mirror Text
+- **Password Puzzles / easy** - Simple Riddle Password
+- **Password Puzzles / medium** - Double Caesar
+- **Password Puzzles / medium** - Base64 Password
+- **Password Puzzles / medium** - Vigenère Intro
+- **Password Puzzles / medium** - Keyboard Diagonal
+- **Password Puzzles / medium** - Mixed Case
+- **Password Puzzles / medium** - Word-to-Number
+- **Password Puzzles / medium** - Prime Positions
+- **Password Puzzles / medium** - Fibonacci Positions
+- **Password Puzzles / medium** - Rail Fence
+- **Password Puzzles / medium** - Column Transposition
+- **Password Puzzles / medium** - Hex → Base64
+- **Password Puzzles / medium** - ROT + Reverse
+- **Password Puzzles / medium** - ASCII Decimal
+- **Password Puzzles / medium** - XOR Puzzle
+- **Password Puzzles / medium** - Password Riddle Chain
+- **Password Puzzles / medium** - Date Password
+- **Password Puzzles / medium** - Periodic Table Password
+- **Password Puzzles / medium** - Phone Keypad
+- **Password Puzzles / medium** - Braille Pattern
+- **Password Puzzles / medium** - Multi-Step Password
+- **Password Puzzles / hard** - Vigenère with Hidden Key
+- **Password Puzzles / hard** - Encrypted Archive Password
+- **Password Puzzles / hard** - Known-Plaintext XOR
+- **Password Puzzles / hard** - Multi-Key Cipher
+- **Password Puzzles / hard** - Transposition + Substitution
+- **Password Puzzles / hard** - Password from Metadata
+- **Password Puzzles / hard** - Hash Puzzle
+- **Password Puzzles / hard** - Dictionary Pattern
+- **Password Puzzles / hard** - Prime + Caesar
+- **Password Puzzles / hard** - Recursive Encoding
+- **Password Puzzles / hard** - QR + Cipher
+- **Password Puzzles / hard** - Audio Password
+- **Password Puzzles / hard** - Image Password
+- **Password Puzzles / hard** - Puzzle Box
+- **Password Puzzles / hard** - Dictionary Attack Simulation
+- **Password Puzzles / hard** - Time-Based Password
+- **Password Puzzles / hard** - Layered Number Cipher
+- **Password Puzzles / hard** - Polybius Square
+- **Password Puzzles / hard** - Bacon Cipher
+- **Password Puzzles / hard** - Final Password Meta
