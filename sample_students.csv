@@ -1,0 +1,4 @@
+roll_number,full_name,email,branch,year_of_study,phone,form_filled
+21CS101,Hardik Bansal,hardik@college.edu,CSE,3,9998887776,true
+21CS102,Aisha Khan,aisha@college.edu,CSE,3,9876543210,true
+21EC110,Rohit Verma,rohit@college.edu,ECE,2,9812345678,false

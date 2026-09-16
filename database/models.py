@@ -34,8 +34,27 @@ class User(db.Model):
     team_name = db.Column(db.String(100))
     role = db.Column(db.String(20), nullable=False, default="participant")  # participant/organizer/admin
     is_active = db.Column(db.Boolean, nullable=False, default=True)
+    # Set True once the account is matched against a verified_students row
+    # during registration (see migration 002).
+    is_verified = db.Column(db.Boolean, nullable=False, default=False)
+    last_login_at = db.Column(db.DateTime)
     created_at = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     updated_at = db.Column(db.DateTime, nullable=False, default=datetime.utcnow, onupdate=datetime.utcnow)
+
+    def to_dict(self):
+        """Safe public representation - never includes password_hash."""
+        return {
+            "id": self.id,
+            "username": self.username,
+            "email": self.email,
+            "full_name": self.full_name,
+            "team_name": self.team_name,
+            "role": self.role,
+            "is_active": self.is_active,
+            "is_verified": self.is_verified,
+            "created_at": self.created_at.isoformat() if self.created_at else None,
+            "last_login_at": self.last_login_at.isoformat() if self.last_login_at else None,
+        }
 
 
 # ---------------------------------------------------------------------
