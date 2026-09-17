@@ -4,7 +4,6 @@
     "difficulty": "easy",
     "title": "1. Easy",
     "question": "I have keys but open no locks. I have space but no room. You can enter, but you cannot walk inside me. What am I?",
-    "description": "A classic riddle where the words \"keys,\" \"space,\" and \"enter\" point toward a computer object",
     "answer": "Keyboard",
     "hints": [
       "You use me while typing",
@@ -17,7 +16,6 @@
     "difficulty": "easy",
     "title": "2. Easy",
     "question": "I speak without a mouth and hear without ears. I have no body, but I come alive when sound reaches me. What am I?",
-    "description": "Identify the phenomenon that repeats a sound",
     "answer": "Echo",
     "hints": [
       "You often hear me in mountains",
@@ -30,7 +28,6 @@
     "difficulty": "easy",
     "title": "3. Easy",
     "question": "The more you take from me, the bigger I become. What am I?",
-    "description": "The answer is something that grows when material is removed from it",
     "answer": "Hole",
     "hints": [
       "Removing something creates me",
@@ -43,7 +40,6 @@
     "difficulty": "easy",
     "title": "4. Easy",
     "question": "I have a face and two hands, but no arms or legs. What am I?",
-    "description": "Use the clues about a face and hands to identify the object",
     "answer": "Clock",
     "hints": [
       "I measure time",
@@ -56,7 +52,6 @@
     "difficulty": "easy",
     "title": "5. Easy",
     "question": "I get wetter as I dry something else. What am I?",
-    "description": "Think of an everyday object whose purpose involves drying",
     "answer": "Towel",
     "hints": [
       "You use me after a shower",
@@ -69,7 +64,6 @@
     "difficulty": "easy",
     "title": "6. Easy",
     "question": "I have one eye but cannot see. What am I?",
-    "description": "The word \"eye\" refers to a hole rather than an actual organ",
     "answer": "Needle",
     "hints": [
       "I am used for sewing",
@@ -82,7 +76,6 @@
     "difficulty": "easy",
     "title": "7. Easy",
     "question": "I become shorter every time I work, yet I help you see. What am I?",
-    "description": "Identify the object that decreases in size while producing light",
     "answer": "Candle",
     "hints": [
       "I contain a wick",
@@ -95,7 +88,6 @@
     "difficulty": "easy",
     "title": "8. Easy",
     "question": "I have teeth but cannot bite. What am I?",
-    "description": "\"Teeth\" are used metaphorically to describe a common object",
     "answer": "Comb",
     "hints": [
       "I am used with hair",
@@ -108,7 +100,6 @@
     "difficulty": "easy",
     "title": "9. Easy",
     "question": "I fly without wings and cry without eyes. Wherever I go, darkness follows me. What am I?",
-    "description": "Identify the natural object associated with darkness and rain",
     "answer": "Cloud",
     "hints": [
       "I float in the sky",
@@ -121,7 +112,6 @@
     "difficulty": "easy",
     "title": "10. Easy",
     "question": "I have a neck but no head, and I can hold something inside me. What am I?",
-    "description": "The clue describes a container with a narrow upper section",
     "answer": "Bottle",
     "hints": [
       "I can contain water",
@@ -134,7 +124,6 @@
     "difficulty": "easy",
     "title": "11. Easy",
     "question": "I am full of holes, but I can still hold water. What am I?",
-    "description": "Find the object whose holes are small enough to retain liquid through surface tension",
     "answer": "Sponge",
     "hints": [
       "I absorb liquids",
@@ -147,7 +136,6 @@
     "difficulty": "easy",
     "title": "12. Easy",
     "question": "I have pages but I am not a tree. I contain stories but cannot speak. What am I?",
-    "description": "The clues point to a common source of written stories",
     "answer": "Book",
     "hints": [
       "You read me",
@@ -160,7 +148,6 @@
     "difficulty": "easy",
     "title": "13. Easy",
     "question": "I follow you everywhere during the day but disappear when the light is gone. What am I?",
-    "description": "Identify the dark shape produced by blocking light",
     "answer": "Shadow",
     "hints": [
       "Light creates me",
@@ -173,7 +160,6 @@
     "difficulty": "easy",
     "title": "14. Easy",
     "question": "I have numbers and hands but cannot clap. What am I?",
-    "description": "Identify the object using the clues \"numbers\" and \"hands.\"",
     "answer": "Clock",
     "hints": [
       "I tell time",
@@ -186,7 +172,6 @@
     "difficulty": "easy",
     "title": "15. Easy",
     "question": "I can be cracked, made, told, and played. What am I?",
-    "description": "The same word fits several common expressions",
     "answer": "Joke",
     "hints": [
       "People laugh at me",
@@ -199,7 +184,6 @@
     "difficulty": "easy",
     "title": "16. Easy",
     "question": "I disappear as soon as you say my name. What am I?",
-    "description": "Think of something that exists only while it remains unspoken",
     "answer": "Silence",
     "hints": [
       "I involve the absence of sound",
@@ -212,7 +196,6 @@
     "difficulty": "easy",
     "title": "17. Easy",
     "question": "I am always coming but never arrive. What am I?",
-    "description": "The answer is a concept related to time",
     "answer": "Tomorrow",
     "hints": [
       "I refer to the future",
@@ -225,7 +208,6 @@
     "difficulty": "easy",
     "title": "18. Easy",
     "question": "I have a thumb and four fingers, but I am not alive. What am I?",
-    "description": "Identify the object shaped like a hand",
     "answer": "Glove",
     "hints": [
       "You wear me",
@@ -238,7 +220,6 @@
     "difficulty": "easy",
     "title": "19. Easy",
     "question": "I can travel around the world while staying in one corner. What am I?",
-    "description": "The riddle refers to something placed in a corner of an envelope",
     "answer": "Stamp",
     "hints": [
       "I belong on mail",
@@ -251,7 +232,6 @@
     "difficulty": "easy",
     "title": "20. Easy",
     "question": "I am black when clean and white when dirty. What am I?",
-    "description": "Think of a surface used for writing with chalk",
     "answer": "Blackboard",
     "hints": [
       "Teachers use me",
@@ -264,7 +244,6 @@
     "difficulty": "medium",
     "title": "21. Medium",
     "question": "I can be written, broken, kept, and given. What am I?",
-    "description": "Find the word that forms all four common expressions",
     "answer": "Promise",
     "hints": [
       "You can make me to someone",
@@ -493,7 +472,7 @@
       "Copies can preserve me"
     ]
   },
-  {
+  { 
     "category": "Hidden Clue",
     "difficulty": "medium",
     "title": "39. Medium",
@@ -770,9 +749,9 @@
     "category": "Hidden Clue",
     "difficulty": "hard",
     "title": "60. Hard",
-    "question": "A paper says: \"Look between the lines.\" The visible lines are: C A T X Y Z Read only the letters that appear between the first and last letters of each line. What hidden sequence appears?",
+    "question": "A paper says: \"Look between the lines.\" The visible lines are: I C E\n B O X\n A D D\n T E N\n. Read only the letters that appear between the first and last letters of each line. What hidden sequence appears?",
     "description": "This is a positional hidden-clue puzzle. The solver must identify the characters physically between the outer characters",
-    "answer": "AYT",
+    "answer": "CODE",
     "hints": [
       "Focus on the middle positions",
       "Ignore the first and last characters",
@@ -782,389 +761,359 @@
   {
     "category": "Password Puzzles",
     "difficulty": "easy",
-    "title": "A1Z26 Password",
-    "question": "Convert 3-25-2-5-18 to letters",
-    "description": "Convert 3-25-2-5-18 to letters",
-    "answer": null,
+    "title": "Cybersecurity Basics",
+    "question": "What word describes a secret code used to access an account?",
+    "answer": "Password",
     "hints": [
-      "A=1",
-      "map numbers",
-      "read sequentially"
+      "You used it to log in",
+      "It should be kept secret.",
+      " It protects your account."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "easy",
-    "title": "Reverse Password",
-    "question": "TERCES is given",
-    "description": "TERCES is given",
-    "answer": null,
+    "title": "Biometrics",
+    "question": "What device is commonly used to unlock a phone using your face?",
+    "answer": "Face",
     "hints": [
-      "Read backward",
-      "reverse string",
-      "obtain password"
+      "It is part of your identity.",
+      "Cameras can recognize it.",
+      "It is on the front of your head."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "easy",
-    "title": "Missing Vowel",
-    "question": "CYB_R",
-    "description": "CYB_R",
-    "answer": null,
+    "title": "Internet Basics",
+    "question": "What symbol is commonly used in email addresses?",
+    "answer": "@",
     "hints": [
-      "Cyber-related word",
-      "missing vowel",
-      "complete it"
+      "symbol of AT",
+      " It separates the username and domain.",
+      "Its symbol is @."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "easy",
-    "title": "Keyboard Shift",
-    "question": "SFT requires keys immediately to the right",
-    "description": "SFT requires keys immediately to the right",
-    "answer": null,
+    "title": "Web Security",
+    "question": "What does a website usually begin with when using secure communication?",
+    "answer": "HTTPS",
     "hints": [
-      "Think QWERTY",
-      "move one key",
-      "read result"
+      "It is related to HTTP.",
+      "The extra letter matters.",
+      "The S stands for secure."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "easy",
-    "title": "Number-to-Letter",
-    "question": "20 5 19 20",
-    "description": "20 5 19 20",
-    "answer": null,
+    "title": "Banking Security",
+    "question": "What is the secret number used with a bank card?",
+    "answer": "PIN",
     "hints": [
-      "A1Z26",
-      "map each number",
-      "form word"
+      " It usually contains digits.",
+      " You enter it at an ATM.",
+      "It stands for Personal Identification Number."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "easy",
-    "title": "Odd Letters",
-    "question": "Extract characters in odd positions",
-    "description": "Extract characters in odd positions",
-    "answer": null,
+    "title": "Malware",
+    "question": "What malicious software can copy itself and spread between computers?",
+    "answer": "Worm",
     "hints": [
-      "Ignore even positions",
-      "start at 1",
-      "combine"
+      "It is malware.",
+      "It can spread automatically.",
+      " Its name is also an animal."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "easy",
-    "title": "Even Letters",
-    "question": "Extract even-position characters",
-    "description": "Extract even-position characters",
-    "answer": null,
+    "title": "Malware",
+    "question": "What malicious program disguises itself as legitimate software?",
+    "answer": "Torjan",
     "hints": [
-      "Count positions",
-      "take 2,4,6",
-      "combine"
+      "Think of Greek mythology.",
+      "It hides its true purpose.",
+      " It is named after a famous horse."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "easy",
-    "title": "Anagram",
-    "question": "RTAEHC",
-    "description": "RTAEHC",
-    "answer": null,
+    "title": "Cryptography",
+    "question": "What technology converts readable information into an unreadable form?",
+    "answer": "Encryption",
     "hints": [
-      "Rearrange",
-      "cybersecurity term",
-      "\"TH...\""
+      "It protects information.",
+      "A key is often involved",
+      "It turns plaintext into ciphertext."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "easy",
-    "title": "Simple Caesar",
-    "question": "Shift every letter by 1",
-    "description": "Shift every letter by 1",
-    "answer": null,
+    "title": "Cybersecurity",
+    "question": "What do we call a person who illegally accesses computer systems?",
+    "answer": "Hacker"
+,   "hints": [
+      "They work with computers.",
+      "They may exploit vulnerabilities.",
+      " The word starts with H."
+     ]
+  },
+  {
+    "category": "Password Puzzles",
+    "difficulty": "easy",
+    "title": "Authentication",
+    "question": "What is the process of proving who you are online?",
+    "answer": "Authentication",
     "hints": [
-      "Caesar cipher",
-      "shift backward",
-      "decode"
+      "It happens during login.",
+      "Passwords can be used.",
+      "It verifies identity."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "easy",
-    "title": "First Letters",
-    "question": "Cyber Hunters Need Trust",
-    "description": "Cyber Hunters Need Trust",
-    "answer": null,
+    "title": "Networking",
+    "question": "What device connects multiple devices within a network?",
+    "answer": "Router",
     "hints": [
-      "Take initials",
-      "CHNT",
-      "use clue context"
+      "It directs traffic.",
+      "You may have one at home.",
+      " It connects networks"
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "easy",
-    "title": "Last Letters",
-    "question": "Four words hide their final characters",
-    "description": "Four words hide their final characters",
-    "answer": null,
+    "title": "Social Engineering",
+    "question": "What is a fake message designed to steal personal information called?",
+    "answer": "Phishing",
     "hints": [
-      "Ignore beginnings",
-      "take endings",
-      "combine"
+      "It often arrives by email",
+      " It tries to trick you",
+      " It sounds like fishing"
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "easy",
-    "title": "Binary Password",
-    "question": "01000011 01011000",
-    "description": "01000011 01011000",
-    "answer": null,
+    "title": "Technology",
+    "question": "What is the name of Google’s web browser?",
+    "answer": "Chrome" ,
     "hints": [
-      "8-bit",
-      "ASCII",
-      "convert"
+      "It is made by Google.",
+      "It is used to browse websites.",
+      "Its logo has red, yellow, green and blue."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "easy",
-    "title": "Morse Password",
-    "question": "-.-. --- -",
-    "description": "-.-. --- -",
-    "answer": null,
+    "title": "Authentication",
+    "question": "What is the standard name for a secret word or phrase used to authenticate someone?",
+    "answer":"Credential",
     "hints": [
-      "Dashes/dots",
-      "Morse",
-      "decode"
+      "It proves something about your identity.",
+      "Passwords are one type.",
+      "It can be used to log in."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "easy",
-    "title": "Hex Password",
-    "question": "43 54 46",
-    "description": "43 54 46",
-    "answer": null,
+    "title": " Information Security",
+    "question": "What do we call information that is hidden from unauthorized people?",
+    "answer": "Confidential",
     "hints": [
-      "Hexadecimal",
-      "ASCII",
-      "read"
+      " It should not be publicly shared.",
+      " Sensitive information can be this.",
+      " It means private or secret."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "easy",
-    "title": "ROT13",
-    "question": "PLFURE",
-    "description": "PLFURE",
-    "answer": null,
+    "title": "Networking",
+    "question": "What is the common abbreviation for a Virtual Private Network?",
+    "answer": "VPN",
     "hints": [
-      "ROT13",
-      "shift 13",
-      "decode"
+      " It can improve privacy online.",
+      "It creates an encrypted connection.",
+      "It has three letters."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "easy",
-    "title": "Alphabet Position",
-    "question": "Find positions of C-Y-B-E-R",
-    "description": "Find positions of C-Y-B-E-R",
-    "answer": null,
+    "title": "Cybersecurity",
+    "question": "What do we call a weakness in computer software?",
+    "answer": "Vulnerability",
     "hints": [
-      "A=1",
-      "calculate",
-      "concatenate"
+      " Attackers may exploit it.",
+      "Security teams try to fix it.",
+      " It means a weakness."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "easy",
-    "title": "Word Length Password",
-    "question": "Five clue words have lengths 4-3-5-2",
-    "description": "Five clue words have lengths 4-3-5-2",
-    "answer": null,
+    "title": "Internet Security",
+    "question": "What is the term for unwanted email?",
+    "answer": "Spam",
     "hints": [
-      "Count characters",
-      "use numbers",
-      "decode"
+      " It fills inboxes",
+      "It can contain advertisements.",
+      "It is also a canned meat brand."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "easy",
-    "title": "Symbol Password",
-    "question": "Symbols correspond to keyboard numbers",
-    "description": "Symbols correspond to keyboard numbers",
-    "answer": null,
+    "title": "Cryptography",
+    "question": "What is the secret piece of information used in cryptography?",
+    "answer": "Key",
     "hints": [
-      "Look at keyboard",
-      "symbols above numbers",
-      "map them"
+      "It can unlock encrypted information.",
+      " It works with encryption.",
+      "You use one to open a lock too."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "easy",
-    "title": "Mirror Text",
-    "question": "A word appears reflected",
-    "description": "A word appears reflected",
-    "answer": null,
+    "title": "Operating Systems",
+    "question": " What is the name of Microsoft’s operating system?",
+    "answer": "Windows",
     "hints": [
-      "Reverse",
-      "read normally",
-      "identify word"
-    ]
-  },
-  {
-    "category": "Password Puzzles",
-    "difficulty": "easy",
-    "title": "Simple Riddle Password",
-    "question": "\"I protect accounts but am not a lock.\"",
-    "description": "\"I protect accounts but am not a lock.\"",
-    "answer": null,
-    "hints": [
-      "Used during login",
-      "secret",
-      "password"
+      " It runs on PCs.",
+      "Microsoft developed it.",
+      "Its name relates to something in a house."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "medium",
-    "title": "Double Caesar",
-    "question": "Two Caesar shifts are applied",
-    "description": "Two Caesar shifts are applied",
-    "answer": null,
+    "title": "Password Security",
+    "question": "What attack tries many possible passwords until one works?",
+    "answer": "Bruteforce",
     "hints": [
-      "Decode one layer",
-      "test result",
-      "repeat"
+      "It relies on repeated attempts.",
+      "Computers can automate it",
+      "It tries combinations one after another."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "medium",
-    "title": "Base64 Password",
-    "question": "Encoded password supplied",
-    "description": "Encoded password supplied",
-    "answer": null,
+    "title": "Password Security",
+    "question": "What attack uses a list of commonly used passwords?",
+    "answer": "Dictionary",
     "hints": [
-      "Recognize Base64",
-      "decode",
-      "inspect result"
+      "It doesn’t necessarily try every combination.",
+      " Common words are useful to the attacker.",
+      "Think about a collection of words."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "medium",
-    "title": "Vigenère Intro",
-    "question": "Ciphertext + key provided",
-    "description": "Ciphertext + key provided",
-    "answer": null,
+    "title": "Cryptography",
+    "question": "What technique adds random data to a password before hashing?",
+    "answer": "Salting",
     "hints": [
-      "Key is important",
-      "Vigenère",
-      "apply key repeatedly"
+      "It strengthens password storage",
+      "It is combined with a hash.",
+      " Think of adding something before cooking."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "medium",
-    "title": "Keyboard Diagonal",
-    "question": "Letters are one key diagonally displaced",
-    "description": "Letters are one key diagonally displaced",
-    "answer": null,
+    "title": "Cryptography",
+    "question": " What is the process of converting a password into a fixed length value?",
+    "answer": "Hashing",
     "hints": [
-      "QWERTY",
-      "inspect neighboring keys",
-      "reverse displacement"
+      "It is commonly one way.",
+      "Password databases use it.",
+      "SHA 256 is an example."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "medium",
-    "title": "Mixed Case",
-    "question": "Uppercase letters contain one password",
-    "description": "Uppercase letters contain one password",
-    "answer": null,
+    "title": " Network Security",
+    "question": "What attack secretly intercepts communication between two parties?",
+    "answer": " MitM",
     "hints": [
-      "Ignore lowercase",
-      "extract capitals",
-      "decode"
+      "The attacker is in the middle.",
+      "Communication is intercepted.",
+      " It is abbreviated using three letters."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "medium",
-    "title": "Word-to-Number",
-    "question": "ONE, THREE, FIVE, etc",
-    "description": "ONE, THREE, FIVE, etc",
-    "answer": null,
+    "title": "Network Security",
+    "question": "What attack overwhelms a server with traffic from many systems?",
+    "answer": "DDoS",
     "hints": [
-      "Convert words",
-      "numbers",
-      "use A1Z26"
+      "It targets availability",
+      "Many devices may participate.",
+      " It stands for Distributed Denial of Service."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "medium",
-    "title": "Prime Positions",
-    "question": "Extract letters at prime-numbered positions",
-    "description": "Extract letters at prime-numbered positions",
-    "answer": null,
+    "title": " Malware",
+    "question": "What malware encrypts files and demands payment?",
+    "answer": "Ransomware",
     "hints": [
-      "Prime numbers",
-      "2,3,5,7",
-      "extract"
+      "Your files may become inaccessible.",
+      " Money is demanded.",
+      " The name combines ransom and software."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "medium",
-    "title": "Fibonacci Positions",
-    "question": "Extract letters at Fibonacci positions",
-    "description": "Extract letters at Fibonacci positions",
-    "answer": null,
+    "title": " Phishing",
+    "question": "What is a fake login page designed to steal credentials called?",
+    "answer": "Phishing",
     "hints": [
-      "1,1,2,3,5",
-      "avoid duplicates",
-      "extract"
+      "It looks like a legitimate website.",
+      "Users enter their credentials.",
+      "It is a type of social engineering."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "medium",
-    "title": "Rail Fence",
-    "question": "Ciphertext created using 3 rails",
-    "description": "Ciphertext created using 3 rails",
-    "answer": null,
+    "title": "Network Security",
+    "question": "What security system monitors and filters network traffic?",
+    "answer": "Firewall",
     "hints": [
-      "Rail Fence cipher",
-      "determine rails",
-      "reconstruct"
+      "It can block suspicious traffic.",
+      " It protects networks.",
+      "Think of a wall against fire."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "medium",
-    "title": "Column Transposition",
-    "question": "Key determines column order",
-    "description": "Key determines column order",
-    "answer": null,
+    "title": "Web Security",
+    "question": "What protocol is commonly used to securely transfer web pages?",
+    "answer": "HTTPS",
     "hints": [
-      "Key is supplied",
+      "",
       "reorder columns",
       "read rows"
     ]
@@ -1172,391 +1121,361 @@
   {
     "category": "Password Puzzles",
     "difficulty": "medium",
-    "title": "Hex → Base64",
-    "question": "Two encoding layers",
-    "description": "Two encoding layers",
-    "answer": null,
+    "title": "Cryptography",
+    "question": " What type of encryption uses the same key to encrypt and decrypt data?",
+    "answer": "Symmetric",
     "hints": [
-      "Decode hex first",
-      "output resembles Base64",
-      "decode again"
+      "One key is involved.",
+      "It is generally fast.",
+      " Its opposite is asymmetric."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "medium",
-    "title": "ROT + Reverse",
-    "question": "Cipher requires both transformations",
-    "description": "Cipher requires both transformations",
-    "answer": null,
+    "title": "Cryptography",
+    "question": "What encryption system uses a public and private key?",
+     "answer": " Asymmetric",
     "hints": [
-      "Try ROT13",
-      "reverse",
-      "check readability"
+      "Two keys are involved.",
+      "One key can be publicly shared",
+      "RSA is an example."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "medium",
-    "title": "ASCII Decimal",
-    "question": "67 84 70",
-    "description": "67 84 70",
-    "answer": null,
+    "title": "Web Security",
+    "question": "What attack injects malicious database commands through user input?",
+    "answer": "SQLi",
     "hints": [
-      "ASCII decimal",
-      "convert values",
-      "read text"
+      " It targets databases.",
+      "SQL is involved.",
+      "The full term starts with SQL."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "medium",
-    "title": "XOR Puzzle",
-    "question": "Text encrypted with a one-byte key",
-    "description": "Text encrypted with a one-byte key",
-    "answer": null,
+    "title": "Web Security",
+    "question": "What vulnerability allows malicious scripts to execute in another user’s browser?",
+    "answer":"XSS",
     "hints": [
-      "XOR is reversible",
-      "key supplied indirectly",
-      "apply XOR"
+      "It targets web applications.",
+      "JavaScript may be involved.",
+      " It has three letters."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "medium",
-    "title": "Password Riddle Chain",
-    "question": "Three riddles each provide one word",
-    "description": "Three riddles each provide one word",
-    "answer": null,
+    "title": "Cryptography",
+    "question": "What process converts ciphertext back into readable information?",
+    "answer": "Decryption",
     "hints": [
-      "Solve separately",
-      "order matters",
-      "concatenate"
+      "It reverses encryption.",
+      "A key may be required.",
+      " It produces plaintext"
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "medium",
-    "title": "Date Password",
-    "question": "Historical clue gives a date",
-    "description": "Historical clue gives a date",
-    "answer": null,
+    "title": "Software Security",
+    "question": "What is a security update that fixes a vulnerability called?",
+    "answer": "Patch",
     "hints": [
-      "Identify event",
-      "determine date",
-      "format as instructed"
+      "Software developers release it.",
+      "It fixes bugs or security issues.",
+      "Think of repairing a hole."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "medium",
-    "title": "Periodic Table Password",
-    "question": "Atomic numbers represent letters",
-    "description": "Atomic numbers represent letters",
-    "answer": null,
+    "title": "Social Engineering",
+    "question": "What attack tricks users into revealing confidential information through psychological manipulation?",
+    "answer": "Social",
     "hints": [
-      "Identify elements",
-      "use atomic numbers",
-      "map to letters"
+      "It targets people rather than only machines.",
+      "It exploits human behavior.",
+      " It is commonly followed by engineering."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "medium",
-    "title": "Phone Keypad",
-    "question": "Numbers correspond to letters",
-    "description": "Numbers correspond to letters",
-    "answer": null,
+    "title": " Access Control",
+    "question": "What security principle gives users only the access they actually need?",
+    "answer": "LeastPrivilege",
     "hints": [
-      "Think old mobile keypad",
-      "map numbers",
-      "form word"
+      "It limits permissions.",
+      "Users shouldn’t get unnecessary access",
+      " Think “Least.”"
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "medium",
-    "title": "Braille Pattern",
-    "question": "Six-dot patterns provided",
-    "description": "Six-dot patterns provided",
-    "answer": null,
+    "title": "Authentication",
+    "question": "What is an additional authentication factor besides a password called?",
+    "answer":"MFA" ,
     "hints": [
-      "Braille alphabet",
-      "map cells",
-      "combine letters"
+      " It improves login security.",
+      " It may involve a phone or biometric.",
+      "It has three letters."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "medium",
-    "title": "Multi-Step Password",
-    "question": "Anagram → Caesar → Base64",
-    "description": "Anagram → Caesar → Base64",
-    "answer": null,
+    "title": "Web Security",
+    "question": "What attack attempts to steal a user’s active login session?",
+    "answer": "SessionHijacking",
     "hints": [
-      "Solve obvious transformation",
-      "decode next layer",
-      "repeat"
+      "It targets sessions.",
+      " Cookies may be involved.",
+      "The session is taken over."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "hard",
-    "title": "Vigenère with Hidden Key",
-    "question": "Vigenère with Hidden Key",
-    "description": null,
-    "answer": null,
+    "title": " Cryptography",
+    "question": "What cryptographic algorithm produces a 256 bit hash commonly used for integrity verification?",
+    "answer":"SHA256" ,
     "hints": [
-      "Find key first",
-      "identify Vigenère",
-      "decrypt"
+      "It belongs to SHA 2.",
+      "The number is 256.",
+      "SHA + 256."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "hard",
-    "title": "Encrypted Archive Password",
-    "question": "Encrypted Archive Password",
-    "description": null,
-    "answer": null,
+    "title": "Web Security",
+    "question": "What attack exploits differences in how applications process SQL queries?",
+    "answer": "SQLi",
     "hints": [
-      "Inspect archive metadata",
-      "find clue file",
-      "derive password"
+      " It targets databases.",
+      "User input is often involved.",
+      "Think of SQL Injection."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "hard",
-    "title": "Known-Plaintext XOR",
-    "question": "Known-Plaintext XOR",
-    "description": null,
-    "answer": null,
+    "title": "Web Security",
+    "question": "What vulnerability occurs when an application executes commands supplied by an attacker?",
+    "answer": "Injection",
     "hints": [
-      "Compare known text",
-      "XOR corresponding bytes",
-      "derive key"
+      "It involves untrusted input.",
+      "SQL injection is one example.",
+      "The attack inserts something malicious."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "hard",
-    "title": "Multi-Key Cipher",
-    "question": "Multi-Key Cipher",
-    "description": null,
-    "answer": null,
+    "title": "System Security",
+    "question": "What attack exploits a program’s failure to properly handle memory boundaries?",
+    "answer": "Overflow",
     "hints": [
-      "There are two keys",
-      "identify which applies first",
-      "decrypt sequentially"
+      "It involves memory.",
+      "Buffers are involved.",
+      "Think buffer ______."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "hard",
-    "title": "Transposition + Substitution",
-    "question": "Transposition + Substitution",
-    "description": null,
-    "answer": null,
+    "title": " Authentication",
+    "question": "What attack uses previously captured authentication data to gain access later?",
+    "answer": "Replay",
     "hints": [
-      "Look for scrambled positions",
-      "reconstruct",
-      "apply substitution"
+      "The attacker reuses something.",
+      "It may involve captured packets.",
+      "The word means to play again"
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "hard",
-    "title": "Password from Metadata",
-    "question": "Password from Metadata",
-    "description": null,
-    "answer": null,
+    "title": "Information Security",
+    "question": "What security property ensures information has not been modified without authorization?",
+    "answer": " Integrity",
     "hints": [
-      "Inspect document metadata",
-      "author/title/date",
-      "combine as instructed"
+      "It is one of the CIA triad.",
+      "It protects against unauthorized modification.",
+      " CIA stands for Confidentiality, Integrity, Availability."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "hard",
-    "title": "Hash Puzzle",
-    "question": "Hash Puzzle",
-    "description": null,
-    "answer": null,
+    "title": "Information Security",
+    "question": "What security property ensures authorized users can access information when needed?",
+    "answer": "Availability",
     "hints": [
-      "Identify hash type",
-      "use provided candidate list",
-      "compare hashes"
+      "It is part of CIA.",
+      "Downtime affects it.",
+      "It starts with A."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "hard",
-    "title": "Dictionary Pattern",
-    "question": "Dictionary Pattern",
-    "description": null,
-    "answer": null,
+    "title": " Information Security",
+    "question": "What security property prevents unauthorized disclosure of information?",
+    "answer": "Confidentiality",
     "hints": [
-      "Password consists of clue-derived words",
-      "identify theme",
-      "order words"
+      "It is part of CIA.",
+      "Encryption helps achieve it.",
+      "It means keeping information secret."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "hard",
-    "title": "Prime + Caesar",
-    "question": "Prime + Caesar",
-    "description": null,
-    "answer": null,
+    "title": "Web Security",
+    "question": "What security vulnerability involves sending malicious instructions through a web application’s input fields?",
+    "answer": "Injection",
     "hints": [
-      "Extract prime positions",
-      "then Caesar decode",
-      "determine shift from clue"
+      "User input is manipulated.",
+      "SQL injection is a common example.",
+      "it is a major web application security category."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "hard",
-    "title": "Recursive Encoding",
-    "question": "Recursive Encoding",
-    "description": null,
-    "answer": null,
+    "title": "Web Technology",
+    "question": "What mechanism securely stores a user’s login state between requests in many web applications?",
+    "answer":"Cookie",
     "hints": [
-      "Decode output",
-      "if encoded again, repeat",
-      "stop at plaintext"
+      "Browsers store it.",
+      "It can contain session information.",
+      "It is named after something you can eat."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "hard",
-    "title": "QR + Cipher",
-    "question": "QR + Cipher",
-    "description": null,
-    "answer": null,
+    "title": "Networking",
+    "question": " What protocol translates domain names into IP addresses?",
+    "answer": "DNS",
     "hints": [
-      "Scan QR",
-      "extracted text isn't final",
-      "identify cipher"
+      "It works behind the scenes when visiting website",
+      "It resolves names such as google.com.",
+      "It stands for Domain Name System."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "hard",
-    "title": "Audio Password",
-    "question": "Audio Password",
-    "description": null,
-    "answer": null,
+    "title": "Networking",
+    "question": "What protocol automatically assigns IP addresses to devices on a network?",
+    "answer": "DHCP",
     "hints": [
-      "Listen carefully",
-      "inspect waveform/spectrogram",
-      "find hidden signal"
+      "It happens when devices join networks.",
+      "It assigns IP configuration.",
+      "It has four letters."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "hard",
-    "title": "Image Password",
-    "question": "Image Password",
-    "description": null,
-    "answer": null,
+    "title": " Networking",
+    "question": "What command line tool is commonly used to test network connectivity using ICMP?",
+    "answer":"Ping",
     "hints": [
-      "Inspect metadata",
-      "inspect visual anomalies",
-      "decode hidden text"
+      "It sends packets to another host.",
+      "It measures response time.",
+      "It sounds like a sonar signal."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "hard",
-    "title": "Puzzle Box",
-    "question": "Puzzle Box",
-    "description": null,
-    "answer": null,
+    "title": "Networking",
+    "question": "What system translates human readable domain names into numerical network addresses?",
+    "answer": "DNS",
     "hints": [
-      "Several clues point to one key",
-      "solve dependencies",
-      "construct password"
+      "Websites use domain names.",
+      "Computers communicate using IP addresses.",
+      " It stands for Domain Name System."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "hard",
-    "title": "Dictionary Attack Simulation",
-    "question": "Dictionary Attack Simulation",
-    "description": null,
-    "answer": null,
+    "title": "Network Security",
+    "question": "What attack involves pretending to be a legitimate device or user?",
+    "answer": "Spoofing",
     "hints": [
-      "Candidate list provided",
-      "identify pattern",
-      "find matching hash"
+      "The attacker pretends to be legitimate.",
+      " DNS can be involved.",
+      "The word means impersonation."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "hard",
-    "title": "Time-Based Password",
-    "question": "Time-Based Password",
-    "description": null,
-    "answer": null,
+    "title": "Malware",
+    "question": "What type of malware secretly records a user’s keystrokes?",
+    "answer": "Keylogger",
     "hints": [
-      "Timestamp is important",
-      "determine format",
-      "calculate required value"
+      "It monitors typing.",
+      "Passwords can be captured.",
+      "Think Key + Logger."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "hard",
-    "title": "Layered Number Cipher",
-    "question": "Layered Number Cipher",
-    "description": null,
-    "answer": null,
+    "title": "Malware",
+    "question": "What malicious software provides unauthorized remote access to a computer?",
+    "answer":"RAT",
     "hints": [
-      "Numbers are not directly letters",
-      "identify first transformation",
-      "repeat"
+      " It allows remote control.",
+      "It is a type of malware.",
+      "It stands for Remote Access Trojan."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "hard",
-    "title": "Polybius Square",
-    "question": "Polybius Square",
-    "description": null,
-    "answer": null,
+    "title": "Cryptography",
+    "question": "What technique hides secret information inside an image, audio file, or other medium?",
+    "answer": "Steganography",
     "hints": [
-      "Numbers are pairs",
-      "use 5×5 grid",
-      "decode"
+      "The message is hidden rather than simply encrypted.",
+      "Images can contain hidden data.",
+      "It is associated with the idea of covered writing."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "hard",
-    "title": "Bacon Cipher",
-    "question": "Bacon Cipher",
-    "description": null,
-    "answer": null,
+    "title": "Vulnerability Research",
+    "question": "What attack exploits a previously unknown software vulnerability?",
+    "answer": "ZeroDay",
     "hints": [
-      "Two types of characters are present",
-      "classify them",
-      "decode groups of five"
+      "Developers may not yet have a fix.",
+      "The vulnerability is newly discovered",
+      "It has “zero days” of prior warning or patching."
     ]
   },
   {
     "category": "Password Puzzles",
     "difficulty": "hard",
-    "title": "Final Password Meta",
-    "question": "Final Password Meta",
-    "description": null,
-    "answer": null,
+    "title": "Cryptography",
+    "question": "What security technique verifies that a digital message came from the claimed sender and was not altered?",
+    "answer": "Signature",
     "hints": [
-      "Previous solved passwords matter",
-      "identify common relationship",
-      "construct final password"
+      "It uses cryptographic methods.",
+      "It can provide authenticity and integrity.",
+      "Think of signing a document digitally"
     ]
   },
   {
@@ -1577,7 +1496,6 @@
     "difficulty": "easy",
     "title": "Q2. Username Hunt",
     "question": "A person uses the username tech_raj on one public platform. What can you try searching to find whether the same username exists elsewhere?",
-    "description": "OSINT often begins by connecting publicly visible usernames",
     "answer": "Username",
     "hints": [
       "Search the username exactly",
