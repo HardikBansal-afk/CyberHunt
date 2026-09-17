@@ -4279,7 +4279,7 @@ WITH new_challenge AS (
     'Encoding/Decoding',
     'easy'::difficulty_level,
     5,
-    '13-15-15-14',
+    '13 15 15 14',
     TRUE
   )
   RETURNING id
@@ -4417,7 +4417,7 @@ WITH new_challenge AS (
     'Encoding/Decoding',
     'easy'::difficulty_level,
     5,
-    '4-2-8',
+    '4 2 8',
     TRUE
   )
   RETURNING id
@@ -4436,11 +4436,11 @@ WITH new_challenge AS (
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Increasing Shift',
-    'If ABC becomes BDF, what is the pattern?',
+    'If ABC becomes BDF, what is the pattern for CDE?',
     'Encoding/Decoding',
     'easy'::difficulty_level,
     5,
-    '+1,+2,+3',
+    'FHJ',
     TRUE
   )
   RETURNING id
@@ -4463,7 +4463,7 @@ WITH new_challenge AS (
     'Encoding/Decoding',
     'easy'::difficulty_level,
     5,
-    '4-15-7',
+    '4 15 7',
     TRUE
   )
   RETURNING id
@@ -4601,7 +4601,7 @@ WITH new_challenge AS (
     'Encoding/Decoding',
     'easy'::difficulty_level,
     5,
-    '1 # 🟡',
+    '1',
     TRUE
   )
   RETURNING id
@@ -4689,11 +4689,11 @@ WITH new_challenge AS (
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Position-Based Shift',
-    'If CAT becomes DBW, what rule is used?',
+    'If CAT becomes DBW, what rule is the answer of FILE?',
     'Encoding/Decoding',
     'medium'::difficulty_level,
     10,
-    '+1,+1,+3',
+    'GJMF',
     TRUE
   )
   RETURNING id
@@ -4808,7 +4808,7 @@ WITH new_challenge AS (
     'Encoding/Decoding',
     'medium'::difficulty_level,
     10,
-    'CMTR',
+    'CMUE',
     TRUE
   )
   RETURNING id
@@ -4831,7 +4831,7 @@ WITH new_challenge AS (
     'Encoding/Decoding',
     'medium'::difficulty_level,
     10,
-    '3-7',
+    '3 7',
     TRUE
   )
   RETURNING id
@@ -4946,7 +4946,7 @@ WITH new_challenge AS (
     'Encoding/Decoding',
     'medium'::difficulty_level,
     10,
-    '7-15-4',
+    '7 15 4',
     TRUE
   )
   RETURNING id
@@ -4969,7 +4969,7 @@ WITH new_challenge AS (
     'Encoding/Decoding',
     'medium'::difficulty_level,
     10,
-    '1-0-3',
+    '1 0 3',
     TRUE
   )
   RETURNING id
@@ -5038,7 +5038,7 @@ WITH new_challenge AS (
     'Encoding/Decoding',
     'medium'::difficulty_level,
     10,
-    'CMTR O P U E',
+    'CMUE OPTR',
     TRUE
   )
   RETURNING id
@@ -5061,7 +5061,7 @@ WITH new_challenge AS (
     'Encoding/Decoding',
     'medium'::difficulty_level,
     10,
-    '25-26-23 # 🔴',
+    '25 26 23',
     TRUE
   )
   RETURNING id
@@ -5241,11 +5241,11 @@ WITH new_challenge AS (
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Alternating Shift',
-    'In a code, odd-position letters move +1 and even-position letters move −1. How is CODE encoded?',
+    'In a code, odd-position letters move +1 and even-position letters move   −1. How is CODE encoded?',
     'Encoding/Decoding',
     'hard'::difficulty_level,
     15,
-    'DNEF',
+    'DNED',
     TRUE
   )
   RETURNING id
@@ -5383,7 +5383,7 @@ WITH new_challenge AS (
     'Encoding/Decoding',
     'hard'::difficulty_level,
     15,
-    '3-5',
+    '3 5',
     TRUE
   )
   RETURNING id
@@ -5521,7 +5521,7 @@ WITH new_challenge AS (
     'Encoding/Decoding',
     'hard'::difficulty_level,
     15,
-    'FEP',
+    'F*EP',
     TRUE
   )
   RETURNING id
@@ -5958,7 +5958,7 @@ WITH new_challenge AS (
     'Web Vulnerabilities',
     'easy'::difficulty_level,
     5,
-    'Social-engineering',
+    'Social engineering',
     TRUE
   )
   RETURNING id
@@ -5981,7 +5981,7 @@ WITH new_challenge AS (
     'Web Vulnerabilities',
     'easy'::difficulty_level,
     5,
-    'Lock # 🟡',
+    'Lock ',
     TRUE
   )
   RETURNING id
@@ -6027,7 +6027,7 @@ WITH new_challenge AS (
     'Web Vulnerabilities',
     'medium'::difficulty_level,
     10,
-    'Rate-limit',
+    'Rate limit',
     TRUE
   )
   RETURNING id
@@ -6441,7 +6441,7 @@ WITH new_challenge AS (
     'Web Vulnerabilities',
     'medium'::difficulty_level,
     10,
-    'Dependency # 🔴',
+    'Dependency',
     TRUE
   )
   RETURNING id
@@ -6740,7 +6740,7 @@ WITH new_challenge AS (
     'Web Vulnerabilities',
     'hard'::difficulty_level,
     15,
-    'Rate-limit',
+    'Rate limit',
     TRUE
   )
   RETURNING id
@@ -6951,14 +6951,7 @@ WITH new_challenge AS (
   INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Find the Error',
-    '#include <stdio.h>
-
-int main() {
-int age = 20;
-printf("%d", age)
-return 0;
-}',
+    'Which symbol is used to calculte the address of a variable ?',
     'C Coding',
     'easy'::difficulty_level,
     5,
@@ -6970,9 +6963,9 @@ return 0;
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Look at the printf', 1, 1),
-  ('C statements need something at the end', 2, 2),
-  ('Check the punctuation', 3, 3)
+  ('Related to memory ', 1, 1),
+  ('Used before a variable ', 2, 2),
+  ('Opposite of * ', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
 -- [303/360] C Coding / easy / Find the Output
@@ -7005,7 +6998,7 @@ WITH new_challenge AS (
   INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Fix the Code',
+    'Fix the Code and re-write the correct code of line containing error',
     '#include <stdio.h>
 
 int main() {
@@ -7017,7 +7010,7 @@ return 0;
     'C Coding',
     'easy'::difficulty_level,
     5,
-    ';',
+    'int a = 10;',
     TRUE
   )
   RETURNING id
@@ -7089,7 +7082,7 @@ WITH new_challenge AS (
   INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Find the Error',
+    'Fix the Error and re-write the correct code of line containing error',
     '#include <stdio.h>
 
 int main() {
@@ -7101,7 +7094,7 @@ return 0;
     'C Coding',
     'easy'::difficulty_level,
     5,
-    '&',
+    'scanf("%d", &a);',
     TRUE
   )
   RETURNING id
@@ -7333,7 +7326,7 @@ WITH new_challenge AS (
   INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Fix the Code',
+    'Fix the Code and write the correct line which contains error',
     '#include <stdio.h>
 
 int main() {
@@ -7344,7 +7337,7 @@ return 0;
     'C Coding',
     'easy'::difficulty_level,
     5,
-    ';',
+    'printf("Hello World");',
     TRUE
   )
   RETURNING id
@@ -7431,7 +7424,7 @@ return 0;
     'C Coding',
     'easy'::difficulty_level,
     5,
-    '%d',
+    'printf("%f", marks);',
     TRUE
   )
   RETURNING id
@@ -7456,7 +7449,7 @@ printf("%d", ch);',
     'C Coding',
     'easy'::difficulty_level,
     5,
-    '66 # 🟡',
+    '66',
     TRUE
   )
   RETURNING id
@@ -7525,15 +7518,11 @@ WITH new_challenge AS (
   INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Find the Bug',
-    'int x = 10;
-
-if(x = 20)
-printf("True");',
+    'Which function is commonly used to print output in C?',
     'C Coding',
     'medium'::difficulty_level,
     10,
-    '==',
+    'printf',
     TRUE
   )
   RETURNING id
@@ -7541,9 +7530,9 @@ printf("True");',
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('= assigns', 1, 1),
-  ('== compares', 2, 2),
-  ('The intended operation is comparison', 3, 3)
+  ('From stdio.h ', 1, 1),
+  ('Output function ', 2, 2),
+  ('Starts with p ', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
 -- [324/360] C Coding / medium / Find the Output
@@ -7608,14 +7597,11 @@ WITH new_challenge AS (
   INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Find the Error',
-    'int arr[5];
-
-arr[5] = 10;',
+    'Which loop executes its body at least once?',
     'C Coding',
     'medium'::difficulty_level,
     10,
-    'Overflow',
+    'do while',
     TRUE
   )
   RETURNING id
@@ -7623,9 +7609,9 @@ arr[5] = 10;',
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Array indexing starts at 0', 1, 1),
-  ('Five elements have indices 0--4', 2, 2),
-  ('Index 5 is outside the array', 3, 3)
+  ('first print then check', 1, 1),
+  ('Checks condition after execution ', 2, 2),
+  ('Entry controlled loop ', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
 -- [327/360] C Coding / medium / Find the Output
@@ -7658,12 +7644,11 @@ WITH new_challenge AS (
   INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Find the Error',
-    'int arr[3] = {1, 2, 3, 4};',
+    'Which function dynamically allocates memory in C?',
     'C Coding',
     'medium'::difficulty_level,
     10,
-    'Overflow',
+    'malloc',
     TRUE
   )
   RETURNING id
@@ -7671,9 +7656,9 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('The array size is 3', 1, 1),
-  ('How many values are provided?', 2, 2),
-  ('There are too many initializers', 3, 3)
+  ('From stdlib.h ', 1, 1),
+  ('Allocates requested bytes ', 2, 2),
+  ('Starts with m ', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
 -- [329/360] C Coding / medium / Find the Output
@@ -7735,18 +7720,11 @@ WITH new_challenge AS (
   INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Find the Error',
-    'int main() {
-int *p;
-
-*p = 10;
-
-return 0;
-}',
+    'Which storage class keeps a local variable's value between function calls?',
     'C Coding',
     'medium'::difficulty_level,
     10,
-    'Pointer',
+    'static',
     TRUE
   )
   RETURNING id
@@ -7754,9 +7732,9 @@ return 0;
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('p is a pointer', 1, 1),
-  ('Has it been given a valid address?', 2, 2),
-  ('You cannot safely dereference an uninitialized pointer', 3, 3)
+  ('Value persists ', 1, 1),
+  ('Local variable can use it ', 2, 2),
+  ('Starts with s ', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
 -- [332/360] C Coding / medium / Fix the Code
@@ -7772,7 +7750,7 @@ p = x;',
     'C Coding',
     'medium'::difficulty_level,
     10,
-    '&x',
+    'p=&x',
     TRUE
   )
   RETURNING id
@@ -7907,12 +7885,11 @@ WITH new_challenge AS (
   INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Find the Error',
-    'char str[5] = "Hello";',
+    'Which preprocessor directive is commonly used to include a header file?',
     'C Coding',
     'medium'::difficulty_level,
     10,
-    'Null',
+    'include',
     TRUE
   )
   RETURNING id
@@ -7920,9 +7897,9 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('"Hello" has five visible characters', 1, 1),
-  ('C strings need a special ending character', 2, 2),
-  ('Count the required space', 3, 3)
+  ('Begins with #  ', 1, 1),
+  ('Used before compilation ', 2, 2),
+  ('Contains include ', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
 -- [338/360] C Coding / medium / Find the Output
@@ -7988,19 +7965,11 @@ WITH new_challenge AS (
   INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Find the Error',
-    'int main() {
-int a = 10;
-int b = 0;
-
-printf("%d", a / b);
-
-return 0;
-}',
+    ' What type of bug occurs when allocated memory is never released?',
     'C Coding',
     'medium'::difficulty_level,
     10,
-    'Division # 🔴',
+    'memory leak',
     TRUE
   )
   RETURNING id
@@ -8008,9 +7977,9 @@ return 0;
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Look at the denominator', 1, 1),
-  ('b is zero', 2, 2),
-  ('Division by zero is invalid', 3, 3)
+  ('Memory remains allocated ', 1, 1),
+  ('Common with malloc() ', 2, 2),
+  ('2 word answer related to memory ', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
 -- [341/360] C Coding / hard / Find the Output
@@ -8025,7 +7994,7 @@ printf("%d %d", a++, ++a);',
     'C Coding',
     'hard'::difficulty_level,
     15,
-    'Undefined',
+    '6 7',
     TRUE
   )
   RETURNING id
@@ -8043,15 +8012,11 @@ WITH new_challenge AS (
   INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Find the Bug',
-    'int arr[5];
-
-for(int i = 0; i <= 5; i++)
-arr[i] = i;',
+    'Which memory region normally stores local automatic variables?',
     'C Coding',
     'hard'::difficulty_level,
     15,
-    '<',
+    'stack',
     TRUE
   )
   RETURNING id
@@ -8059,9 +8024,9 @@ arr[i] = i;',
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Array indices are 0--4', 1, 1),
-  ('The loop reaches 5', 2, 2),
-  ('Look at <=', 3, 3)
+  ('Function calls use it ', 1, 1),
+  ('Opposite of heap ', 2, 2),
+  ('Start with s ', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
 -- [343/360] C Coding / hard / Find the Output
@@ -8097,15 +8062,11 @@ WITH new_challenge AS (
   INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Find the Error',
-    'int *p;
-int x = 10;
-
-*p = x;',
+    'What type of array is commonly used to represent a string in C?',
     'C Coding',
     'hard'::difficulty_level,
     15,
-    'Uninitialized',
+    'character',
     TRUE
   )
   RETURNING id
@@ -8113,9 +8074,9 @@ int x = 10;
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('p has no valid address', 1, 1),
-  ('x is being assigned to the pointed location', 2, 2),
-  ('A pointer must point somewhere valid first', 3, 3)
+  ('Contains characters ', 1, 1),
+  ('Ends with \0 ', 2, 2),
+  ('starts with C', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
 -- [345/360] C Coding / hard / Fix the Code
@@ -8182,7 +8143,7 @@ WITH new_challenge AS (
   INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Find the Error',
+    'ind the Error and fix that line of code',
     '#include <stdio.h>
 
 int main() {
@@ -8195,7 +8156,7 @@ return 0;
     'C Coding',
     'hard'::difficulty_level,
     15,
-    'Dereference',
+    'printf("%d", *p);',
     TRUE
   )
   RETURNING id
@@ -8242,20 +8203,11 @@ WITH new_challenge AS (
   INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Find the Error',
-    'int main() {
-int x = 10;
-
-printf("%d", x);
-
-return 0;
-}
-
-printf("Hello");',
+    'What is the process of converting a variable from one type to another called?',
     'C Coding',
     'hard'::difficulty_level,
     15,
-    'Scope',
+    'type casting',
     TRUE
   )
   RETURNING id
@@ -8263,9 +8215,9 @@ printf("Hello");',
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Look at where it appears', 1, 1),
-  ('The function has already ended', 2, 2),
-  ('Executable statements normally belong inside functions', 3, 3)
+  ('Example: (float)x  ', 1, 1),
+  ('Changes interpretation/type ', 2, 2),
+  ('Start with t ', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
 -- [350/360] C Coding / hard / Find the Output
@@ -8300,14 +8252,11 @@ WITH new_challenge AS (
   INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Find the Error',
-    'char *str = "Hello";
-
-str[0] = ''Y'';',
+    'Which function is used to allocate zero-initialized memory for an array?',
     'C Coding',
     'hard'::difficulty_level,
     15,
-    'Literal',
+    'Calloc',
     TRUE
   )
   RETURNING id
@@ -8315,9 +8264,9 @@ str[0] = ''Y'';',
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('str points to a string literal', 1, 1),
-  ('String literals should not be modified', 2, 2),
-  ('Think read-only memory', 3, 3)
+  ('Similar to malloc() ', 1, 1),
+  ('Created different block of memory ', 2, 2),
+  ('Starts with C', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
 -- [352/360] C Coding / hard / Find the Output
@@ -8325,14 +8274,14 @@ WITH new_challenge AS (
   INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Find the Output',
+    'ind the Output for 32 bit compiler',
     'int x = 5;
 
 printf("%d", sizeof(x));',
     'C Coding',
     'hard'::difficulty_level,
     15,
-    'sizeof',
+    '32',
     TRUE
   )
   RETURNING id
@@ -8350,18 +8299,11 @@ WITH new_challenge AS (
   INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Find the Bug',
-    'int sum(int a, int b) {
-return a + b;
-}
-
-int main() {
-printf("%d", sum(5));
-}',
+    'What is the technique of allocating memory during program execution called?',
     'C Coding',
     'hard'::difficulty_level,
     15,
-    'Argument',
+    'dynamic memory allocation',
     TRUE
   )
   RETURNING id
@@ -8369,9 +8311,9 @@ printf("%d", sum(5));
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Look at the function definition', 1, 1),
-  ('How many arguments does it require?', 2, 2),
-  ('Only one was provided', 3, 3)
+  ('Happens at runtime ', 1, 1),
+  ('Uses malloc() ', 2, 2),
+  ('Full form of DMA ', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
 -- [354/360] C Coding / hard / Find the Output
@@ -8407,7 +8349,7 @@ WITH new_challenge AS (
   INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Find the Error',
+    ' Find the Error and fix to make the code safe',
     'int main() {
 int *p;
 
@@ -8421,7 +8363,7 @@ printf("%d", *p);
     'C Coding',
     'hard'::difficulty_level,
     15,
-    'Dangling',
+    'int *p =NULL; ',
     TRUE
   )
   RETURNING id
@@ -8475,16 +8417,16 @@ WITH new_challenge AS (
   INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Find the Bug',
+    'Find the output',
     'int x = 1;
 
-while(x <= 5) {
-printf("%d ", x);
+while(x <= 3) {
+printf("%d ", ++x);
 }',
     'C Coding',
     'hard'::difficulty_level,
     15,
-    'Infinite',
+    '2 3 4',
     TRUE
   )
   RETURNING id
@@ -8502,7 +8444,7 @@ WITH new_challenge AS (
   INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Find the Output',
+    'Find the Output where address of p is XA123320',
     'int x = 10;
 
 int *p = &x;
@@ -8511,7 +8453,7 @@ printf("%p", (void*)p);',
     'C Coding',
     'hard'::difficulty_level,
     15,
-    'Address',
+    'XA123320',
     TRUE
   )
   RETURNING id
@@ -8540,7 +8482,7 @@ return 0;
     'C Coding',
     'hard'::difficulty_level,
     15,
-    'Uninitialized',
+    'garbage value',
     TRUE
   )
   RETURNING id
@@ -8558,11 +8500,11 @@ WITH new_challenge AS (
   INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Find the Bug',
+    'Find the Bug and write the correct line which contains error',
     '#include <stdio.h>
 
 int factorial(int n) {
-return n * factorial(n - 1);
+return n * factorial(n);
 }
 
 int main() {
@@ -8571,7 +8513,7 @@ printf("%d", factorial(5));
     'C Coding',
     'hard'::difficulty_level,
     15,
-    'Recursion',
+    'return n * factorial(n-1);',
     TRUE
   )
   RETURNING id
