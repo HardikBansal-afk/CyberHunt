@@ -7166,9 +7166,8 @@ WITH new_challenge AS (
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
-    'char ch = ''A'';
-
-printf("%c", ch);',
+    'char ch = 'A';
+    printf("%c", ch);',
     'C Coding',
     'easy'::difficulty_level,
     5,
@@ -7720,7 +7719,7 @@ WITH new_challenge AS (
   INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Which storage class keeps a local variable's value between function calls?',
+    'Which storage class keeps a local variable value between function calls?',
     'C Coding',
     'medium'::difficulty_level,
     10,
@@ -7743,10 +7742,9 @@ WITH new_challenge AS (
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Fix the Code',
-    'int x = 10;
-int *p;
-
-p = x;',
+    ' int x = 10;
+     int *p;
+    p = x; ',
     'C Coding',
     'medium'::difficulty_level,
     10,
@@ -7909,7 +7907,6 @@ WITH new_challenge AS (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
     'int x = 10;
-
 {
 int x = 20;
 printf("%d ", x);
@@ -8040,7 +8037,7 @@ int *p = &a;
 
 *p = 25;
 
-printf("%d", a);',
+printf("%d", a); ',
     'C Coding',
     'hard'::difficulty_level,
     15,
@@ -8227,9 +8224,7 @@ WITH new_challenge AS (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
     'int a[] = {10, 20, 30};
-
 int *p = a;
-
 printf("%d", *(p + 1));',
     'C Coding',
     'hard'::difficulty_level,
@@ -8276,8 +8271,7 @@ WITH new_challenge AS (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'ind the Output for 32 bit compiler',
     'int x = 5;
-
-printf("%d", sizeof(x));',
+    printf("%d", sizeof(x));',
     'C Coding',
     'hard'::difficulty_level,
     15,
@@ -8323,10 +8317,8 @@ WITH new_challenge AS (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
     'int x = 10;
-
 int *p = &x;
 int **q = &p;
-
 printf("%d", **q);',
     'C Coding',
     'hard'::difficulty_level,
@@ -8352,12 +8344,10 @@ WITH new_challenge AS (
     ' Find the Error and fix to make the code safe',
     'int main() {
 int *p;
-
 {
 int x = 10;
 p = &x;
 }
-
 printf("%d", *p);
 }',
     'C Coding',
