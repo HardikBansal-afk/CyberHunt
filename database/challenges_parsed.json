@@ -1672,7 +1672,7 @@
     "difficulty": "easy",
     "title": "Q20. Evidence",
     "question": "An investigator finds a claim on social media. Should the claim itself be considered proof?",
-    "answer": "No # 🟡",
+    "answer": "No # ",
     "hints": [
       "Anyone can post online",
       "Look for supporting sources",
@@ -1912,7 +1912,7 @@
     "difficulty": "medium",
     "title": "Q40. Investigator's Rule",
     "question": "You have one strong clue and three weak clues pointing toward the same conclusion. Should you immediately declare the conclusion proven?",
-    "answer": "No # 🔴",
+    "answer": "No # ",
     "hints": [
       "A clue isn't automatically proof",
       "Seek independent confirmation",
@@ -2392,7 +2392,7 @@
     "difficulty": "easy",
     "title": "20. Simple Pattern",
     "question": "If DOG is coded as 15, where D=4, O=15, G=7 and the code is based on the middle letter, what is the code for CAT?",
-    "answer": "1 # 🟡",
+    "answer": "1 # ",
     "hints": [
       "CAT has three letters",
       "Find the middle letter",
@@ -2572,7 +2572,7 @@
     "difficulty": "medium",
     "title": "35. Reverse Number",
     "question": "If DOG = 4-15-7, what is the reverse code?",
-    "answer": "7-15-4",
+    "answer": "7 15 4",
     "hints": [
       "Keep the numbers unchanged",
       "Reverse their order",
@@ -2632,7 +2632,7 @@
     "difficulty": "medium",
     "title": "40. Alphabet Mirror",
     "question": "If A=26, B=25, C=24..., what is the code for BAD?",
-    "answer": "25 26 23 # 🔴",
+    "answer": "25 26 23 # ",
     "hints": [
       "A = 26",
       "B = 25",
@@ -3112,7 +3112,7 @@
     "difficulty": "easy",
     "title": "20. Security Lock",
     "question": "What symbol in a browser usually indicates that the connection to a website is encrypted?",
-    "answer": "Lock # 🟡",
+    "answer": "Lock # ",
     "hints": [
       "Look near the address bar",
       "It indicates a secure connection",
@@ -3352,7 +3352,7 @@
     "difficulty": "medium",
     "title": "40. Automatic Updates",
     "question": "A website uses a third-party library that has a known security flaw but the developer never updates it. What is the main weakness?",
-    "answer": "Dependency # 🔴",
+    "answer": "Dependency # ",
     "hints": [
       "The problem comes from another package",
       "Updates are available",
@@ -3832,7 +3832,7 @@
     "difficulty": "easy",
     "title": "20. Find the Output",
     "question": "char ch = 'B';\n\nprintf(\"%d\", ch);",
-    "answer": "66 # 🟡",
+    "answer": "66 # ",
     "hints": [
       "Characters have numeric codes",
       "C stores characters internally as integers",
@@ -4072,7 +4072,7 @@
     "difficulty": "medium",
     "title": "40. Find the Error",
     "question": "int main() {\nint a = 10;\nint b = 0;\n\nprintf(\"%d\", a / b);\n\nreturn 0;\n}",
-    "answer": "Division # 🔴",
+    "answer": "Division # ",
     "hints": [
       "Look at the denominator",
       "b is zero",
