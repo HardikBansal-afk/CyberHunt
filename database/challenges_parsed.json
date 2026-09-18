@@ -508,7 +508,7 @@
     "difficulty": "hard",
     "title": "43. Hard",
     "question": "\"Hidden clues are often buried between ordinary words.\" Take the first letter of each word. What pattern appears?",
-    "answer": "HCAOBBOW",
+    "answer": "HCAOBOW",
     "hints": [
       "Do not read normally",
       "Focus on word beginnings",
@@ -556,7 +556,7 @@
     "difficulty": "hard",
     "title": "47. Hard",
     "question": "\"sEcUrE PaSsWoRd\" contains a hidden message through alternating capitals. What is it?",
-    "answer": "EUEPSWR",
+    "answer": "EUPSWRD",
     "hints": [
       "Capitalization is intentional",
       "Ignore lowercase letters",
@@ -592,7 +592,7 @@
     "difficulty": "hard",
     "title": "50. Hard",
     "question": "A message says: \"The treasure is under the old tree.\" But every third word is the real clue. Which hidden word is obtained from \"The treasure is under the old tree\"?",
-    "answer": "old",
+    "answer": "Is",
     "hints": [
       "Number the words",
       "Select positions 3 and 6",
@@ -796,7 +796,7 @@
     "difficulty": "easy",
     "title": "Malware",
     "question": "What malicious program disguises itself as legitimate software?",
-    "answer": "Torjan",
+    "answer": "Trojan",
     "hints": [
       "Think of Greek mythology.",
       "It hides its true purpose.",
@@ -2307,8 +2307,8 @@
     "category": "Encoding/Decoding",
     "difficulty": "easy",
     "title": "13. Increasing Shift",
-    "question": "If ABC becomes BDF, what is the pattern?",
-    "answer": "+1,+2,+3",
+    "question": "If ABC becomes BDF, what is the pattern of CDE?",
+    "answer": "FHJ",
     "hints": [
       "A → B",
       "B → D",
@@ -2500,7 +2500,7 @@
     "difficulty": "medium",
     "title": "29. Alternate Letters",
     "question": "If COMPUTER is coded by taking letters from alternate positions starting with the first, what is the code?",
-    "answer": "CMTR",
+    "answer": "CMUE",
     "hints": [
       "C = 1",
       "M = 3",
@@ -2620,7 +2620,7 @@
     "difficulty": "medium",
     "title": "39. Odd-Even Code",
     "question": "In COMPUTER, take odd-position letters first and then even-position letters. What is the result?",
-    "answer": "CMTR O P U E",
+    "answer": "CMUE OPTR",
     "hints": [
       "Odd positions: 1,3,5,7",
       "Even positions: 2,4,6,8",
@@ -2728,7 +2728,7 @@
     "difficulty": "hard",
     "title": "48. Alternating Shift",
     "question": "In a code, odd-position letters move +1 and even-position letters move −1. How is CODE encoded?",
-    "answer": "DNEF",
+    "answer": "ENED",
     "hints": [
       "C → D",
       "O → N",
@@ -2871,8 +2871,8 @@
     "category": "Encoding/Decoding",
     "difficulty": "hard",
     "title": "60. The Final Logic Challenge",
-    "question": "A word is encoded using this rule: reverse the word → shift every letter +1 → replace vowels with . What is the code for CODE?",
-    "answer": "FEP",
+    "question": "A word is encoded using this rule: reverse the word → shift every letter +1 → replace vowels with * What is the code for CODE?",
+    "answer": "F*EP",
     "hints": [
       "Reverse CODE first",
       "Shift each letter forward",
@@ -3614,13 +3614,13 @@
   {
     "category": "C Coding",
     "difficulty": "easy",
-    "title": "2. Find the Error",
-    "question": "#include <stdio.h>\n\nint main() {\nint age = 20;\nprintf(\"%d\", age)\nreturn 0;\n}",
-    "answer": "printf",
+    "title": "2. Answer the question",
+    "question": "Which symbol is used to get the address of a variable?",
+    "answer": "&",
     "hints": [
-      "Look at the printf",
-      "C statements need something at the end",
-      "Check the punctuation"
+      "Related to memory",
+      "Used before a variable",
+      "Opposite of *"
     ]
   },
   {
@@ -3640,7 +3640,7 @@
     "difficulty": "easy",
     "title": "4. Fix the Code",
     "question": "#include <stdio.h>\n\nint main() {\nint a = 10\nprintf(\"%d\", a);\n\nreturn 0;\n}",
-    "answer": ";",
+    "answer": "int a = 10;",
     "hints": [
       "Look at the variable declaration",
       "C statements need punctuation",
@@ -3676,7 +3676,7 @@
     "difficulty": "easy",
     "title": "7. Find the Error",
     "question": "#include <stdio.h>\n\nint main() {\nint a;\nscanf(\"%d\", a);\n\nreturn 0;\n}",
-    "answer": "&",
+    "answer": "scanf(\"%d\", &a);",
     "hints": [
       "scanf() needs the address of the variable",
       "Think about &",
@@ -3784,7 +3784,7 @@
     "difficulty": "easy",
     "title": "16. Fix the Code",
     "question": "#include <stdio.h>\n\nint main() {\nprintf(\"Hello World\")\n\nreturn 0;\n}",
-    "answer": ";",
+    "answer": "printf(\"Hello World\");",
     "hints": [
       "Check the end of the statement",
       "printf() itself is correct",
@@ -3866,13 +3866,13 @@
   {
     "category": "C Coding",
     "difficulty": "medium",
-    "title": "23. Find the Bug",
-    "question": "int x = 10;\n\nif(x = 20)\nprintf(\"True\");",
-    "answer": "==",
+    "title": "23. Which function is commonly used to print output in C?",
+    "question": "The programmer intended to compare x with 20. What operator should be used?",
+    "answer": "printf",
     "hints": [
-      "= assigns",
-      "== compares",
-      "The intended operation is comparison"
+      "From stdio.h",
+      "Output function",
+      "Starts with p"
     ]
   },
   {
@@ -3902,13 +3902,13 @@
   {
     "category": "C Coding",
     "difficulty": "medium",
-    "title": "26. Find the Error",
-    "question": "int arr[5];\n\narr[5] = 10;",
-    "answer": "Overflow",
+    "title": "26. Answer the question",
+    "question": "Which loop executes its body at least once?",
+    "answer": "do-while",
     "hints": [
-      "Array indexing starts at 0",
-      "Five elements have indices 0--4",
-      "Index 5 is outside the array"
+      "Condition comes later",
+      "Checks condition after execution",
+      "Entry controlled loop"
     ]
   },
   {
@@ -3926,13 +3926,13 @@
   {
     "category": "C Coding",
     "difficulty": "medium",
-    "title": "28. Find the Error",
-    "question": "int arr[3] = {1, 2, 3, 4};",
-    "answer": "Overflow",
+    "title": "28. Answer the question",
+    "question": "Which function dynamically allocates memory in C?",
+    "answer": "malloc",
     "hints": [
-      "The array size is 3",
-      "How many values are provided?",
-      "There are too many initializers"
+      "From stdlib.h",
+      "Allocates requested bytes",
+      "Starts with m"
     ]
   },
   {
@@ -3962,13 +3962,13 @@
   {
     "category": "C Coding",
     "difficulty": "medium",
-    "title": "31. Find the Error",
-    "question": "int main() {\nint *p;\n\n*p = 10;\n\nreturn 0;\n}",
-    "answer": "Pointer",
+    "title": "31. Answer the question",
+    "question": "Which storage class keeps a local variable's value between function calls?",
+    "answer": "static",
     "hints": [
-      "p is a pointer",
-      "Has it been given a valid address?",
-      "You cannot safely dereference an uninitialized pointer"
+      "Value persists",
+      "Local variable can use it",
+      "Starts with s"
     ]
   },
   {
@@ -4034,13 +4034,13 @@
   {
     "category": "C Coding",
     "difficulty": "medium",
-    "title": "37. Find the Error",
-    "question": "char str[5] = \"Hello\";",
-    "answer": "Null",
+    "title": "37. Answer the question",
+    "question": "Which preprocessor directive is commonly used to include a header file?",
+    "answer": "include",
     "hints": [
-      "\"Hello\" has five visible characters",
-      "C strings need a special ending character",
-      "Count the required space"
+      "Begins with #",
+      "Used before compilation",
+      "Contains include"
     ]
   },
   {
@@ -4070,13 +4070,13 @@
   {
     "category": "C Coding",
     "difficulty": "medium",
-    "title": "40. Find the Error",
-    "question": "int main() {\nint a = 10;\nint b = 0;\n\nprintf(\"%d\", a / b);\n\nreturn 0;\n}",
-    "answer": "Division # ",
+    "title": "40. Answer the question",
+    "question": "What type of bug occurs when allocated memory is never released?",
+    "answer": "memory leak",
     "hints": [
-      "Look at the denominator",
-      "b is zero",
-      "Division by zero is invalid"
+      "Memory remains allocated",
+      "Common with malloc()",
+      "2 word answer related to memory"
     ]
   },
   {
@@ -4084,7 +4084,7 @@
     "difficulty": "hard",
     "title": "41. Find the Output",
     "question": "int a = 5;\n\nprintf(\"%d %d\", a++, ++a);",
-    "answer": "Undefined",
+    "answer": "6 7",
     "hints": [
       "a is modified more than once",
       "Both operations happen in one expression",
@@ -4094,13 +4094,13 @@
   {
     "category": "C Coding",
     "difficulty": "hard",
-    "title": "42. Find the Bug",
-    "question": "int arr[5];\n\nfor(int i = 0; i <= 5; i++)\narr[i] = i;",
-    "answer": "<",
+    "title": "42. Answer the question",
+    "question": "Which memory region normally stores local automatic variables?",
+    "answer": "stack",
     "hints": [
-      "Array indices are 0--4",
-      "The loop reaches 5",
-      "Look at <="
+      "Function calls use it",
+      "Opposite of heap",
+      "Start with s"
     ]
   },
   {
@@ -4118,13 +4118,13 @@
   {
     "category": "C Coding",
     "difficulty": "hard",
-    "title": "44. Find the Error",
-    "question": "int *p;\nint x = 10;\n\n*p = x;",
-    "answer": "Uninitialized",
+    "title": "44. Answer the question",
+    "question": "What type of array is commonly used to represent a string in C?",
+    "answer": "character",
     "hints": [
-      "p has no valid address",
-      "x is being assigned to the pointed location",
-      "A pointer must point somewhere valid first"
+      "Contains characters",
+      "Ends with 0",
+      "starts with c"
     ]
   },
   {
@@ -4155,7 +4155,7 @@
     "category": "C Coding",
     "difficulty": "hard",
     "title": "47. Find the Error",
-    "question": "#include <stdio.h>\n\nint main() {\nint *p = NULL;\n\nprintf(\"%d\", *p);\n\nreturn 0;\n}",
+    "question": "#include <stdio.h>\n\nint main() {\nint *p = NULL;\n\nprintf(\"%d\", p);\n\nreturn 0;\n}",
     "answer": "Dereference",
     "hints": [
       "NULL means no valid object is being pointed to",
@@ -4178,13 +4178,13 @@
   {
     "category": "C Coding",
     "difficulty": "hard",
-    "title": "49. Find the Error",
-    "question": "int main() {\nint x = 10;\n\nprintf(\"%d\", x);\n\nreturn 0;\n}\n\nprintf(\"Hello\");",
-    "answer": "Scope",
+    "title": "49. Answer the Question",
+    "question": "What is the process of converting a variable from one type to another called?",
+    "answer": "Type Casting",
     "hints": [
-      "Look at where it appears",
-      "The function has already ended",
-      "Executable statements normally belong inside functions"
+      "Example: (float)x",
+      "Changes interpretation/type",
+      "Start with t"
     ]
   },
   {
@@ -4202,21 +4202,21 @@
   {
     "category": "C Coding",
     "difficulty": "hard",
-    "title": "51. Find the Error",
-    "question": "char *str = \"Hello\";\n\nstr[0] = 'Y';",
-    "answer": "Literal",
+    "title": "51. Answer the question",
+    "question": "Which function is used to allocate zero-initialized memory for an array?",
+    "answer": "calloc",
     "hints": [
-      "str points to a string literal",
-      "String literals should not be modified",
-      "Think read-only memory"
+      "Similar to malloc()",
+      "Created different block of memory",
+      "Strts with c"
     ]
   },
   {
     "category": "C Coding",
     "difficulty": "hard",
-    "title": "52. Find the Output",
+    "title": "52. Find the Output for 32 bit compiler",
     "question": "int x = 5;\n\nprintf(\"%d\", sizeof(x));",
-    "answer": "sizeof",
+    "answer": "4",
     "hints": [
       "x is an integer",
       "sizeof gives size in bytes",
@@ -4226,13 +4226,13 @@
   {
     "category": "C Coding",
     "difficulty": "hard",
-    "title": "53. Find the Bug",
-    "question": "int sum(int a, int b) {\nreturn a + b;\n}\n\nint main() {\nprintf(\"%d\", sum(5));\n}",
-    "answer": "Argument",
+    "title": "53. Answer the question",
+    "question": "What is the technique of allocating memory during program execution called?",
+    "answer": "dynamic memory allocation",
     "hints": [
-      "Look at the function definition",
-      "How many arguments does it require?",
-      "Only one was provided"
+      "Happens at runtime",
+      "Uses malloc()",
+      "Full form of DMA"
     ]
   },
   {
@@ -4252,7 +4252,7 @@
     "difficulty": "hard",
     "title": "55. Find the Error",
     "question": "int main() {\nint *p;\n\n{\nint x = 10;\np = &x;\n}\n\nprintf(\"%d\", *p);\n}",
-    "answer": "Dangling",
+    "answer": "int *p =NULL;",
     "hints": [
       "x exists only inside the block",
       "What happens when the block ends?",
@@ -4276,7 +4276,7 @@
     "difficulty": "hard",
     "title": "57. Find the Bug",
     "question": "int x = 1;\n\nwhile(x <= 5) {\nprintf(\"%d \", x);\n}",
-    "answer": "Infinite",
+    "answer": "x = x+1",
     "hints": [
       "Look inside the loop",
       "What changes x?",
@@ -4287,8 +4287,8 @@
     "category": "C Coding",
     "difficulty": "hard",
     "title": "58. Find the Output",
-    "question": "int x = 10;\n\nint *p = &x;\n\nprintf(\"%p\", (void*)p);",
-    "answer": "Address",
+    "question": "int x = 10;\n\nint *p = &x;\n\nprintf(\"%p\", (void*)p); \n address of p is XA123320",
+    "answer": "XA123320",
     "hints": [
       "p stores an address",
       "%p is used for pointers",
@@ -4299,8 +4299,8 @@
     "category": "C Coding",
     "difficulty": "hard",
     "title": "59. Find the Error",
-    "question": "int main() {\nint x;\n\nprintf(\"%d\", x);\n\nreturn 0;\n}",
-    "answer": "Uninitialized",
+    "question": "int main() {\nint x;\n\nprintf(\"%d\", x);\n\nreturn 0;\n} \n What value will be printed in this case?",
+    "answer": "garbage value",
     "hints": [
       "x was declared",
       "Was it given a value?",
@@ -4312,7 +4312,7 @@
     "difficulty": "hard",
     "title": "60. Find the Bug",
     "question": "#include <stdio.h>\n\nint factorial(int n) {\nreturn n * factorial(n - 1);\n}\n\nint main() {\nprintf(\"%d\", factorial(5));\n}",
-    "answer": "Recursion",
+    "answer": "return n * factorial(n-1);",
     "hints": [
       "The function calls itself",
       "What stops the recursion?",
