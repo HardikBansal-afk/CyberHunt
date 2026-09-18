@@ -471,7 +471,7 @@ SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
   ('Teachers use me', 1, 1),
   ('Chalk makes me white', 2, 2),
-  ('My normal surface is dark. #', 3, 3)
+  ('My normal surface is dark', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
 -- [21/360] Hidden Clue / medium / Hidden Clue Riddle #21
@@ -931,7 +931,7 @@ SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
   ('Websites may ask for me', 1, 1),
   ('Keep me secret', 2, 2),
-  ('I can grant access. #', 3, 3)
+  ('I can grant access', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
 -- [41/360] Hidden Clue / hard / Hidden Clue Riddle #41
@@ -1059,7 +1059,7 @@ WITH new_challenge AS (
     'Hidden Clue',
     'hard'::difficulty_level,
     15,
-    'YH',
+    'YBERH',
     TRUE
   )
   RETURNING id
@@ -1082,7 +1082,7 @@ WITH new_challenge AS (
     'Hidden Clue',
     'hard'::difficulty_level,
     15,
-    'EUEPSWRD',
+    'EUEPSWR',
     TRUE
   )
   RETURNING id
@@ -1331,11 +1331,11 @@ WITH new_challenge AS (
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #58',
-    'The clue is "LFMMP." Every letter is one position after the intended letter in the alphabet. What word is hidden?',
+    'The clue is "IFMMP." Every letter is one position after the intended letter in the alphabet. What word is hidden?',
     'Hidden Clue',
     'hard'::difficulty_level,
     15,
-    'KELLO',
+    'HELLO',
     TRUE
   )
   RETURNING id
@@ -1343,7 +1343,7 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('L becomes K', 1, 1),
+  ('I becomes H', 1, 1),
   ('F becomes E', 2, 2),
   ('Move every letter backward once', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
@@ -1399,17 +1399,17 @@ FROM new_challenge, (VALUES
   ('Read the middle letters from top to bottom', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [61/360] Password Puzzles / easy / A1Z26 Password
+-- [61/360] Password Puzzles / easy / Password Puzzle #61
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'A1Z26 Password',
-    'Convert 3-25-2-5-18 to letters',
+    'Password Puzzle #61',
+    'What word describes a secret code used to access an account?',
     'Password Puzzles',
     'easy'::difficulty_level,
     5,
-    'CYBER',
+    'Password',
     TRUE
   )
   RETURNING id
@@ -1417,22 +1417,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('A=1', 1, 1),
-  ('map numbers', 2, 2),
-  ('read sequentially', 3, 3)
+  ('You use it to log in', 1, 1),
+  ('It should be kept secret', 2, 2),
+  ('It protects your account', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [62/360] Password Puzzles / easy / Reverse Password
+-- [62/360] Password Puzzles / easy / Password Puzzle #62
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Reverse Password',
-    'TERCES is given',
+    'Password Puzzle #62',
+    'What device is commonly used to unlock a phone using your face?',
     'Password Puzzles',
     'easy'::difficulty_level,
     5,
-    'TBD',
+    'Face',
     TRUE
   )
   RETURNING id
@@ -1440,22 +1440,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Read backward', 1, 1),
-  ('reverse string', 2, 2),
-  ('obtain password', 3, 3)
+  ('It is part of your identity', 1, 1),
+  ('Cameras can recognize it', 2, 2),
+  ('It is on the front of your head', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [63/360] Password Puzzles / easy / Missing Vowel
+-- [63/360] Password Puzzles / easy / Password Puzzle #63
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Missing Vowel',
-    'CYB_R',
+    'Password Puzzle #63',
+    'What symbol is commonly used in email addresses?',
     'Password Puzzles',
     'easy'::difficulty_level,
     5,
-    'TBD',
+    '@',
     TRUE
   )
   RETURNING id
@@ -1463,22 +1463,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Cyber-related word', 1, 1),
-  ('missing vowel', 2, 2),
-  ('complete it', 3, 3)
+  ('symbol of AT', 1, 1),
+  ('It separates the username and domain', 2, 2),
+  ('Its symbol is @', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [64/360] Password Puzzles / easy / Keyboard Shift
+-- [64/360] Password Puzzles / easy / Password Puzzle #64
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Keyboard Shift',
-    'SFT requires keys immediately to the right',
+    'Password Puzzle #64',
+    'What does a website usually begin with when using secure communication?',
     'Password Puzzles',
     'easy'::difficulty_level,
     5,
-    'TBD',
+    'HTTPS',
     TRUE
   )
   RETURNING id
@@ -1486,22 +1486,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Think QWERTY', 1, 1),
-  ('move one key', 2, 2),
-  ('read result', 3, 3)
+  ('It is related to HTTP', 1, 1),
+  ('The extra letter matters', 2, 2),
+  ('The S stands for secure', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [65/360] Password Puzzles / easy / Number-to-Letter
+-- [65/360] Password Puzzles / easy / Password Puzzle #65
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Number-to-Letter',
-    '20 5 19 20',
+    'Password Puzzle #65',
+    'What is the secret number used with a bank card?',
     'Password Puzzles',
     'easy'::difficulty_level,
     5,
-    'TBD',
+    'PIN',
     TRUE
   )
   RETURNING id
@@ -1509,22 +1509,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('A1Z26', 1, 1),
-  ('map each number', 2, 2),
-  ('form word', 3, 3)
+  ('It usually contains digits', 1, 1),
+  ('You enter it at an ATM', 2, 2),
+  ('It stands for Personal Identification Number', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [66/360] Password Puzzles / easy / Odd Letters
+-- [66/360] Password Puzzles / easy / Password Puzzle #66
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Odd Letters',
-    'Extract characters in odd positions',
+    'Password Puzzle #66',
+    'What malicious software can copy itself and spread between computers?',
     'Password Puzzles',
     'easy'::difficulty_level,
     5,
-    'TBD',
+    'Worm',
     TRUE
   )
   RETURNING id
@@ -1532,22 +1532,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Ignore even positions', 1, 1),
-  ('start at 1', 2, 2),
-  ('combine', 3, 3)
+  ('It is malware', 1, 1),
+  ('It can spread automatically', 2, 2),
+  ('Its name is also an animal', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [67/360] Password Puzzles / easy / Even Letters
+-- [67/360] Password Puzzles / easy / Password Puzzle #67
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Even Letters',
-    'Extract even-position characters',
+    'Password Puzzle #67',
+    'What malicious program disguises itself as legitimate software?',
     'Password Puzzles',
     'easy'::difficulty_level,
     5,
-    'TBD',
+    'Trojan',
     TRUE
   )
   RETURNING id
@@ -1555,22 +1555,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Count positions', 1, 1),
-  ('take 2,4,6', 2, 2),
-  ('combine', 3, 3)
+  ('Think of Greek mythology', 1, 1),
+  ('It hides its true purpose', 2, 2),
+  ('It is named after a famous horse', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [68/360] Password Puzzles / easy / Anagram
+-- [68/360] Password Puzzles / easy / Password Puzzle #68
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Anagram',
-    'RTAEHC',
+    'Password Puzzle #68',
+    'What technology converts readable information into an unreadable form?',
     'Password Puzzles',
     'easy'::difficulty_level,
     5,
-    'TBD',
+    'Encryption',
     TRUE
   )
   RETURNING id
@@ -1578,22 +1578,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Rearrange', 1, 1),
-  ('cybersecurity term', 2, 2),
-  ('"TH..."', 3, 3)
+  ('It protects information', 1, 1),
+  ('A key is often involved', 2, 2),
+  ('It turns plaintext into ciphertext', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [69/360] Password Puzzles / easy / Simple Caesar
+-- [69/360] Password Puzzles / easy / Password Puzzle #69
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Simple Caesar',
-    'Shift every letter by 1',
+    'Password Puzzle #69',
+    'What do we call a person who illegally accesses computer systems?',
     'Password Puzzles',
     'easy'::difficulty_level,
     5,
-    'TBD',
+    'Hacker',
     TRUE
   )
   RETURNING id
@@ -1601,22 +1601,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Caesar cipher', 1, 1),
-  ('shift backward', 2, 2),
-  ('decode', 3, 3)
+  ('They work with computers', 1, 1),
+  ('They may exploit vulnerabilities', 2, 2),
+  ('The word starts with H', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [70/360] Password Puzzles / easy / First Letters
+-- [70/360] Password Puzzles / easy / Password Puzzle #70
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'First Letters',
-    'Cyber Hunters Need Trust',
+    'Password Puzzle #70',
+    'What is the process of proving who you are online?',
     'Password Puzzles',
     'easy'::difficulty_level,
     5,
-    'TBD',
+    'Authentication',
     TRUE
   )
   RETURNING id
@@ -1624,22 +1624,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Take initials', 1, 1),
-  ('CHNT', 2, 2),
-  ('use clue context', 3, 3)
+  ('It happens during login', 1, 1),
+  ('Passwords can be used', 2, 2),
+  ('It verifies identity', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [71/360] Password Puzzles / easy / Last Letters
+-- [71/360] Password Puzzles / easy / Password Puzzle #71
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Last Letters',
-    'Four words hide their final characters',
+    'Password Puzzle #71',
+    'What device connects multiple devices within a network?',
     'Password Puzzles',
     'easy'::difficulty_level,
     5,
-    'TBD',
+    'Router',
     TRUE
   )
   RETURNING id
@@ -1647,22 +1647,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Ignore beginnings', 1, 1),
-  ('take endings', 2, 2),
-  ('combine', 3, 3)
+  ('It directs traffic', 1, 1),
+  ('You may have one at home', 2, 2),
+  ('It connects networks', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [72/360] Password Puzzles / easy / Binary Password
+-- [72/360] Password Puzzles / easy / Password Puzzle #72
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Binary Password',
-    '01000011 01011000',
+    'Password Puzzle #72',
+    'What is a fake message designed to steal personal information called?',
     'Password Puzzles',
     'easy'::difficulty_level,
     5,
-    'TBD',
+    'Phishing',
     TRUE
   )
   RETURNING id
@@ -1670,22 +1670,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('8-bit', 1, 1),
-  ('ASCII', 2, 2),
-  ('convert', 3, 3)
+  ('It often arrives by email', 1, 1),
+  ('It tries to trick you', 2, 2),
+  ('It sounds like fishing', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [73/360] Password Puzzles / easy / Morse Password
+-- [73/360] Password Puzzles / easy / Password Puzzle #73
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Morse Password',
-    '-.-. --- -',
+    'Password Puzzle #73',
+    'What is the name of Google''s web browser?',
     'Password Puzzles',
     'easy'::difficulty_level,
     5,
-    'TBD',
+    'Chrome',
     TRUE
   )
   RETURNING id
@@ -1693,22 +1693,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Dashes/dots', 1, 1),
-  ('Morse', 2, 2),
-  ('decode', 3, 3)
+  ('It is made by Google', 1, 1),
+  ('It is used to browse websites', 2, 2),
+  ('Its logo has red, yellow, green and blue', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [74/360] Password Puzzles / easy / Hex Password
+-- [74/360] Password Puzzles / easy / Password Puzzle #74
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Hex Password',
-    '43 54 46',
+    'Password Puzzle #74',
+    'What is the general term for information, such as a username and password, that proves your identity when you log in?',
     'Password Puzzles',
     'easy'::difficulty_level,
     5,
-    'TBD',
+    'Credential',
     TRUE
   )
   RETURNING id
@@ -1716,22 +1716,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Hexadecimal', 1, 1),
-  ('ASCII', 2, 2),
-  ('read', 3, 3)
+  ('It proves something about your identity', 1, 1),
+  ('Passwords are one type', 2, 2),
+  ('It can be used to log in', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [75/360] Password Puzzles / easy / ROT13
+-- [75/360] Password Puzzles / easy / Password Puzzle #75
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'ROT13',
-    'PLFURE',
+    'Password Puzzle #75',
+    'What do we call information that is hidden from unauthorized people?',
     'Password Puzzles',
     'easy'::difficulty_level,
     5,
-    'TBD',
+    'Confidential',
     TRUE
   )
   RETURNING id
@@ -1739,22 +1739,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('ROT13', 1, 1),
-  ('shift 13', 2, 2),
-  ('decode', 3, 3)
+  ('It should not be publicly shared', 1, 1),
+  ('Sensitive information can be this', 2, 2),
+  ('It means private or secret', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [76/360] Password Puzzles / easy / Alphabet Position
+-- [76/360] Password Puzzles / easy / Password Puzzle #76
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Alphabet Position',
-    'Find positions of C-Y-B-E-R',
+    'Password Puzzle #76',
+    'What is the common abbreviation for a Virtual Private Network?',
     'Password Puzzles',
     'easy'::difficulty_level,
     5,
-    'TBD',
+    'VPN',
     TRUE
   )
   RETURNING id
@@ -1762,22 +1762,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('A=1', 1, 1),
-  ('calculate', 2, 2),
-  ('concatenate', 3, 3)
+  ('It can improve privacy online', 1, 1),
+  ('It creates an encrypted connection', 2, 2),
+  ('It has three letters', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [77/360] Password Puzzles / easy / Word Length Password
+-- [77/360] Password Puzzles / easy / Password Puzzle #77
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Word Length Password',
-    'Five clue words have lengths 4-3-5-2',
+    'Password Puzzle #77',
+    'What do we call a weakness in computer software?',
     'Password Puzzles',
     'easy'::difficulty_level,
     5,
-    'TBD',
+    'Vulnerability',
     TRUE
   )
   RETURNING id
@@ -1785,22 +1785,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Count characters', 1, 1),
-  ('use numbers', 2, 2),
-  ('decode', 3, 3)
+  ('Attackers may exploit it', 1, 1),
+  ('Security teams try to fix it', 2, 2),
+  ('It means a weakness', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [78/360] Password Puzzles / easy / Symbol Password
+-- [78/360] Password Puzzles / easy / Password Puzzle #78
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Symbol Password',
-    'Symbols correspond to keyboard numbers',
+    'Password Puzzle #78',
+    'What is the term for unwanted email?',
     'Password Puzzles',
     'easy'::difficulty_level,
     5,
-    'TBD',
+    'Spam',
     TRUE
   )
   RETURNING id
@@ -1808,22 +1808,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Look at keyboard', 1, 1),
-  ('symbols above numbers', 2, 2),
-  ('map them', 3, 3)
+  ('It fills inboxes', 1, 1),
+  ('It can contain advertisements', 2, 2),
+  ('It is also a canned meat brand', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [79/360] Password Puzzles / easy / Mirror Text
+-- [79/360] Password Puzzles / easy / Password Puzzle #79
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Mirror Text',
-    'A word appears reflected',
+    'Password Puzzle #79',
+    'What is the secret piece of information used in cryptography?',
     'Password Puzzles',
     'easy'::difficulty_level,
     5,
-    'TBD',
+    'Key',
     TRUE
   )
   RETURNING id
@@ -1831,22 +1831,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Reverse', 1, 1),
-  ('read normally', 2, 2),
-  ('identify word', 3, 3)
+  ('It can unlock encrypted information', 1, 1),
+  ('It works with encryption', 2, 2),
+  ('You use one to open a lock too', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [80/360] Password Puzzles / easy / Simple Riddle Password
+-- [80/360] Password Puzzles / easy / Password Puzzle #80
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Simple Riddle Password',
-    '"I protect accounts but am not a lock."',
+    'Password Puzzle #80',
+    'What is the name of Microsoft''s operating system?',
     'Password Puzzles',
     'easy'::difficulty_level,
     5,
-    'TBD',
+    'Windows',
     TRUE
   )
   RETURNING id
@@ -1854,22 +1854,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Used during login', 1, 1),
-  ('secret', 2, 2),
-  ('password', 3, 3)
+  ('It runs on PCs', 1, 1),
+  ('Microsoft developed it', 2, 2),
+  ('Its name relates to something in a house', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [81/360] Password Puzzles / medium / Double Caesar
+-- [81/360] Password Puzzles / medium / Password Puzzle #81
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Double Caesar',
-    'Two Caesar shifts are applied',
+    'Password Puzzle #81',
+    'What attack tries many possible passwords until one works?',
     'Password Puzzles',
     'medium'::difficulty_level,
     10,
-    'TBD',
+    'Bruteforce',
     TRUE
   )
   RETURNING id
@@ -1877,22 +1877,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Decode one layer', 1, 1),
-  ('test result', 2, 2),
-  ('repeat', 3, 3)
+  ('It relies on repeated attempts', 1, 1),
+  ('Computers can automate it', 2, 2),
+  ('It tries combinations one after another', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [82/360] Password Puzzles / medium / Base64 Password
+-- [82/360] Password Puzzles / medium / Password Puzzle #82
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Base64 Password',
-    'Encoded password supplied',
+    'Password Puzzle #82',
+    'What attack uses a list of commonly used passwords?',
     'Password Puzzles',
     'medium'::difficulty_level,
     10,
-    'TBD',
+    'Dictionary',
     TRUE
   )
   RETURNING id
@@ -1900,22 +1900,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Recognize Base64', 1, 1),
-  ('decode', 2, 2),
-  ('inspect result', 3, 3)
+  ('It doesn''t necessarily try every combination', 1, 1),
+  ('Common words are useful to the attacker', 2, 2),
+  ('Think about a collection of words', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [83/360] Password Puzzles / medium / Vigenère Intro
+-- [83/360] Password Puzzles / medium / Password Puzzle #83
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Vigenère Intro',
-    'Ciphertext + key provided',
+    'Password Puzzle #83',
+    'What technique adds random data to a password before hashing?',
     'Password Puzzles',
     'medium'::difficulty_level,
     10,
-    'TBD',
+    'Salting',
     TRUE
   )
   RETURNING id
@@ -1923,22 +1923,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Key is important', 1, 1),
-  ('Vigenère', 2, 2),
-  ('apply key repeatedly', 3, 3)
+  ('It strengthens password storage', 1, 1),
+  ('It is combined with a hash', 2, 2),
+  ('Think of adding something before cooking', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [84/360] Password Puzzles / medium / Keyboard Diagonal
+-- [84/360] Password Puzzles / medium / Password Puzzle #84
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Keyboard Diagonal',
-    'Letters are one key diagonally displaced',
+    'Password Puzzle #84',
+    'What is the process of converting a password into a fixed length value?',
     'Password Puzzles',
     'medium'::difficulty_level,
     10,
-    'TBD',
+    'Hashing',
     TRUE
   )
   RETURNING id
@@ -1946,22 +1946,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('QWERTY', 1, 1),
-  ('inspect neighboring keys', 2, 2),
-  ('reverse displacement', 3, 3)
+  ('It is commonly one way', 1, 1),
+  ('Password databases use it', 2, 2),
+  ('SHA 256 is an example', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [85/360] Password Puzzles / medium / Mixed Case
+-- [85/360] Password Puzzles / medium / Password Puzzle #85
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Mixed Case',
-    'Uppercase letters contain one password',
+    'Password Puzzle #85',
+    'What attack secretly intercepts communication between two parties?',
     'Password Puzzles',
     'medium'::difficulty_level,
     10,
-    'TBD',
+    'MitM',
     TRUE
   )
   RETURNING id
@@ -1969,22 +1969,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Ignore lowercase', 1, 1),
-  ('extract capitals', 2, 2),
-  ('decode', 3, 3)
+  ('The attacker is in the middle', 1, 1),
+  ('Communication is intercepted', 2, 2),
+  ('It is abbreviated using four letters', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [86/360] Password Puzzles / medium / Word-to-Number
+-- [86/360] Password Puzzles / medium / Password Puzzle #86
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Word-to-Number',
-    'ONE, THREE, FIVE, etc',
+    'Password Puzzle #86',
+    'What attack overwhelms a server with traffic from many systems?',
     'Password Puzzles',
     'medium'::difficulty_level,
     10,
-    'TBD',
+    'DDoS',
     TRUE
   )
   RETURNING id
@@ -1992,22 +1992,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Convert words', 1, 1),
-  ('numbers', 2, 2),
-  ('use A1Z26', 3, 3)
+  ('It targets availability', 1, 1),
+  ('Many devices may participate', 2, 2),
+  ('It stands for Distributed Denial of Service', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [87/360] Password Puzzles / medium / Prime Positions
+-- [87/360] Password Puzzles / medium / Password Puzzle #87
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Prime Positions',
-    'Extract letters at prime-numbered positions',
+    'Password Puzzle #87',
+    'What malware encrypts files and demands payment?',
     'Password Puzzles',
     'medium'::difficulty_level,
     10,
-    'TBD',
+    'Ransomware',
     TRUE
   )
   RETURNING id
@@ -2015,22 +2015,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Prime numbers', 1, 1),
-  ('2,3,5,7', 2, 2),
-  ('extract', 3, 3)
+  ('Your files may become inaccessible', 1, 1),
+  ('Money is demanded', 2, 2),
+  ('The name combines ransom and software', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [88/360] Password Puzzles / medium / Fibonacci Positions
+-- [88/360] Password Puzzles / medium / Password Puzzle #88
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Fibonacci Positions',
-    'Extract letters at Fibonacci positions',
+    'Password Puzzle #88',
+    'What is a fake login page designed to steal credentials called?',
     'Password Puzzles',
     'medium'::difficulty_level,
     10,
-    'TBD',
+    'Phishing',
     TRUE
   )
   RETURNING id
@@ -2038,22 +2038,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('1,1,2,3,5', 1, 1),
-  ('avoid duplicates', 2, 2),
-  ('extract', 3, 3)
+  ('It looks like a legitimate website', 1, 1),
+  ('Users enter their credentials', 2, 2),
+  ('It is a type of social engineering', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [89/360] Password Puzzles / medium / Rail Fence
+-- [89/360] Password Puzzles / medium / Password Puzzle #89
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Rail Fence',
-    'Ciphertext created using 3 rails',
+    'Password Puzzle #89',
+    'What security system monitors and filters network traffic?',
     'Password Puzzles',
     'medium'::difficulty_level,
     10,
-    'TBD',
+    'Firewall',
     TRUE
   )
   RETURNING id
@@ -2061,22 +2061,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Rail Fence cipher', 1, 1),
-  ('determine rails', 2, 2),
-  ('reconstruct', 3, 3)
+  ('It can block suspicious traffic', 1, 1),
+  ('It protects networks', 2, 2),
+  ('Think of a wall against fire', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [90/360] Password Puzzles / medium / Column Transposition
+-- [90/360] Password Puzzles / medium / Password Puzzle #90
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Column Transposition',
-    'Key determines column order',
+    'Password Puzzle #90',
+    'What protocol is commonly used to securely transfer web pages?',
     'Password Puzzles',
     'medium'::difficulty_level,
     10,
-    'TBD',
+    'HTTPS',
     TRUE
   )
   RETURNING id
@@ -2084,22 +2084,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Key is supplied', 1, 1),
-  ('reorder columns', 2, 2),
-  ('read rows', 3, 3)
+  ('It is an HTTP extension', 1, 1),
+  ('It uses encryption', 2, 2),
+  ('Look at the beginning of secure websites', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [91/360] Password Puzzles / medium / Hex → Base64
+-- [91/360] Password Puzzles / medium / Password Puzzle #91
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Hex → Base64',
-    'Two encoding layers',
+    'Password Puzzle #91',
+    'What type of encryption uses the same key to encrypt and decrypt data?',
     'Password Puzzles',
     'medium'::difficulty_level,
     10,
-    'TBD',
+    'Symmetric',
     TRUE
   )
   RETURNING id
@@ -2107,22 +2107,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Decode hex first', 1, 1),
-  ('output resembles Base64', 2, 2),
-  ('decode again', 3, 3)
+  ('One key is involved', 1, 1),
+  ('It is generally fast', 2, 2),
+  ('Its opposite is asymmetric', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [92/360] Password Puzzles / medium / ROT + Reverse
+-- [92/360] Password Puzzles / medium / Password Puzzle #92
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'ROT + Reverse',
-    'Cipher requires both transformations',
+    'Password Puzzle #92',
+    'What encryption system uses a public and private key?',
     'Password Puzzles',
     'medium'::difficulty_level,
     10,
-    'TBD',
+    'Asymmetric',
     TRUE
   )
   RETURNING id
@@ -2130,22 +2130,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Try ROT13', 1, 1),
-  ('reverse', 2, 2),
-  ('check readability', 3, 3)
+  ('Two keys are involved', 1, 1),
+  ('One key can be publicly shared', 2, 2),
+  ('RSA is an example', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [93/360] Password Puzzles / medium / ASCII Decimal
+-- [93/360] Password Puzzles / medium / Password Puzzle #93
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'ASCII Decimal',
-    '67 84 70',
+    'Password Puzzle #93',
+    'What attack injects malicious database commands through user input?',
     'Password Puzzles',
     'medium'::difficulty_level,
     10,
-    'TBD',
+    'SQLi',
     TRUE
   )
   RETURNING id
@@ -2153,22 +2153,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('ASCII decimal', 1, 1),
-  ('convert values', 2, 2),
-  ('read text', 3, 3)
+  ('It targets databases', 1, 1),
+  ('SQL is involved', 2, 2),
+  ('The full term starts with SQL', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [94/360] Password Puzzles / medium / XOR Puzzle
+-- [94/360] Password Puzzles / medium / Password Puzzle #94
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'XOR Puzzle',
-    'Text encrypted with a one-byte key',
+    'Password Puzzle #94',
+    'What vulnerability allows malicious scripts to execute in another user''s browser?',
     'Password Puzzles',
     'medium'::difficulty_level,
     10,
-    'TBD',
+    'XSS',
     TRUE
   )
   RETURNING id
@@ -2176,22 +2176,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('XOR is reversible', 1, 1),
-  ('key supplied indirectly', 2, 2),
-  ('apply XOR', 3, 3)
+  ('It targets web applications', 1, 1),
+  ('JavaScript may be involved', 2, 2),
+  ('It has three letters', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [95/360] Password Puzzles / medium / Password Riddle Chain
+-- [95/360] Password Puzzles / medium / Password Puzzle #95
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Password Riddle Chain',
-    'Three riddles each provide one word',
+    'Password Puzzle #95',
+    'What process converts ciphertext back into readable information?',
     'Password Puzzles',
     'medium'::difficulty_level,
     10,
-    'TBD',
+    'Decryption',
     TRUE
   )
   RETURNING id
@@ -2199,22 +2199,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Solve separately', 1, 1),
-  ('order matters', 2, 2),
-  ('concatenate', 3, 3)
+  ('It reverses encryption', 1, 1),
+  ('A key may be required', 2, 2),
+  ('It produces plaintext', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [96/360] Password Puzzles / medium / Date Password
+-- [96/360] Password Puzzles / medium / Password Puzzle #96
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Date Password',
-    'Historical clue gives a date',
+    'Password Puzzle #96',
+    'What is a security update that fixes a vulnerability called?',
     'Password Puzzles',
     'medium'::difficulty_level,
     10,
-    'TBD',
+    'Patch',
     TRUE
   )
   RETURNING id
@@ -2222,22 +2222,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Identify event', 1, 1),
-  ('determine date', 2, 2),
-  ('format as instructed', 3, 3)
+  ('Software developers release it', 1, 1),
+  ('It fixes bugs or security issues', 2, 2),
+  ('Think of repairing a hole', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [97/360] Password Puzzles / medium / Periodic Table Password
+-- [97/360] Password Puzzles / medium / Password Puzzle #97
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Periodic Table Password',
-    'Atomic numbers represent letters',
+    'Password Puzzle #97',
+    'What attack tricks users into revealing confidential information through psychological manipulation?',
     'Password Puzzles',
     'medium'::difficulty_level,
     10,
-    'TBD',
+    'Social',
     TRUE
   )
   RETURNING id
@@ -2245,22 +2245,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Identify elements', 1, 1),
-  ('use atomic numbers', 2, 2),
-  ('map to letters', 3, 3)
+  ('It targets people rather than only machines', 1, 1),
+  ('It exploits human behavior', 2, 2),
+  ('It is commonly followed by "engineering."', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [98/360] Password Puzzles / medium / Phone Keypad
+-- [98/360] Password Puzzles / medium / Password Puzzle #98
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Phone Keypad',
-    'Numbers correspond to letters',
+    'Password Puzzle #98',
+    'What security principle gives users only the access they actually need?',
     'Password Puzzles',
     'medium'::difficulty_level,
     10,
-    'TBD',
+    'LeastPrivilege',
     TRUE
   )
   RETURNING id
@@ -2268,22 +2268,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Think old mobile keypad', 1, 1),
-  ('map numbers', 2, 2),
-  ('form word', 3, 3)
+  ('It limits permissions', 1, 1),
+  ('Users shouldn''t get unnecessary access', 2, 2),
+  ('Think "Least ______."', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [99/360] Password Puzzles / medium / Braille Pattern
+-- [99/360] Password Puzzles / medium / Password Puzzle #99
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Braille Pattern',
-    'Six-dot patterns provided',
+    'Password Puzzle #99',
+    'What is an additional authentication factor besides a password called?',
     'Password Puzzles',
     'medium'::difficulty_level,
     10,
-    'TBD',
+    'MFA',
     TRUE
   )
   RETURNING id
@@ -2291,22 +2291,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Braille alphabet', 1, 1),
-  ('map cells', 2, 2),
-  ('combine letters', 3, 3)
+  ('It improves login security', 1, 1),
+  ('It may involve a phone or biometric', 2, 2),
+  ('It has three letters', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [100/360] Password Puzzles / medium / Multi-Step Password
+-- [100/360] Password Puzzles / medium / Password Puzzle #100
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Multi-Step Password',
-    'Anagram → Caesar → Base64',
+    'Password Puzzle #100',
+    'What attack attempts to steal a user''s active login session?',
     'Password Puzzles',
     'medium'::difficulty_level,
     10,
-    'TBD',
+    'SessionHijacking',
     TRUE
   )
   RETURNING id
@@ -2314,22 +2314,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Solve obvious transformation', 1, 1),
-  ('decode next layer', 2, 2),
-  ('repeat', 3, 3)
+  ('It targets sessions', 1, 1),
+  ('Cookies may be involved', 2, 2),
+  ('The session is taken over', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [101/360] Password Puzzles / hard / Vigenère with Hidden Key
+-- [101/360] Password Puzzles / hard / Password Puzzle #101
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Vigenère with Hidden Key',
-    'Vigenère with Hidden Key',
+    'Password Puzzle #101',
+    'What cryptographic algorithm produces a 256 bit hash commonly used for integrity verification?',
     'Password Puzzles',
     'hard'::difficulty_level,
     15,
-    'TBD',
+    'SHA256',
     TRUE
   )
   RETURNING id
@@ -2337,22 +2337,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Find key first', 1, 1),
-  ('identify Vigenère', 2, 2),
-  ('decrypt', 3, 3)
+  ('It belongs to SHA 2', 1, 1),
+  ('The number is 256', 2, 2),
+  ('SHA + 256', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [102/360] Password Puzzles / hard / Encrypted Archive Password
+-- [102/360] Password Puzzles / hard / Password Puzzle #102
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Encrypted Archive Password',
-    'Encrypted Archive Password',
+    'Password Puzzle #102',
+    'What attack exploits differences in how applications process SQL queries?',
     'Password Puzzles',
     'hard'::difficulty_level,
     15,
-    'TBD',
+    'SQLi',
     TRUE
   )
   RETURNING id
@@ -2360,22 +2360,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Inspect archive metadata', 1, 1),
-  ('find clue file', 2, 2),
-  ('derive password', 3, 3)
+  ('It targets databases', 1, 1),
+  ('User input is often involved', 2, 2),
+  ('Think of SQL Injection', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [103/360] Password Puzzles / hard / Known-Plaintext XOR
+-- [103/360] Password Puzzles / hard / Password Puzzle #103
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Known-Plaintext XOR',
-    'Known-Plaintext XOR',
+    'Password Puzzle #103',
+    'What vulnerability occurs when an application executes commands supplied by an attacker?',
     'Password Puzzles',
     'hard'::difficulty_level,
     15,
-    'TBD',
+    'Injection',
     TRUE
   )
   RETURNING id
@@ -2383,22 +2383,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Compare known text', 1, 1),
-  ('XOR corresponding bytes', 2, 2),
-  ('derive key', 3, 3)
+  ('It involves untrusted input', 1, 1),
+  ('SQL injection is one example', 2, 2),
+  ('The attack inserts something malicious', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [104/360] Password Puzzles / hard / Multi-Key Cipher
+-- [104/360] Password Puzzles / hard / Password Puzzle #104
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Multi-Key Cipher',
-    'Multi-Key Cipher',
+    'Password Puzzle #104',
+    'What attack exploits a program''s failure to properly handle memory boundaries?',
     'Password Puzzles',
     'hard'::difficulty_level,
     15,
-    'TBD',
+    'Overflow',
     TRUE
   )
   RETURNING id
@@ -2406,22 +2406,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('There are two keys', 1, 1),
-  ('identify which applies first', 2, 2),
-  ('decrypt sequentially', 3, 3)
+  ('It involves memory', 1, 1),
+  ('Buffers are involved', 2, 2),
+  ('Think "buffer ______."', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [105/360] Password Puzzles / hard / Transposition + Substitution
+-- [105/360] Password Puzzles / hard / Password Puzzle #105
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Transposition + Substitution',
-    'Transposition + Substitution',
+    'Password Puzzle #105',
+    'What attack uses previously captured authentication data to gain access later?',
     'Password Puzzles',
     'hard'::difficulty_level,
     15,
-    'TBD',
+    'Replay',
     TRUE
   )
   RETURNING id
@@ -2429,22 +2429,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Look for scrambled positions', 1, 1),
-  ('reconstruct', 2, 2),
-  ('apply substitution', 3, 3)
+  ('The attacker reuses something', 1, 1),
+  ('It may involve captured packets', 2, 2),
+  ('The word means to play again', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [106/360] Password Puzzles / hard / Password from Metadata
+-- [106/360] Password Puzzles / hard / Password Puzzle #106
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Password from Metadata',
-    'Password from Metadata',
+    'Password Puzzle #106',
+    'What security property ensures information has not been modified without authorization?',
     'Password Puzzles',
     'hard'::difficulty_level,
     15,
-    'TBD',
+    'Integrity',
     TRUE
   )
   RETURNING id
@@ -2452,22 +2452,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Inspect document metadata', 1, 1),
-  ('author/title/date', 2, 2),
-  ('combine as instructed', 3, 3)
+  ('It is one of the CIA triad', 1, 1),
+  ('It protects against unauthorized modification', 2, 2),
+  ('CIA stands for Confidentiality, Integrity, Availability', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [107/360] Password Puzzles / hard / Hash Puzzle
+-- [107/360] Password Puzzles / hard / Password Puzzle #107
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Hash Puzzle',
-    'Hash Puzzle',
+    'Password Puzzle #107',
+    'What security property ensures authorized users can access information when needed?',
     'Password Puzzles',
     'hard'::difficulty_level,
     15,
-    'TBD',
+    'Availability',
     TRUE
   )
   RETURNING id
@@ -2475,22 +2475,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Identify hash type', 1, 1),
-  ('use provided candidate list', 2, 2),
-  ('compare hashes', 3, 3)
+  ('It is part of CIA', 1, 1),
+  ('Downtime affects it', 2, 2),
+  ('It starts with A', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [108/360] Password Puzzles / hard / Dictionary Pattern
+-- [108/360] Password Puzzles / hard / Password Puzzle #108
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Dictionary Pattern',
-    'Dictionary Pattern',
+    'Password Puzzle #108',
+    'What security property prevents unauthorized disclosure of information?',
     'Password Puzzles',
     'hard'::difficulty_level,
     15,
-    'TBD',
+    'Confidentiality',
     TRUE
   )
   RETURNING id
@@ -2498,22 +2498,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Password consists of clue-derived words', 1, 1),
-  ('identify theme', 2, 2),
-  ('order words', 3, 3)
+  ('It is part of CIA', 1, 1),
+  ('Encryption helps achieve it', 2, 2),
+  ('It means keeping information secret', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [109/360] Password Puzzles / hard / Prime + Caesar
+-- [109/360] Password Puzzles / hard / Password Puzzle #109
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Prime + Caesar',
-    'Prime + Caesar',
+    'Password Puzzle #109',
+    'What security vulnerability involves sending malicious instructions through a web application''s input fields?',
     'Password Puzzles',
     'hard'::difficulty_level,
     15,
-    'TBD',
+    'Injection',
     TRUE
   )
   RETURNING id
@@ -2521,22 +2521,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Extract prime positions', 1, 1),
-  ('then Caesar decode', 2, 2),
-  ('determine shift from clue', 3, 3)
+  ('User input is manipulated', 1, 1),
+  ('SQL injection is a common example', 2, 2),
+  ('It is a major web application security category', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [110/360] Password Puzzles / hard / Recursive Encoding
+-- [110/360] Password Puzzles / hard / Password Puzzle #110
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Recursive Encoding',
-    'Recursive Encoding',
+    'Password Puzzle #110',
+    'What mechanism securely stores a user''s login state between requests in many web applications?',
     'Password Puzzles',
     'hard'::difficulty_level,
     15,
-    'TBD',
+    'Cookie',
     TRUE
   )
   RETURNING id
@@ -2544,22 +2544,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Decode output', 1, 1),
-  ('if encoded again, repeat', 2, 2),
-  ('stop at plaintext', 3, 3)
+  ('Browsers store it', 1, 1),
+  ('It can contain session information', 2, 2),
+  ('It is named after something you can eat', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [111/360] Password Puzzles / hard / QR + Cipher
+-- [111/360] Password Puzzles / hard / Password Puzzle #111
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'QR + Cipher',
-    'QR + Cipher',
+    'Password Puzzle #111',
+    'What protocol translates domain names into IP addresses?',
     'Password Puzzles',
     'hard'::difficulty_level,
     15,
-    'TBD',
+    'DNS',
     TRUE
   )
   RETURNING id
@@ -2567,22 +2567,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Scan QR', 1, 1),
-  ('extracted text isn''t final', 2, 2),
-  ('identify cipher', 3, 3)
+  ('It works behind the scenes when visiting websites', 1, 1),
+  ('It resolves names such as google.com', 2, 2),
+  ('It stands for Domain Name System', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [112/360] Password Puzzles / hard / Audio Password
+-- [112/360] Password Puzzles / hard / Password Puzzle #112
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Audio Password',
-    'Audio Password',
+    'Password Puzzle #112',
+    'What protocol automatically assigns IP addresses to devices on a network?',
     'Password Puzzles',
     'hard'::difficulty_level,
     15,
-    'TBD',
+    'DHCP',
     TRUE
   )
   RETURNING id
@@ -2590,22 +2590,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Listen carefully', 1, 1),
-  ('inspect waveform/spectrogram', 2, 2),
-  ('find hidden signal', 3, 3)
+  ('It happens when devices join networks', 1, 1),
+  ('It assigns IP configuration', 2, 2),
+  ('It has four letters', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [113/360] Password Puzzles / hard / Image Password
+-- [113/360] Password Puzzles / hard / Password Puzzle #113
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Image Password',
-    'Image Password',
+    'Password Puzzle #113',
+    'What command line tool is commonly used to test network connectivity using ICMP?',
     'Password Puzzles',
     'hard'::difficulty_level,
     15,
-    'TBD',
+    'Ping',
     TRUE
   )
   RETURNING id
@@ -2613,22 +2613,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Inspect metadata', 1, 1),
-  ('inspect visual anomalies', 2, 2),
-  ('decode hidden text', 3, 3)
+  ('It sends packets to another host', 1, 1),
+  ('It measures response time', 2, 2),
+  ('It sounds like a sonar signal', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [114/360] Password Puzzles / hard / Puzzle Box
+-- [114/360] Password Puzzles / hard / Password Puzzle #114
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Puzzle Box',
-    'Puzzle Box',
+    'Password Puzzle #114',
+    'What system translates human readable domain names into numerical network addresses?',
     'Password Puzzles',
     'hard'::difficulty_level,
     15,
-    'TBD',
+    'DNS',
     TRUE
   )
   RETURNING id
@@ -2636,22 +2636,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Several clues point to one key', 1, 1),
-  ('solve dependencies', 2, 2),
-  ('construct password', 3, 3)
+  ('Websites use domain names', 1, 1),
+  ('Computers communicate using IP addresses', 2, 2),
+  ('It stands for Domain Name System', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [115/360] Password Puzzles / hard / Dictionary Attack Simulation
+-- [115/360] Password Puzzles / hard / Password Puzzle #115
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Dictionary Attack Simulation',
-    'Dictionary Attack Simulation',
+    'Password Puzzle #115',
+    'What attack involves pretending to be a legitimate device or user?',
     'Password Puzzles',
     'hard'::difficulty_level,
     15,
-    'TBD',
+    'Spoofing',
     TRUE
   )
   RETURNING id
@@ -2659,22 +2659,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Candidate list provided', 1, 1),
-  ('identify pattern', 2, 2),
-  ('find matching hash', 3, 3)
+  ('The attacker pretends to be legitimate', 1, 1),
+  ('DNS can be involved', 2, 2),
+  ('The word means impersonation', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [116/360] Password Puzzles / hard / Time-Based Password
+-- [116/360] Password Puzzles / hard / Password Puzzle #116
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Time-Based Password',
-    'Time-Based Password',
+    'Password Puzzle #116',
+    'What type of malware secretly records a user''s keystrokes?',
     'Password Puzzles',
     'hard'::difficulty_level,
     15,
-    'TBD',
+    'Keylogger',
     TRUE
   )
   RETURNING id
@@ -2682,22 +2682,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Timestamp is important', 1, 1),
-  ('determine format', 2, 2),
-  ('calculate required value', 3, 3)
+  ('It monitors typing', 1, 1),
+  ('Passwords can be captured', 2, 2),
+  ('Think Key + Logger', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [117/360] Password Puzzles / hard / Layered Number Cipher
+-- [117/360] Password Puzzles / hard / Password Puzzle #117
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Layered Number Cipher',
-    'Layered Number Cipher',
+    'Password Puzzle #117',
+    'What malicious software provides unauthorized remote access to a computer?',
     'Password Puzzles',
     'hard'::difficulty_level,
     15,
-    'TBD',
+    'RAT',
     TRUE
   )
   RETURNING id
@@ -2705,22 +2705,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Numbers are not directly letters', 1, 1),
-  ('identify first transformation', 2, 2),
-  ('repeat', 3, 3)
+  ('It allows remote control', 1, 1),
+  ('It is a type of malware', 2, 2),
+  ('It stands for Remote Access Trojan', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [118/360] Password Puzzles / hard / Polybius Square
+-- [118/360] Password Puzzles / hard / Password Puzzle #118
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Polybius Square',
-    'Polybius Square',
+    'Password Puzzle #118',
+    'What technique hides secret information inside an image, audio file, or other medium?',
     'Password Puzzles',
     'hard'::difficulty_level,
     15,
-    'TBD',
+    'Steganography',
     TRUE
   )
   RETURNING id
@@ -2728,22 +2728,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Numbers are pairs', 1, 1),
-  ('use 5×5 grid', 2, 2),
-  ('decode', 3, 3)
+  ('The message is hidden rather than simply encrypted', 1, 1),
+  ('Images can contain hidden data', 2, 2),
+  ('It is associated with the idea of covered writing', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [119/360] Password Puzzles / hard / Bacon Cipher
+-- [119/360] Password Puzzles / hard / Password Puzzle #119
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Bacon Cipher',
-    'Bacon Cipher',
+    'Password Puzzle #119',
+    'What attack exploits a previously unknown software vulnerability?',
     'Password Puzzles',
     'hard'::difficulty_level,
     15,
-    'TBD',
+    'ZeroDay',
     TRUE
   )
   RETURNING id
@@ -2751,22 +2751,22 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Two types of characters are present', 1, 1),
-  ('classify them', 2, 2),
-  ('decode groups of five', 3, 3)
+  ('Developers may not yet have a fix', 1, 1),
+  ('The vulnerability is newly discovered', 2, 2),
+  ('It has "zero days" of prior warning or patching', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
--- [120/360] Password Puzzles / hard / Final Password Meta
+-- [120/360] Password Puzzles / hard / Password Puzzle #120
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Final Password Meta',
-    'Final Password Meta',
+    'Password Puzzle #120',
+    'What security technique verifies that a digital message came from the claimed sender and was not altered?',
     'Password Puzzles',
     'hard'::difficulty_level,
     15,
-    'TBD',
+    'Signature',
     TRUE
   )
   RETURNING id
@@ -2774,9 +2774,9 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Previous solved passwords matter', 1, 1),
-  ('identify common relationship', 2, 2),
-  ('construct final password', 3, 3)
+  ('It uses cryptographic methods', 1, 1),
+  ('It can provide authenticity and integrity', 2, 2),
+  ('Think of signing a document digitally', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
 -- [121/360] OSINT / easy / Q1. The First Search
