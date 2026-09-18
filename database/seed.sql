@@ -8,7 +8,7 @@
 --   psql -U postgres -d cyberhunt -f seed.sql
 -- =====================================================================
 
-INSERT INTO events (name, slug, question, start_time, end_time, status)
+INSERT INTO events (name, slug, description, start_time, end_time, status)
 VALUES ('CyberHunt 2026', 'cyberhunt-2026', 'Flagship CyberHunt event covering Hidden Clue, Password Puzzles, OSINT, Encoding/Decoding, Web Vulnerabilities, and C Coding challenges.', NOW(), NOW() + INTERVAL '7 days', 'upcoming');
 
 -- All challenges belong to the event created above.
@@ -16,7 +16,7 @@ VALUES ('CyberHunt 2026', 'cyberhunt-2026', 'Flagship CyberHunt event covering H
 
 -- [1/360] Hidden Clue / easy / Hidden Clue Riddle #1
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #1',
@@ -39,7 +39,7 @@ FROM new_challenge, (VALUES
 
 -- [2/360] Hidden Clue / easy / Hidden Clue Riddle #2
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #2',
@@ -62,7 +62,7 @@ FROM new_challenge, (VALUES
 
 -- [3/360] Hidden Clue / easy / Hidden Clue Riddle #3
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #3',
@@ -85,7 +85,7 @@ FROM new_challenge, (VALUES
 
 -- [4/360] Hidden Clue / easy / Hidden Clue Riddle #4
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #4',
@@ -108,7 +108,7 @@ FROM new_challenge, (VALUES
 
 -- [5/360] Hidden Clue / easy / Hidden Clue Riddle #5
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #5',
@@ -131,7 +131,7 @@ FROM new_challenge, (VALUES
 
 -- [6/360] Hidden Clue / easy / Hidden Clue Riddle #6
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #6',
@@ -154,7 +154,7 @@ FROM new_challenge, (VALUES
 
 -- [7/360] Hidden Clue / easy / Hidden Clue Riddle #7
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #7',
@@ -177,7 +177,7 @@ FROM new_challenge, (VALUES
 
 -- [8/360] Hidden Clue / easy / Hidden Clue Riddle #8
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #8',
@@ -200,7 +200,7 @@ FROM new_challenge, (VALUES
 
 -- [9/360] Hidden Clue / easy / Hidden Clue Riddle #9
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #9',
@@ -223,7 +223,7 @@ FROM new_challenge, (VALUES
 
 -- [10/360] Hidden Clue / easy / Hidden Clue Riddle #10
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #10',
@@ -246,7 +246,7 @@ FROM new_challenge, (VALUES
 
 -- [11/360] Hidden Clue / easy / Hidden Clue Riddle #11
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #11',
@@ -269,7 +269,7 @@ FROM new_challenge, (VALUES
 
 -- [12/360] Hidden Clue / easy / Hidden Clue Riddle #12
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #12',
@@ -292,7 +292,7 @@ FROM new_challenge, (VALUES
 
 -- [13/360] Hidden Clue / easy / Hidden Clue Riddle #13
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #13',
@@ -315,7 +315,7 @@ FROM new_challenge, (VALUES
 
 -- [14/360] Hidden Clue / easy / Hidden Clue Riddle #14
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #14',
@@ -338,7 +338,7 @@ FROM new_challenge, (VALUES
 
 -- [15/360] Hidden Clue / easy / Hidden Clue Riddle #15
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #15',
@@ -361,7 +361,7 @@ FROM new_challenge, (VALUES
 
 -- [16/360] Hidden Clue / easy / Hidden Clue Riddle #16
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #16',
@@ -384,7 +384,7 @@ FROM new_challenge, (VALUES
 
 -- [17/360] Hidden Clue / easy / Hidden Clue Riddle #17
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #17',
@@ -407,7 +407,7 @@ FROM new_challenge, (VALUES
 
 -- [18/360] Hidden Clue / easy / Hidden Clue Riddle #18
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #18',
@@ -430,7 +430,7 @@ FROM new_challenge, (VALUES
 
 -- [19/360] Hidden Clue / easy / Hidden Clue Riddle #19
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #19',
@@ -453,7 +453,7 @@ FROM new_challenge, (VALUES
 
 -- [20/360] Hidden Clue / easy / Hidden Clue Riddle #20
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #20',
@@ -476,7 +476,7 @@ FROM new_challenge, (VALUES
 
 -- [21/360] Hidden Clue / medium / Hidden Clue Riddle #21
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #21',
@@ -499,7 +499,7 @@ FROM new_challenge, (VALUES
 
 -- [22/360] Hidden Clue / medium / Hidden Clue Riddle #22
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #22',
@@ -522,7 +522,7 @@ FROM new_challenge, (VALUES
 
 -- [23/360] Hidden Clue / medium / Hidden Clue Riddle #23
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #23',
@@ -545,7 +545,7 @@ FROM new_challenge, (VALUES
 
 -- [24/360] Hidden Clue / medium / Hidden Clue Riddle #24
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #24',
@@ -568,7 +568,7 @@ FROM new_challenge, (VALUES
 
 -- [25/360] Hidden Clue / medium / Hidden Clue Riddle #25
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #25',
@@ -591,7 +591,7 @@ FROM new_challenge, (VALUES
 
 -- [26/360] Hidden Clue / medium / Hidden Clue Riddle #26
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #26',
@@ -614,7 +614,7 @@ FROM new_challenge, (VALUES
 
 -- [27/360] Hidden Clue / medium / Hidden Clue Riddle #27
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #27',
@@ -637,7 +637,7 @@ FROM new_challenge, (VALUES
 
 -- [28/360] Hidden Clue / medium / Hidden Clue Riddle #28
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #28',
@@ -660,7 +660,7 @@ FROM new_challenge, (VALUES
 
 -- [29/360] Hidden Clue / medium / Hidden Clue Riddle #29
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #29',
@@ -683,7 +683,7 @@ FROM new_challenge, (VALUES
 
 -- [30/360] Hidden Clue / medium / Hidden Clue Riddle #30
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #30',
@@ -706,7 +706,7 @@ FROM new_challenge, (VALUES
 
 -- [31/360] Hidden Clue / medium / Hidden Clue Riddle #31
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #31',
@@ -729,7 +729,7 @@ FROM new_challenge, (VALUES
 
 -- [32/360] Hidden Clue / medium / Hidden Clue Riddle #32
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #32',
@@ -752,7 +752,7 @@ FROM new_challenge, (VALUES
 
 -- [33/360] Hidden Clue / medium / Hidden Clue Riddle #33
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #33',
@@ -775,7 +775,7 @@ FROM new_challenge, (VALUES
 
 -- [34/360] Hidden Clue / medium / Hidden Clue Riddle #34
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #34',
@@ -798,7 +798,7 @@ FROM new_challenge, (VALUES
 
 -- [35/360] Hidden Clue / medium / Hidden Clue Riddle #35
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #35',
@@ -821,7 +821,7 @@ FROM new_challenge, (VALUES
 
 -- [36/360] Hidden Clue / medium / Hidden Clue Riddle #36
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #36',
@@ -844,7 +844,7 @@ FROM new_challenge, (VALUES
 
 -- [37/360] Hidden Clue / medium / Hidden Clue Riddle #37
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #37',
@@ -867,7 +867,7 @@ FROM new_challenge, (VALUES
 
 -- [38/360] Hidden Clue / medium / Hidden Clue Riddle #38
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #38',
@@ -890,7 +890,7 @@ FROM new_challenge, (VALUES
 
 -- [39/360] Hidden Clue / medium / Hidden Clue Riddle #39
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #39',
@@ -913,7 +913,7 @@ FROM new_challenge, (VALUES
 
 -- [40/360] Hidden Clue / medium / Hidden Clue Riddle #40
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #40',
@@ -936,7 +936,7 @@ FROM new_challenge, (VALUES
 
 -- [41/360] Hidden Clue / hard / Hidden Clue Riddle #41
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #41',
@@ -959,7 +959,7 @@ FROM new_challenge, (VALUES
 
 -- [42/360] Hidden Clue / hard / Hidden Clue Riddle #42
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #42',
@@ -982,7 +982,7 @@ FROM new_challenge, (VALUES
 
 -- [43/360] Hidden Clue / hard / Hidden Clue Riddle #43
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #43',
@@ -1005,7 +1005,7 @@ FROM new_challenge, (VALUES
 
 -- [44/360] Hidden Clue / hard / Hidden Clue Riddle #44
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #44',
@@ -1028,7 +1028,7 @@ FROM new_challenge, (VALUES
 
 -- [45/360] Hidden Clue / hard / Hidden Clue Riddle #45
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #45',
@@ -1051,7 +1051,7 @@ FROM new_challenge, (VALUES
 
 -- [46/360] Hidden Clue / hard / Hidden Clue Riddle #46
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #46',
@@ -1074,7 +1074,7 @@ FROM new_challenge, (VALUES
 
 -- [47/360] Hidden Clue / hard / Hidden Clue Riddle #47
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #47',
@@ -1097,7 +1097,7 @@ FROM new_challenge, (VALUES
 
 -- [48/360] Hidden Clue / hard / Hidden Clue Riddle #48
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #48',
@@ -1120,7 +1120,7 @@ FROM new_challenge, (VALUES
 
 -- [49/360] Hidden Clue / hard / Hidden Clue Riddle #49
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #49',
@@ -1143,7 +1143,7 @@ FROM new_challenge, (VALUES
 
 -- [50/360] Hidden Clue / hard / Hidden Clue Riddle #50
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #50',
@@ -1166,7 +1166,7 @@ FROM new_challenge, (VALUES
 
 -- [51/360] Hidden Clue / hard / Hidden Clue Riddle #51
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #51',
@@ -1189,7 +1189,7 @@ FROM new_challenge, (VALUES
 
 -- [52/360] Hidden Clue / hard / Hidden Clue Riddle #52
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #52',
@@ -1212,7 +1212,7 @@ FROM new_challenge, (VALUES
 
 -- [53/360] Hidden Clue / hard / Hidden Clue Riddle #53
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #53',
@@ -1235,7 +1235,7 @@ FROM new_challenge, (VALUES
 
 -- [54/360] Hidden Clue / hard / Hidden Clue Riddle #54
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #54',
@@ -1258,7 +1258,7 @@ FROM new_challenge, (VALUES
 
 -- [55/360] Hidden Clue / hard / Hidden Clue Riddle #55
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #55',
@@ -1281,7 +1281,7 @@ FROM new_challenge, (VALUES
 
 -- [56/360] Hidden Clue / hard / Hidden Clue Riddle #56
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #56',
@@ -1304,7 +1304,7 @@ FROM new_challenge, (VALUES
 
 -- [57/360] Hidden Clue / hard / Hidden Clue Riddle #57
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #57',
@@ -1327,7 +1327,7 @@ FROM new_challenge, (VALUES
 
 -- [58/360] Hidden Clue / hard / Hidden Clue Riddle #58
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #58',
@@ -1350,7 +1350,7 @@ FROM new_challenge, (VALUES
 
 -- [59/360] Hidden Clue / hard / Hidden Clue Riddle #59
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #59',
@@ -1373,7 +1373,7 @@ FROM new_challenge, (VALUES
 
 -- [60/360] Hidden Clue / hard / Hidden Clue Riddle #60
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Hidden Clue Riddle #60',
@@ -2781,7 +2781,7 @@ FROM new_challenge, (VALUES
 
 -- [121/360] OSINT / easy / Q1. The First Search
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q1. The First Search',
@@ -2804,7 +2804,7 @@ FROM new_challenge, (VALUES
 
 -- [122/360] OSINT / easy / Q2. Username Hunt
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q2. Username Hunt',
@@ -2827,7 +2827,7 @@ FROM new_challenge, (VALUES
 
 -- [123/360] OSINT / easy / Q3. Image Search
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q3. Image Search',
@@ -2850,7 +2850,7 @@ FROM new_challenge, (VALUES
 
 -- [124/360] OSINT / easy / Q4. Public Information
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q4. Public Information',
@@ -2873,7 +2873,7 @@ FROM new_challenge, (VALUES
 
 -- [125/360] OSINT / easy / Q5. Website Date
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q5. Website Date',
@@ -2896,7 +2896,7 @@ FROM new_challenge, (VALUES
 
 -- [126/360] OSINT / easy / Q6. Fake Account Clue
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q6. Fake Account Clue',
@@ -2919,7 +2919,7 @@ FROM new_challenge, (VALUES
 
 -- [127/360] OSINT / easy / Q7. Location Clue
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q7. Location Clue',
@@ -2942,7 +2942,7 @@ FROM new_challenge, (VALUES
 
 -- [128/360] OSINT / easy / Q8. Map Investigation
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q8. Map Investigation',
@@ -2965,7 +2965,7 @@ FROM new_challenge, (VALUES
 
 -- [129/360] OSINT / easy / Q9. Username Consistency
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q9. Username Consistency',
@@ -2988,7 +2988,7 @@ FROM new_challenge, (VALUES
 
 -- [130/360] OSINT / easy / Q10. Source Check
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q10. Source Check',
@@ -3011,7 +3011,7 @@ FROM new_challenge, (VALUES
 
 -- [131/360] OSINT / easy / Q11. Search Quotes
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q11. Search Quotes',
@@ -3034,7 +3034,7 @@ FROM new_challenge, (VALUES
 
 -- [132/360] OSINT / easy / Q12. Social Media Clue
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q12. Social Media Clue',
@@ -3057,7 +3057,7 @@ FROM new_challenge, (VALUES
 
 -- [133/360] OSINT / easy / Q13. News Verification
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q13. News Verification',
@@ -3080,7 +3080,7 @@ FROM new_challenge, (VALUES
 
 -- [134/360] OSINT / easy / Q14. Domain Clue
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q14. Domain Clue',
@@ -3103,7 +3103,7 @@ FROM new_challenge, (VALUES
 
 -- [135/360] OSINT / easy / Q15. Photo Detail
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q15. Photo Detail',
@@ -3126,7 +3126,7 @@ FROM new_challenge, (VALUES
 
 -- [136/360] OSINT / easy / Q16. Metadata
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q16. Metadata',
@@ -3149,7 +3149,7 @@ FROM new_challenge, (VALUES
 
 -- [137/360] OSINT / easy / Q17. Public Records
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q17. Public Records',
@@ -3172,7 +3172,7 @@ FROM new_challenge, (VALUES
 
 -- [138/360] OSINT / easy / Q18. Screenshot Clue
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q18. Screenshot Clue',
@@ -3195,7 +3195,7 @@ FROM new_challenge, (VALUES
 
 -- [139/360] OSINT / easy / Q19. Search Engine
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q19. Search Engine',
@@ -3218,7 +3218,7 @@ FROM new_challenge, (VALUES
 
 -- [140/360] OSINT / easy / Q20. Evidence
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q20. Evidence',
@@ -3241,7 +3241,7 @@ FROM new_challenge, (VALUES
 
 -- [141/360] OSINT / medium / Q21. Exact Username
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q21. Exact Username',
@@ -3264,7 +3264,7 @@ FROM new_challenge, (VALUES
 
 -- [142/360] OSINT / medium / Q22. Profile Picture
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q22. Profile Picture',
@@ -3287,7 +3287,7 @@ FROM new_challenge, (VALUES
 
 -- [143/360] OSINT / medium / Q23. Timeline
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q23. Timeline',
@@ -3310,7 +3310,7 @@ FROM new_challenge, (VALUES
 
 -- [144/360] OSINT / medium / Q24. Conflicting Dates
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q24. Conflicting Dates',
@@ -3333,7 +3333,7 @@ FROM new_challenge, (VALUES
 
 -- [145/360] OSINT / medium / Q25. Same Photo
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q25. Same Photo',
@@ -3356,7 +3356,7 @@ FROM new_challenge, (VALUES
 
 -- [146/360] OSINT / medium / Q26. Map Clue
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q26. Map Clue',
@@ -3379,7 +3379,7 @@ FROM new_challenge, (VALUES
 
 -- [147/360] OSINT / medium / Q27. Domain Investigation
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q27. Domain Investigation',
@@ -3402,7 +3402,7 @@ FROM new_challenge, (VALUES
 
 -- [148/360] OSINT / medium / Q28. Archived Page
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q28. Archived Page',
@@ -3425,7 +3425,7 @@ FROM new_challenge, (VALUES
 
 -- [149/360] OSINT / medium / Q29. Image Timestamp
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q29. Image Timestamp',
@@ -3448,7 +3448,7 @@ FROM new_challenge, (VALUES
 
 -- [150/360] OSINT / medium / Q30. Multiple Sources
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q30. Multiple Sources',
@@ -3471,7 +3471,7 @@ FROM new_challenge, (VALUES
 
 -- [151/360] OSINT / medium / Q31. Search Operator
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q31. Search Operator',
@@ -3494,7 +3494,7 @@ FROM new_challenge, (VALUES
 
 -- [152/360] OSINT / medium / Q32. Public Username + Bio
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q32. Public Username + Bio',
@@ -3517,7 +3517,7 @@ FROM new_challenge, (VALUES
 
 -- [153/360] OSINT / medium / Q33. Location from Background
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q33. Location from Background',
@@ -3540,7 +3540,7 @@ FROM new_challenge, (VALUES
 
 -- [154/360] OSINT / medium / Q34. Fake News
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q34. Fake News',
@@ -3563,7 +3563,7 @@ FROM new_challenge, (VALUES
 
 -- [155/360] OSINT / medium / Q35. Public Email Clue
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q35. Public Email Clue',
@@ -3586,7 +3586,7 @@ FROM new_challenge, (VALUES
 
 -- [156/360] OSINT / medium / Q36. Review Investigation
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q36. Review Investigation',
@@ -3609,7 +3609,7 @@ FROM new_challenge, (VALUES
 
 -- [157/360] OSINT / medium / Q37. Photo + Map
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q37. Photo + Map',
@@ -3632,7 +3632,7 @@ FROM new_challenge, (VALUES
 
 -- [158/360] OSINT / medium / Q38. Source Reliability
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q38. Source Reliability',
@@ -3655,7 +3655,7 @@ FROM new_challenge, (VALUES
 
 -- [159/360] OSINT / medium / Q39. Search Result Comparison
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q39. Search Result Comparison',
@@ -3678,7 +3678,7 @@ FROM new_challenge, (VALUES
 
 -- [160/360] OSINT / medium / Q40. Investigator's Rule
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q40. Investigator''s Rule',
@@ -3701,7 +3701,7 @@ FROM new_challenge, (VALUES
 
 -- [161/360] OSINT / hard / Q41. Username + Location
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q41. Username + Location',
@@ -3724,7 +3724,7 @@ FROM new_challenge, (VALUES
 
 -- [162/360] OSINT / hard / Q42. The Old Photograph
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q42. The Old Photograph',
@@ -3747,7 +3747,7 @@ FROM new_challenge, (VALUES
 
 -- [163/360] OSINT / hard / Q43. Three Sources
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q43. Three Sources',
@@ -3770,7 +3770,7 @@ FROM new_challenge, (VALUES
 
 -- [164/360] OSINT / hard / Q44. Digital Footprint
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q44. Digital Footprint',
@@ -3793,7 +3793,7 @@ FROM new_challenge, (VALUES
 
 -- [165/360] OSINT / hard / Q45. Metadata Conflict
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q45. Metadata Conflict',
@@ -3816,7 +3816,7 @@ FROM new_challenge, (VALUES
 
 -- [166/360] OSINT / hard / Q46. Search Narrowing
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q46. Search Narrowing',
@@ -3839,7 +3839,7 @@ FROM new_challenge, (VALUES
 
 -- [167/360] OSINT / hard / Q47. Hidden Context
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q47. Hidden Context',
@@ -3862,7 +3862,7 @@ FROM new_challenge, (VALUES
 
 -- [168/360] OSINT / hard / Q48. Location Puzzle
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q48. Location Puzzle',
@@ -3885,7 +3885,7 @@ FROM new_challenge, (VALUES
 
 -- [169/360] OSINT / hard / Q49. Event Verification
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q49. Event Verification',
@@ -3908,7 +3908,7 @@ FROM new_challenge, (VALUES
 
 -- [170/360] OSINT / hard / Q50. Fake Profile Detection
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q50. Fake Profile Detection',
@@ -3931,7 +3931,7 @@ FROM new_challenge, (VALUES
 
 -- [171/360] OSINT / hard / Q51. Source Chain
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q51. Source Chain',
@@ -3954,7 +3954,7 @@ FROM new_challenge, (VALUES
 
 -- [172/360] OSINT / hard / Q52. Map + Photograph
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q52. Map + Photograph',
@@ -3977,7 +3977,7 @@ FROM new_challenge, (VALUES
 
 -- [173/360] OSINT / hard / Q53. Account Attribution
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q53. Account Attribution',
@@ -4000,7 +4000,7 @@ FROM new_challenge, (VALUES
 
 -- [174/360] OSINT / hard / Q54. Old Website
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q54. Old Website',
@@ -4023,7 +4023,7 @@ FROM new_challenge, (VALUES
 
 -- [175/360] OSINT / hard / Q55. Geolocation
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q55. Geolocation',
@@ -4046,7 +4046,7 @@ FROM new_challenge, (VALUES
 
 -- [176/360] OSINT / hard / Q56. Information Reliability
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q56. Information Reliability',
@@ -4069,7 +4069,7 @@ FROM new_challenge, (VALUES
 
 -- [177/360] OSINT / hard / Q57. Contradictory Evidence
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q57. Contradictory Evidence',
@@ -4092,7 +4092,7 @@ FROM new_challenge, (VALUES
 
 -- [178/360] OSINT / hard / Q58. Search Evolution
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q58. Search Evolution',
@@ -4115,7 +4115,7 @@ FROM new_challenge, (VALUES
 
 -- [179/360] OSINT / hard / Q59. Final Verification
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q59. Final Verification',
@@ -4138,7 +4138,7 @@ FROM new_challenge, (VALUES
 
 -- [180/360] OSINT / hard / Q60. The OSINT Principle
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Q60. The OSINT Principle',
@@ -4161,7 +4161,7 @@ FROM new_challenge, (VALUES
 
 -- [181/360] Encoding/Decoding / easy / Alphabet Shift
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Alphabet Shift',
@@ -4184,7 +4184,7 @@ FROM new_challenge, (VALUES
 
 -- [182/360] Encoding/Decoding / easy / Reverse Code
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Reverse Code',
@@ -4207,7 +4207,7 @@ FROM new_challenge, (VALUES
 
 -- [183/360] Encoding/Decoding / easy / Alphabet Position
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Alphabet Position',
@@ -4230,7 +4230,7 @@ FROM new_challenge, (VALUES
 
 -- [184/360] Encoding/Decoding / easy / One Step Back
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'One Step Back',
@@ -4253,7 +4253,7 @@ FROM new_challenge, (VALUES
 
 -- [185/360] Encoding/Decoding / easy / Opposite Alphabet
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Opposite Alphabet',
@@ -4276,7 +4276,7 @@ FROM new_challenge, (VALUES
 
 -- [186/360] Encoding/Decoding / easy / Number Code
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Number Code',
@@ -4299,7 +4299,7 @@ FROM new_challenge, (VALUES
 
 -- [187/360] Encoding/Decoding / easy / Letter Replacement
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Letter Replacement',
@@ -4322,7 +4322,7 @@ FROM new_challenge, (VALUES
 
 -- [188/360] Encoding/Decoding / easy / Reverse Alphabet
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Reverse Alphabet',
@@ -4345,7 +4345,7 @@ FROM new_challenge, (VALUES
 
 -- [189/360] Encoding/Decoding / easy / Odd Letters
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Odd Letters',
@@ -4368,7 +4368,7 @@ FROM new_challenge, (VALUES
 
 -- [190/360] Encoding/Decoding / easy / Even Letters
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Even Letters',
@@ -4391,7 +4391,7 @@ FROM new_challenge, (VALUES
 
 -- [191/360] Encoding/Decoding / easy / Swap Letters
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Swap Letters',
@@ -4414,7 +4414,7 @@ FROM new_challenge, (VALUES
 
 -- [192/360] Encoding/Decoding / easy / Number Pattern
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Number Pattern',
@@ -4437,7 +4437,7 @@ FROM new_challenge, (VALUES
 
 -- [193/360] Encoding/Decoding / easy / Increasing Shift
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Increasing Shift',
@@ -4460,7 +4460,7 @@ FROM new_challenge, (VALUES
 
 -- [194/360] Encoding/Decoding / easy / Simple Number Code
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Simple Number Code',
@@ -4483,7 +4483,7 @@ FROM new_challenge, (VALUES
 
 -- [195/360] Encoding/Decoding / easy / Word Reversal
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Word Reversal',
@@ -4506,7 +4506,7 @@ FROM new_challenge, (VALUES
 
 -- [196/360] Encoding/Decoding / easy / Next Letter
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Next Letter',
@@ -4529,7 +4529,7 @@ FROM new_challenge, (VALUES
 
 -- [197/360] Encoding/Decoding / easy / Previous Letter
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Previous Letter',
@@ -4552,7 +4552,7 @@ FROM new_challenge, (VALUES
 
 -- [198/360] Encoding/Decoding / easy / First and Last
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'First and Last',
@@ -4575,7 +4575,7 @@ FROM new_challenge, (VALUES
 
 -- [199/360] Encoding/Decoding / easy / Alphabetical Value
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Alphabetical Value',
@@ -4598,7 +4598,7 @@ FROM new_challenge, (VALUES
 
 -- [200/360] Encoding/Decoding / easy / Simple Pattern
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Simple Pattern',
@@ -4621,7 +4621,7 @@ FROM new_challenge, (VALUES
 
 -- [201/360] Encoding/Decoding / medium / Increasing Shift
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Increasing Shift',
@@ -4644,7 +4644,7 @@ FROM new_challenge, (VALUES
 
 -- [202/360] Encoding/Decoding / medium / Alternating Shift
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Alternating Shift',
@@ -4667,7 +4667,7 @@ FROM new_challenge, (VALUES
 
 -- [203/360] Encoding/Decoding / medium / Mirror + Shift
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Mirror + Shift',
@@ -4690,7 +4690,7 @@ FROM new_challenge, (VALUES
 
 -- [204/360] Encoding/Decoding / medium / Position-Based Shift
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Position-Based Shift',
@@ -4713,7 +4713,7 @@ FROM new_challenge, (VALUES
 
 -- [205/360] Encoding/Decoding / medium / Sum Code
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Sum Code',
@@ -4736,7 +4736,7 @@ FROM new_challenge, (VALUES
 
 -- [206/360] Encoding/Decoding / medium / Reverse + Position
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Reverse + Position',
@@ -4759,7 +4759,7 @@ FROM new_challenge, (VALUES
 
 -- [207/360] Encoding/Decoding / medium / Vowel Replacement
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Vowel Replacement',
@@ -4782,7 +4782,7 @@ FROM new_challenge, (VALUES
 
 -- [208/360] Encoding/Decoding / medium / Consonant Shift
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Consonant Shift',
@@ -4805,7 +4805,7 @@ FROM new_challenge, (VALUES
 
 -- [209/360] Encoding/Decoding / medium / Alternate Letters
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Alternate Letters',
@@ -4828,7 +4828,7 @@ FROM new_challenge, (VALUES
 
 -- [210/360] Encoding/Decoding / medium / Pair Sum
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Pair Sum',
@@ -4851,7 +4851,7 @@ FROM new_challenge, (VALUES
 
 -- [211/360] Encoding/Decoding / medium / Position Product
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Position Product',
@@ -4874,7 +4874,7 @@ FROM new_challenge, (VALUES
 
 -- [212/360] Encoding/Decoding / medium / Difference Code
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Difference Code',
@@ -4897,7 +4897,7 @@ FROM new_challenge, (VALUES
 
 -- [213/360] Encoding/Decoding / medium / Middle Letter
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Middle Letter',
@@ -4920,7 +4920,7 @@ FROM new_challenge, (VALUES
 
 -- [214/360] Encoding/Decoding / medium / First + Last
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'First + Last',
@@ -4943,7 +4943,7 @@ FROM new_challenge, (VALUES
 
 -- [215/360] Encoding/Decoding / medium / Reverse Number
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Reverse Number',
@@ -4966,7 +4966,7 @@ FROM new_challenge, (VALUES
 
 -- [216/360] Encoding/Decoding / medium / Letter-Number Conversion
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Letter-Number Conversion',
@@ -4989,7 +4989,7 @@ FROM new_challenge, (VALUES
 
 -- [217/360] Encoding/Decoding / medium / Shift by Word Length
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Shift by Word Length',
@@ -5012,7 +5012,7 @@ FROM new_challenge, (VALUES
 
 -- [218/360] Encoding/Decoding / medium / Reverse and Shift
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Reverse and Shift',
@@ -5035,7 +5035,7 @@ FROM new_challenge, (VALUES
 
 -- [219/360] Encoding/Decoding / medium / Odd-Even Code
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Odd-Even Code',
@@ -5058,7 +5058,7 @@ FROM new_challenge, (VALUES
 
 -- [220/360] Encoding/Decoding / medium / Alphabet Mirror
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Alphabet Mirror',
@@ -5081,7 +5081,7 @@ FROM new_challenge, (VALUES
 
 -- [221/360] Encoding/Decoding / hard / Double Shift
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Double Shift',
@@ -5104,7 +5104,7 @@ FROM new_challenge, (VALUES
 
 -- [222/360] Encoding/Decoding / hard / Increasing Shift
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Increasing Shift',
@@ -5127,7 +5127,7 @@ FROM new_challenge, (VALUES
 
 -- [223/360] Encoding/Decoding / hard / Decreasing Shift
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Decreasing Shift',
@@ -5150,7 +5150,7 @@ FROM new_challenge, (VALUES
 
 -- [224/360] Encoding/Decoding / hard / Two-Step Code
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Two-Step Code',
@@ -5173,7 +5173,7 @@ FROM new_challenge, (VALUES
 
 -- [225/360] Encoding/Decoding / hard / Vowels +1, Consonants +2
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Vowels +1, Consonants +2',
@@ -5196,7 +5196,7 @@ FROM new_challenge, (VALUES
 
 -- [226/360] Encoding/Decoding / hard / Position Multiplication
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Position Multiplication',
@@ -5219,7 +5219,7 @@ FROM new_challenge, (VALUES
 
 -- [227/360] Encoding/Decoding / hard / Sum of All Letters
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Sum of All Letters',
@@ -5242,7 +5242,7 @@ FROM new_challenge, (VALUES
 
 -- [228/360] Encoding/Decoding / hard / Alternating Shift
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Alternating Shift',
@@ -5265,7 +5265,7 @@ FROM new_challenge, (VALUES
 
 -- [229/360] Encoding/Decoding / hard / Reverse Pairing
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Reverse Pairing',
@@ -5288,7 +5288,7 @@ FROM new_challenge, (VALUES
 
 -- [230/360] Encoding/Decoding / hard / Alphabet Jump
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Alphabet Jump',
@@ -5311,7 +5311,7 @@ FROM new_challenge, (VALUES
 
 -- [231/360] Encoding/Decoding / hard / Mirror + Reverse
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Mirror + Reverse',
@@ -5334,7 +5334,7 @@ FROM new_challenge, (VALUES
 
 -- [232/360] Encoding/Decoding / hard / First Half / Second Half
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'First Half / Second Half',
@@ -5357,7 +5357,7 @@ FROM new_challenge, (VALUES
 
 -- [233/360] Encoding/Decoding / hard / Position Sum
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Position Sum',
@@ -5380,7 +5380,7 @@ FROM new_challenge, (VALUES
 
 -- [234/360] Encoding/Decoding / hard / Vowel-Consonant Count
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Vowel-Consonant Count',
@@ -5403,7 +5403,7 @@ FROM new_challenge, (VALUES
 
 -- [235/360] Encoding/Decoding / hard / Repeated Letter
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Repeated Letter',
@@ -5426,7 +5426,7 @@ FROM new_challenge, (VALUES
 
 -- [236/360] Encoding/Decoding / hard / Largest Letter
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Largest Letter',
@@ -5449,7 +5449,7 @@ FROM new_challenge, (VALUES
 
 -- [237/360] Encoding/Decoding / hard / Smallest Letter
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Smallest Letter',
@@ -5472,7 +5472,7 @@ FROM new_challenge, (VALUES
 
 -- [238/360] Encoding/Decoding / hard / Letter Distance
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Letter Distance',
@@ -5495,7 +5495,7 @@ FROM new_challenge, (VALUES
 
 -- [239/360] Encoding/Decoding / hard / Three-Step Transformation
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Three-Step Transformation',
@@ -5518,7 +5518,7 @@ FROM new_challenge, (VALUES
 
 -- [240/360] Encoding/Decoding / hard / The Final Logic Challenge
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'The Final Logic Challenge',
@@ -5541,7 +5541,7 @@ FROM new_challenge, (VALUES
 
 -- [241/360] Web Vulnerabilities / easy / Fake Login Page
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Fake Login Page',
@@ -5564,7 +5564,7 @@ FROM new_challenge, (VALUES
 
 -- [242/360] Web Vulnerabilities / easy / Password Guessing
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Password Guessing',
@@ -5587,7 +5587,7 @@ FROM new_challenge, (VALUES
 
 -- [243/360] Web Vulnerabilities / easy / Weak Password
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Weak Password',
@@ -5610,7 +5610,7 @@ FROM new_challenge, (VALUES
 
 -- [244/360] Web Vulnerabilities / easy / Website Script
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Website Script',
@@ -5633,7 +5633,7 @@ FROM new_challenge, (VALUES
 
 -- [245/360] Web Vulnerabilities / easy / SQL Database
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'SQL Database',
@@ -5656,7 +5656,7 @@ FROM new_challenge, (VALUES
 
 -- [246/360] Web Vulnerabilities / easy / Fake Email
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Fake Email',
@@ -5679,7 +5679,7 @@ FROM new_challenge, (VALUES
 
 -- [247/360] Web Vulnerabilities / easy / Public Password
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Public Password',
@@ -5702,7 +5702,7 @@ FROM new_challenge, (VALUES
 
 -- [248/360] Web Vulnerabilities / easy / Unlocked Account
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Unlocked Account',
@@ -5725,7 +5725,7 @@ FROM new_challenge, (VALUES
 
 -- [249/360] Web Vulnerabilities / easy / Unsafe Website
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Unsafe Website',
@@ -5748,7 +5748,7 @@ FROM new_challenge, (VALUES
 
 -- [250/360] Web Vulnerabilities / easy / Website Permission
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Website Permission',
@@ -5771,7 +5771,7 @@ FROM new_challenge, (VALUES
 
 -- [251/360] Web Vulnerabilities / easy / Dangerous Download
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Dangerous Download',
@@ -5794,7 +5794,7 @@ FROM new_challenge, (VALUES
 
 -- [252/360] Web Vulnerabilities / easy / Website Disguise
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Website Disguise',
@@ -5817,7 +5817,7 @@ FROM new_challenge, (VALUES
 
 -- [253/360] Web Vulnerabilities / easy / Too Many Requests
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Too Many Requests',
@@ -5840,7 +5840,7 @@ FROM new_challenge, (VALUES
 
 -- [254/360] Web Vulnerabilities / easy / Many Computers
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Many Computers',
@@ -5863,7 +5863,7 @@ FROM new_challenge, (VALUES
 
 -- [255/360] Web Vulnerabilities / easy / Secret Information
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Secret Information',
@@ -5886,7 +5886,7 @@ FROM new_challenge, (VALUES
 
 -- [256/360] Web Vulnerabilities / easy / Old Software
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Old Software',
@@ -5909,7 +5909,7 @@ FROM new_challenge, (VALUES
 
 -- [257/360] Web Vulnerabilities / easy / Remember Me
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Remember Me',
@@ -5932,7 +5932,7 @@ FROM new_challenge, (VALUES
 
 -- [258/360] Web Vulnerabilities / easy / Login Verification
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Login Verification',
@@ -5955,7 +5955,7 @@ FROM new_challenge, (VALUES
 
 -- [259/360] Web Vulnerabilities / easy / Human Trick
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Human Trick',
@@ -5978,7 +5978,7 @@ FROM new_challenge, (VALUES
 
 -- [260/360] Web Vulnerabilities / easy / Security Lock
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Security Lock',
@@ -6001,7 +6001,7 @@ FROM new_challenge, (VALUES
 
 -- [261/360] Web Vulnerabilities / medium / Changing the ID
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Changing the ID',
@@ -6024,7 +6024,7 @@ FROM new_challenge, (VALUES
 
 -- [262/360] Web Vulnerabilities / medium / Unlimited Attempts
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Unlimited Attempts',
@@ -6047,7 +6047,7 @@ FROM new_challenge, (VALUES
 
 -- [263/360] Web Vulnerabilities / medium / The Secret URL
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'The Secret URL',
@@ -6070,7 +6070,7 @@ FROM new_challenge, (VALUES
 
 -- [264/360] Web Vulnerabilities / medium / Login Link
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Login Link',
@@ -6093,7 +6093,7 @@ FROM new_challenge, (VALUES
 
 -- [265/360] Web Vulnerabilities / medium / Comment Box
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Comment Box',
@@ -6116,7 +6116,7 @@ FROM new_challenge, (VALUES
 
 -- [266/360] Web Vulnerabilities / medium / Fake Discount
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Fake Discount',
@@ -6139,7 +6139,7 @@ FROM new_challenge, (VALUES
 
 -- [267/360] Web Vulnerabilities / medium / Public File
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Public File',
@@ -6162,7 +6162,7 @@ FROM new_challenge, (VALUES
 
 -- [268/360] Web Vulnerabilities / medium / Trusted Request
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Trusted Request',
@@ -6185,7 +6185,7 @@ FROM new_challenge, (VALUES
 
 -- [269/360] Web Vulnerabilities / medium / Password Reuse
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Password Reuse',
@@ -6208,7 +6208,7 @@ FROM new_challenge, (VALUES
 
 -- [270/360] Web Vulnerabilities / medium / File Upload
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'File Upload',
@@ -6231,7 +6231,7 @@ FROM new_challenge, (VALUES
 
 -- [271/360] Web Vulnerabilities / medium / Error Message
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Error Message',
@@ -6254,7 +6254,7 @@ FROM new_challenge, (VALUES
 
 -- [272/360] Web Vulnerabilities / medium / Open Redirect
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Open Redirect',
@@ -6277,7 +6277,7 @@ FROM new_challenge, (VALUES
 
 -- [273/360] Web Vulnerabilities / medium / Website Trust
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Website Trust',
@@ -6300,7 +6300,7 @@ FROM new_challenge, (VALUES
 
 -- [274/360] Web Vulnerabilities / medium / Database Password
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Database Password',
@@ -6323,7 +6323,7 @@ FROM new_challenge, (VALUES
 
 -- [275/360] Web Vulnerabilities / medium / Admin Privileges
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Admin Privileges',
@@ -6346,7 +6346,7 @@ FROM new_challenge, (VALUES
 
 -- [276/360] Web Vulnerabilities / medium / Secure Password Storage
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Secure Password Storage',
@@ -6369,7 +6369,7 @@ FROM new_challenge, (VALUES
 
 -- [277/360] Web Vulnerabilities / medium / Same Password
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Same Password',
@@ -6392,7 +6392,7 @@ FROM new_challenge, (VALUES
 
 -- [278/360] Web Vulnerabilities / medium / No Logout
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'No Logout',
@@ -6415,7 +6415,7 @@ FROM new_challenge, (VALUES
 
 -- [279/360] Web Vulnerabilities / medium / Unnecessary Information
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Unnecessary Information',
@@ -6438,7 +6438,7 @@ FROM new_challenge, (VALUES
 
 -- [280/360] Web Vulnerabilities / medium / Automatic Updates
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Automatic Updates',
@@ -6461,7 +6461,7 @@ FROM new_challenge, (VALUES
 
 -- [281/360] Web Vulnerabilities / hard / The Free Product
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'The Free Product',
@@ -6484,7 +6484,7 @@ FROM new_challenge, (VALUES
 
 -- [282/360] Web Vulnerabilities / hard / The Hidden Admin
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'The Hidden Admin',
@@ -6507,7 +6507,7 @@ FROM new_challenge, (VALUES
 
 -- [283/360] Web Vulnerabilities / hard / The Unlimited Coupon
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'The Unlimited Coupon',
@@ -6530,7 +6530,7 @@ FROM new_challenge, (VALUES
 
 -- [284/360] Web Vulnerabilities / hard / The Changed Account
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'The Changed Account',
@@ -6553,7 +6553,7 @@ FROM new_challenge, (VALUES
 
 -- [285/360] Web Vulnerabilities / hard / The Helpful Error
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'The Helpful Error',
@@ -6576,7 +6576,7 @@ FROM new_challenge, (VALUES
 
 -- [286/360] Web Vulnerabilities / hard / The Fake Reset
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'The Fake Reset',
@@ -6599,7 +6599,7 @@ FROM new_challenge, (VALUES
 
 -- [287/360] Web Vulnerabilities / hard / The Open Door API
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'The Open Door API',
@@ -6622,7 +6622,7 @@ FROM new_challenge, (VALUES
 
 -- [288/360] Web Vulnerabilities / hard / The Trusted Browser
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'The Trusted Browser',
@@ -6645,7 +6645,7 @@ FROM new_challenge, (VALUES
 
 -- [289/360] Web Vulnerabilities / hard / The Comment Attack
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'The Comment Attack',
@@ -6668,7 +6668,7 @@ FROM new_challenge, (VALUES
 
 -- [290/360] Web Vulnerabilities / hard / The Database Trick
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'The Database Trick',
@@ -6691,7 +6691,7 @@ FROM new_challenge, (VALUES
 
 -- [291/360] Web Vulnerabilities / hard / The Server's Request
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'The Server''s Request',
@@ -6714,7 +6714,7 @@ FROM new_challenge, (VALUES
 
 -- [292/360] Web Vulnerabilities / hard / The Fake Destination
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'The Fake Destination',
@@ -6737,7 +6737,7 @@ FROM new_challenge, (VALUES
 
 -- [293/360] Web Vulnerabilities / hard / The Unlimited Login
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'The Unlimited Login',
@@ -6760,7 +6760,7 @@ FROM new_challenge, (VALUES
 
 -- [294/360] Web Vulnerabilities / hard / The Password Database
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'The Password Database',
@@ -6783,7 +6783,7 @@ FROM new_challenge, (VALUES
 
 -- [295/360] Web Vulnerabilities / hard / The Public Backup
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'The Public Backup',
@@ -6806,7 +6806,7 @@ FROM new_challenge, (VALUES
 
 -- [296/360] Web Vulnerabilities / hard / The Dangerous Upload
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'The Dangerous Upload',
@@ -6829,7 +6829,7 @@ FROM new_challenge, (VALUES
 
 -- [297/360] Web Vulnerabilities / hard / The Old Library
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'The Old Library',
@@ -6852,7 +6852,7 @@ FROM new_challenge, (VALUES
 
 -- [298/360] Web Vulnerabilities / hard / The Password in URL
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'The Password in URL',
@@ -6875,7 +6875,7 @@ FROM new_challenge, (VALUES
 
 -- [299/360] Web Vulnerabilities / hard / The Admin Cookie
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'The Admin Cookie',
@@ -6898,7 +6898,7 @@ FROM new_challenge, (VALUES
 
 -- [300/360] Web Vulnerabilities / hard / The Biggest Clue
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'The Biggest Clue',
@@ -6921,7 +6921,7 @@ FROM new_challenge, (VALUES
 
 -- [301/360] C Coding / easy / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -6953,14 +6953,15 @@ FROM new_challenge, (VALUES
 
 -- [302/360] C Coding / easy / Find the Error
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
-    'Which symbol is used to calculte the address of a variable ?',
+    'Which symbol is used to calculate the address of a variable?',
+    'Identify the C operator used to obtain the memory address of a variable.',
     'C Coding',
     'easy'::difficulty_level,
     5,
-    'printf',
+    '&',
     TRUE
   )
   RETURNING id
@@ -6968,14 +6969,14 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('Related to memory ', 1, 1),
-  ('Used before a variable ', 2, 2),
-  ('Opposite of * ', 3, 3)
+  ('Related to memory', 1, 1),
+  ('Used before a variable', 2, 2),
+  ('Opposite of *', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
 -- [303/360] C Coding / easy / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -7000,7 +7001,7 @@ FROM new_challenge, (VALUES
 
 -- [304/360] C Coding / easy / Fix the Code
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Fix the Code and re-write the correct code of line containing error',
@@ -7030,7 +7031,7 @@ FROM new_challenge, (VALUES
 
 -- [305/360] C Coding / easy / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -7058,7 +7059,7 @@ FROM new_challenge, (VALUES
 
 -- [306/360] C Coding / easy / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -7084,7 +7085,7 @@ FROM new_challenge, (VALUES
 
 -- [307/360] C Coding / easy / Find the Error
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Fix the Error and re-write the correct code of line containing error',
@@ -7114,7 +7115,7 @@ FROM new_challenge, (VALUES
 
 -- [308/360] C Coding / easy / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -7140,7 +7141,7 @@ FROM new_challenge, (VALUES
 
 -- [309/360] C Coding / easy / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -7167,11 +7168,11 @@ FROM new_challenge, (VALUES
 
 -- [310/360] C Coding / easy / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
-    'char ch = 'A';
+    'char ch = ''A'';
     printf("%c", ch);',
     'C Coding',
     'easy'::difficulty_level,
@@ -7191,7 +7192,7 @@ FROM new_challenge, (VALUES
 
 -- [311/360] C Coding / easy / Find the Error
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Error',
@@ -7222,7 +7223,7 @@ FROM new_challenge, (VALUES
 
 -- [312/360] C Coding / easy / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -7248,7 +7249,7 @@ FROM new_challenge, (VALUES
 
 -- [313/360] C Coding / easy / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -7276,7 +7277,7 @@ FROM new_challenge, (VALUES
 
 -- [314/360] C Coding / easy / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -7302,7 +7303,7 @@ FROM new_challenge, (VALUES
 
 -- [315/360] C Coding / easy / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -7327,7 +7328,7 @@ FROM new_challenge, (VALUES
 
 -- [316/360] C Coding / easy / Fix the Code
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Fix the Code and write the correct line which contains error',
@@ -7356,7 +7357,7 @@ FROM new_challenge, (VALUES
 
 -- [317/360] C Coding / easy / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -7386,7 +7387,7 @@ FROM new_challenge, (VALUES
 
 -- [318/360] C Coding / easy / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -7414,7 +7415,7 @@ FROM new_challenge, (VALUES
 
 -- [319/360] C Coding / easy / Find the Error
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Error',
@@ -7443,7 +7444,7 @@ FROM new_challenge, (VALUES
 
 -- [320/360] C Coding / easy / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -7468,7 +7469,7 @@ FROM new_challenge, (VALUES
 
 -- [321/360] C Coding / medium / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -7493,7 +7494,7 @@ FROM new_challenge, (VALUES
 
 -- [322/360] C Coding / medium / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -7519,10 +7520,11 @@ FROM new_challenge, (VALUES
 
 -- [323/360] C Coding / medium / Find the Bug
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Which function is commonly used to print output in C?',
+    'Identify the standard C function used to display output on the screen.',
     'C Coding',
     'medium'::difficulty_level,
     10,
@@ -7534,14 +7536,14 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('From stdio.h ', 1, 1),
-  ('Output function ', 2, 2),
-  ('Starts with p ', 3, 3)
+  ('From stdio.h', 1, 1),
+  ('Output function', 2, 2),
+  ('Starts with p', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
 -- [324/360] C Coding / medium / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -7570,7 +7572,7 @@ FROM new_challenge, (VALUES
 
 -- [325/360] C Coding / medium / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -7598,10 +7600,11 @@ FROM new_challenge, (VALUES
 
 -- [326/360] C Coding / medium / Find the Error
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Which loop executes its body at least once?',
+    'Identify the loop that executes its body at least once before checking the condition.',
     'C Coding',
     'medium'::difficulty_level,
     10,
@@ -7613,14 +7616,14 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('first print then check', 1, 1),
-  ('Checks condition after execution ', 2, 2),
-  ('Entry controlled loop ', 3, 3)
+  ('First executes, then checks', 1, 1),
+  ('Checks condition after execution', 2, 2),
+  ('Entry-controlled vs. exit-controlled loop', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
 -- [327/360] C Coding / medium / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -7645,10 +7648,11 @@ FROM new_challenge, (VALUES
 
 -- [328/360] C Coding / medium / Find the Error
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Which function dynamically allocates memory in C?',
+    'Identify the standard C function used to dynamically allocate memory.',
     'C Coding',
     'medium'::difficulty_level,
     10,
@@ -7660,14 +7664,14 @@ WITH new_challenge AS (
 INSERT INTO hints (challenge_id, hint_text, point_cost, order_index)
 SELECT new_challenge.id, v.hint_text, v.point_cost, v.order_index
 FROM new_challenge, (VALUES
-  ('From stdlib.h ', 1, 1),
-  ('Allocates requested bytes ', 2, 2),
-  ('Starts with m ', 3, 3)
+  ('From stdlib.h', 1, 1),
+  ('Allocates requested bytes', 2, 2),
+  ('Starts with m', 3, 3)
 ) AS v(hint_text, point_cost, order_index);
 
 -- [329/360] C Coding / medium / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -7693,7 +7697,7 @@ FROM new_challenge, (VALUES
 
 -- [330/360] C Coding / medium / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -7721,7 +7725,7 @@ FROM new_challenge, (VALUES
 
 -- [331/360] C Coding / medium / Find the Error
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Which storage class keeps a local variable value between function calls?',
@@ -7743,7 +7747,7 @@ FROM new_challenge, (VALUES
 
 -- [332/360] C Coding / medium / Fix the Code
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Fix the Code',
@@ -7768,7 +7772,7 @@ FROM new_challenge, (VALUES
 
 -- [333/360] C Coding / medium / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -7794,7 +7798,7 @@ FROM new_challenge, (VALUES
 
 -- [334/360] C Coding / medium / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -7827,7 +7831,7 @@ FROM new_challenge, (VALUES
 
 -- [335/360] C Coding / medium / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -7860,7 +7864,7 @@ FROM new_challenge, (VALUES
 
 -- [336/360] C Coding / medium / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -7885,7 +7889,7 @@ FROM new_challenge, (VALUES
 
 -- [337/360] C Coding / medium / Find the Error
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Which preprocessor directive is commonly used to include a header file?',
@@ -7907,7 +7911,7 @@ FROM new_challenge, (VALUES
 
 -- [338/360] C Coding / medium / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -7936,7 +7940,7 @@ FROM new_challenge, (VALUES
 
 -- [339/360] C Coding / medium / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -7964,7 +7968,7 @@ FROM new_challenge, (VALUES
 
 -- [340/360] C Coding / medium / Find the Error
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     ' What type of bug occurs when allocated memory is never released?',
@@ -7986,7 +7990,7 @@ FROM new_challenge, (VALUES
 
 -- [341/360] C Coding / hard / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -8011,7 +8015,7 @@ FROM new_challenge, (VALUES
 
 -- [342/360] C Coding / hard / Find the Bug
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Which memory region normally stores local automatic variables?',
@@ -8033,7 +8037,7 @@ FROM new_challenge, (VALUES
 
 -- [343/360] C Coding / hard / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -8061,7 +8065,7 @@ FROM new_challenge, (VALUES
 
 -- [344/360] C Coding / hard / Find the Error
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'What type of array is commonly used to represent a string in C?',
@@ -8083,7 +8087,7 @@ FROM new_challenge, (VALUES
 
 -- [345/360] C Coding / hard / Fix the Code
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Fix the Code',
@@ -8109,7 +8113,7 @@ FROM new_challenge, (VALUES
 
 -- [346/360] C Coding / hard / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -8142,7 +8146,7 @@ FROM new_challenge, (VALUES
 
 -- [347/360] C Coding / hard / Find the Error
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'ind the Error and fix that line of code',
@@ -8173,7 +8177,7 @@ FROM new_challenge, (VALUES
 
 -- [348/360] C Coding / hard / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -8202,7 +8206,7 @@ FROM new_challenge, (VALUES
 
 -- [349/360] C Coding / hard / Find the Error
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'What is the process of converting a variable from one type to another called?',
@@ -8224,7 +8228,7 @@ FROM new_challenge, (VALUES
 
 -- [350/360] C Coding / hard / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -8249,7 +8253,7 @@ FROM new_challenge, (VALUES
 
 -- [351/360] C Coding / hard / Find the Error
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Which function is used to allocate zero-initialized memory for an array?',
@@ -8271,7 +8275,7 @@ FROM new_challenge, (VALUES
 
 -- [352/360] C Coding / hard / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'ind the Output for 32 bit compiler',
@@ -8295,7 +8299,7 @@ FROM new_challenge, (VALUES
 
 -- [353/360] C Coding / hard / Find the Bug
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'What is the technique of allocating memory during program execution called?',
@@ -8317,7 +8321,7 @@ FROM new_challenge, (VALUES
 
 -- [354/360] C Coding / hard / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -8343,7 +8347,7 @@ FROM new_challenge, (VALUES
 
 -- [355/360] C Coding / hard / Find the Error
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     ' Find the Error and fix to make the code safe',
@@ -8373,7 +8377,7 @@ FROM new_challenge, (VALUES
 
 -- [356/360] C Coding / hard / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output',
@@ -8409,7 +8413,7 @@ FROM new_challenge, (VALUES
 
 -- [357/360] C Coding / hard / Find the Bug
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the output',
@@ -8436,7 +8440,7 @@ FROM new_challenge, (VALUES
 
 -- [358/360] C Coding / hard / Find the Output
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Output where address of p is XA123320',
@@ -8463,7 +8467,7 @@ FROM new_challenge, (VALUES
 
 -- [359/360] C Coding / hard / Find the Error
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Error',
@@ -8492,7 +8496,7 @@ FROM new_challenge, (VALUES
 
 -- [360/360] C Coding / hard / Find the Bug
 WITH new_challenge AS (
-  INSERT INTO challenges (event_id, title, question, category, difficulty, points, flag_hash, is_active)
+  INSERT INTO challenges (event_id, title, description, category, difficulty, points, flag_hash, is_active)
   VALUES (
     (SELECT id FROM events WHERE slug = 'cyberhunt-2026'),
     'Find the Bug and write the correct line which contains error',
