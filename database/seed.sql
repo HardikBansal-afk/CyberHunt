@@ -990,7 +990,7 @@ WITH new_challenge AS (
     'Hidden Clue',
     'hard'::difficulty_level,
     15,
-    'HCAOBOW',
+    'HCAOBBOW',
     TRUE
   )
   RETURNING id
@@ -1082,7 +1082,7 @@ WITH new_challenge AS (
     'Hidden Clue',
     'hard'::difficulty_level,
     15,
-    'EUPSWRD',
+    'EUEPSWRD',
     TRUE
   )
   RETURNING id
@@ -1151,7 +1151,7 @@ WITH new_challenge AS (
     'Hidden Clue',
     'hard'::difficulty_level,
     15,
-    'Is',
+    'is old',
     TRUE
   )
   RETURNING id
