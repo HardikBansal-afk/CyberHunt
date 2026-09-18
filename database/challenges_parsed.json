@@ -508,7 +508,7 @@
     "difficulty": "hard",
     "title": "43. Hard",
     "question": "\"Hidden clues are often buried between ordinary words.\" Take the first letter of each word. What pattern appears?",
-    "answer": "HCAOBOW",
+    "answer": "HCAOBBOW",
     "hints": [
       "Do not read normally",
       "Focus on word beginnings",
@@ -556,7 +556,7 @@
     "difficulty": "hard",
     "title": "47. Hard",
     "question": "\"sEcUrE PaSsWoRd\" contains a hidden message through alternating capitals. What is it?",
-    "answer": "EUPSWRD",
+    "answer": "EUEPSWR",
     "hints": [
       "Capitalization is intentional",
       "Ignore lowercase letters",
@@ -592,7 +592,7 @@
     "difficulty": "hard",
     "title": "50. Hard",
     "question": "A message says: \"The treasure is under the old tree.\" But every third word is the real clue. Which hidden word is obtained from \"The treasure is under the old tree\"?",
-    "answer": "Is",
+    "answer": "old",
     "hints": [
       "Number the words",
       "Select positions 3 and 6",
