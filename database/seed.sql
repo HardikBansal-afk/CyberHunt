@@ -2858,7 +2858,7 @@ WITH new_challenge AS (
     'OSINT',
     'easy'::difficulty_level,
     5,
-    'Open-source',
+    'Open source',
     TRUE
   )
   RETURNING id
@@ -3065,7 +3065,7 @@ WITH new_challenge AS (
     'OSINT',
     'easy'::difficulty_level,
     5,
-    'Cross-check',
+    'Cross check',
     TRUE
   )
   RETURNING id
@@ -3226,7 +3226,7 @@ WITH new_challenge AS (
     'OSINT',
     'easy'::difficulty_level,
     5,
-    'No # 🟡',
+    'No',
     TRUE
   )
   RETURNING id
@@ -3272,7 +3272,7 @@ WITH new_challenge AS (
     'OSINT',
     'medium'::difficulty_level,
     10,
-    'Reverse-search',
+    'Reverse search',
     TRUE
   )
   RETURNING id
@@ -3686,7 +3686,7 @@ WITH new_challenge AS (
     'OSINT',
     'medium'::difficulty_level,
     10,
-    'No # 🔴',
+    'No',
     TRUE
   )
   RETURNING id
