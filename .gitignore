@@ -2,3 +2,7 @@
 venv/
 __pycache__/
 *.pyc
+# Local database backups and temporary seed files
+*.dump
+database/seed.sql.bak
+database/seed_fixed.sql
